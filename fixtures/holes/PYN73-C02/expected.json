@@ -1,0 +1,52 @@
+[
+  {
+    "face": "FRONT",
+    "diameter": 5.2,
+    "x": 881.0,
+    "y": -75.5,
+    "z": 70.0
+  },
+  {
+    "face": "FRONT",
+    "diameter": 5.2,
+    "x": 9.0,
+    "y": -75.5,
+    "z": 70.0
+  },
+  {
+    "id": "",
+    "face": "TOP",
+    "diameter": 4.3,
+    "x": 145.0,
+    "y": -54.7,
+    "z": 70.0,
+    "note": "DETACHED TAB MARKER EVIDENCE"
+  },
+  {
+    "id": "",
+    "face": "TOP",
+    "diameter": 4.3,
+    "x": 195.0,
+    "y": -54.7,
+    "z": 70.0,
+    "note": "DETACHED TAB MARKER EVIDENCE"
+  },
+  {
+    "id": "",
+    "face": "TOP",
+    "diameter": 4.3,
+    "x": 695.0,
+    "y": -54.7,
+    "z": 70.0,
+    "note": "DETACHED TAB MARKER EVIDENCE"
+  },
+  {
+    "id": "",
+    "face": "TOP",
+    "diameter": 4.3,
+    "x": 745.0,
+    "y": -54.7,
+    "z": 70.0,
+    "note": "DETACHED TAB MARKER EVIDENCE"
+  }
+]

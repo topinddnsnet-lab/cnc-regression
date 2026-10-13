@@ -1,0 +1,83 @@
+[
+  {
+    "id": "",
+    "face": "BOTTOM",
+    "diameter": 5.5,
+    "x": 11.5,
+    "y": -17.0,
+    "z": 113.0,
+    "note": "FULL VIEW CONVERSION"
+  },
+  {
+    "id": "",
+    "face": "BOTTOM",
+    "diameter": 5.5,
+    "x": 24.5,
+    "y": -17.0,
+    "z": 113.0,
+    "note": "FULL VIEW CONVERSION"
+  },
+  {
+    "id": "",
+    "face": "BOTTOM",
+    "diameter": 5.5,
+    "x": 1304.5,
+    "y": -17.0,
+    "z": 113.0,
+    "note": "FULL VIEW CONVERSION"
+  },
+  {
+    "id": "",
+    "face": "BOTTOM",
+    "diameter": 5.5,
+    "x": 1317.5,
+    "y": -17.0,
+    "z": 113.0,
+    "note": "FULL VIEW CONVERSION"
+  },
+  {
+    "id": "",
+    "face": "FRONT",
+    "diameter": 4.2,
+    "x": 64.5,
+    "y": -34.0,
+    "z": 70.0,
+    "note": "NO CONVERSION"
+  },
+  {
+    "id": "",
+    "face": "FRONT",
+    "diameter": 4.2,
+    "x": 364.5,
+    "y": -34.0,
+    "z": 70.0,
+    "note": "NO CONVERSION"
+  },
+  {
+    "id": "",
+    "face": "FRONT",
+    "diameter": 4.2,
+    "x": 664.5,
+    "y": -34.0,
+    "z": 70.0,
+    "note": "NO CONVERSION"
+  },
+  {
+    "id": "",
+    "face": "FRONT",
+    "diameter": 4.2,
+    "x": 964.5,
+    "y": -34.0,
+    "z": 70.0,
+    "note": "NO CONVERSION"
+  },
+  {
+    "id": "",
+    "face": "FRONT",
+    "diameter": 4.2,
+    "x": 1264.5,
+    "y": -34.0,
+    "z": 70.0,
+    "note": "NO CONVERSION"
+  }
+]

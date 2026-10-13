@@ -1,0 +1,4 @@
+# 大檔不進 git（DXF 圖檔約 50MB）；報告每次重產
+fixtures/**/source.dxf
+reports/
+node_modules/

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "",
+    "face": "FRONT",
+    "diameter": 7.0,
+    "x": 250.0,
+    "y": -59.0,
+    "z": 45.5,
+    "note": "SECTION VIEW CONVERSION"
+  },
+  {
+    "id": "",
+    "face": "FRONT",
+    "diameter": 7.0,
+    "x": 650.0,
+    "y": -59.0,
+    "z": 45.5,
+    "note": "SECTION VIEW CONVERSION"
+  },
+  {
+    "id": "",
+    "face": "FRONT",
+    "diameter": 7.0,
+    "x": 1050.0,
+    "y": -59.0,
+    "z": 45.5,
+    "note": "SECTION VIEW CONVERSION"
+  },
+  {
+    "id": "",
+    "face": "FRONT",
+    "diameter": 7.0,
+    "x": 1450.0,
+    "y": -59.0,
+    "z": 45.5,
+    "note": "SECTION VIEW CONVERSION"
+  },
+  {
+    "id": "",
+    "face": "FRONT",
+    "diameter": 7.0,
+    "x": 1850.0,
+    "y": -59.0,
+    "z": 45.5,
+    "note": "SECTION VIEW CONVERSION"
+  },
+  {
+    "id": "",
+    "face": "FRONT",
+    "diameter": 7.0,
+    "x": 2250.0,
+    "y": -59.0,
+    "z": 45.5,
+    "note": "SECTION VIEW CONVERSION"
+  },
+  {
+    "id": "",
+    "face": "FRONT",
+    "diameter": 7.0,
+    "x": 2650.0,
+    "y": -59.0,
+    "z": 45.5,
+    "note": "SECTION VIEW CONVERSION"
+  },
+  {
+    "id": "",
+    "face": "FRONT",
+    "diameter": 7.0,
+    "x": 3050.0,
+    "y": -59.0,
+    "z": 45.5,
+    "note": "SECTION VIEW CONVERSION"
+  },
+  {
+    "id": "",
+    "face": "FRONT",
+    "diameter": 7.0,
+    "x": 3450.0,
+    "y": -59.0,
+    "z": 45.5,
+    "note": "SECTION VIEW CONVERSION"
+  },
+  {
+    "id": "",
+    "face": "FRONT",
+    "diameter": 7.0,
+    "x": 3850.0,
+    "y": -59.0,
+    "z": 45.5,
+    "note": "SECTION VIEW CONVERSION"
+  },
+  {
+    "id": "",
+    "face": "TOP",
+    "diameter": 4.3,
+    "x": 250.0,
+    "y": -70.0,
+    "z": 120.0,
+    "note": "TICK MARKER ROW（主視圖）"
+  },
+  {
+    "id": "",
+    "face": "TOP",
+    "diameter": 4.3,
+    "x": 650.0,
+    "y": -70.0,
+    "z": 120.0,
+    "note": "TICK MARKER ROW（主視圖）"
+  },
+  {
+    "id": "",
+    "face": "TOP",
+    "diameter": 4.3,
+    "x": 1050.0,
+    "y": -70.0,
+    "z": 120.0,
+    "note": "TICK MARKER ROW（主視圖）"
+  },
+  {
+    "id": "",
+    "face": "TOP",
+    "diameter": 4.3,
+    "x": 1450.0,
+    "y": -70.0,
+    "z": 120.0,
+    "note": "TICK MARKER ROW（主視圖）"
+  },
+  {
+    "id": "",
+    "face": "TOP",
+    "diameter": 4.3,
+    "x": 1850.0,
+    "y": -70.0,
+    "z": 120.0,
+    "note": "TICK MARKER ROW（主視圖）"
+  },
+  {
+    "id": "",
+    "face": "TOP",
+    "diameter": 4.3,
+    "x": 2250.0,
+    "y": -70.0,
+    "z": 120.0,
+    "note": "TICK MARKER ROW（主視圖）"
+  },
+  {
+    "id": "",
+    "face": "TOP",
+    "diameter": 4.3,
+    "x": 2650.0,
+    "y": -70.0,
+    "z": 120.0,
+    "note": "TICK MARKER ROW（主視圖）"
+  },
+  {
+    "id": "",
+    "face": "TOP",
+    "diameter": 4.3,
+    "x": 3050.0,
+    "y": -70.0,
+    "z": 120.0,
+    "note": "TICK MARKER ROW（主視圖）"
+  },
+  {
+    "id": "",
+    "face": "TOP",
+    "diameter": 4.3,
+    "x": 3450.0,
+    "y": -70.0,
+    "z": 120.0,
+    "note": "TICK MARKER ROW（主視圖）"
+  },
+  {
+    "id": "",
+    "face": "TOP",
+    "diameter": 4.3,
+    "x": 3850.0,
+    "y": -70.0,
+    "z": 120.0,
+    "note": "TICK MARKER ROW（主視圖）"
+  }
+]
