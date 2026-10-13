@@ -20,7 +20,13 @@ node run.mjs                         # 全圖
 node run.mjs --case PYN02-L38A       # 單案例
 node run.mjs --affected-git          # 只跑模擬器未提交改動會影響到的案例
 node tools/selftest.mjs              # 比對規則自我測試
+node --test tests/unit/*.test.mjs    # 合成單元測試（6.74–6.80 移植）
+npm test                             # 以上三者依序全跑
+node tools/parity.mjs                # 與 Python 6.80 最後輸出逐孔比對（歷史參考）
 ```
+
+Python 兩個專案已於 2026-10-13 退役，紀錄見 `docs/python-archive/退役紀錄.md`。
+`fixtures/features/` 是特徵專案的 6 張路徑回歸圖，留給之後的路徑回歸使用。
 
 報告：每次執行都會重新產生 `reports/report.md`（人看）、`reports/report.json`（AI 看）、`reports/cases/`（細節）。
 `reports/` 不進 git（每次重產），打包時附上一份 2026-10-13 的執行結果供參考。

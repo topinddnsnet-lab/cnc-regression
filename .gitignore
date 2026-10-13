@@ -2,3 +2,5 @@
 fixtures/**/source.dxf
 reports/
 node_modules/
+
+# 特徵專案路徑回歸圖的 DXF 也不進 git

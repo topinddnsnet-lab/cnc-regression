@@ -1,0 +1,217 @@
+{
+  "version": 2,
+  "exportedAt": "2026-09-29T01:35:38.787Z",
+  "tabs": [
+    "0度(正面)",
+    "180度(背面)",
+    "90度(頂面)"
+  ],
+  "shapes": [
+    {
+      "face": "0度(正面)",
+      "type": "TOOLPATH",
+      "x": 15,
+      "y": -177,
+      "z": 61,
+      "tool": 5,
+      "hOffset": 5,
+      "note": "",
+      "config": {
+        "pathRows": [
+          {
+            "mode": "G91",
+            "x": 0,
+            "y": 35,
+            "z": 0
+          },
+          {
+            "mode": "G91",
+            "x": -20,
+            "y": 0,
+            "z": 0
+          }
+        ],
+        "safetyHeight": 50,
+        "rapidZ": 5,
+        "depth": -9,
+        "deepCount": 1,
+        "localRotation": 0
+      },
+      "enabled": true
+    },
+    {
+      "face": "0度(正面)",
+      "type": "TOOLPATH",
+      "x": 1105,
+      "y": -142,
+      "z": 61,
+      "tool": 5,
+      "hOffset": 5,
+      "note": "",
+      "config": {
+        "pathRows": [
+          {
+            "mode": "G91",
+            "x": -20,
+            "y": 0,
+            "z": 0
+          },
+          {
+            "mode": "G91",
+            "x": 0,
+            "y": -35,
+            "z": 0
+          }
+        ],
+        "safetyHeight": 50,
+        "rapidZ": 5,
+        "depth": -9,
+        "deepCount": 1,
+        "localRotation": 0
+      },
+      "enabled": true
+    },
+    {
+      "face": "180度(背面)",
+      "type": "TOOLPATH",
+      "x": -5,
+      "y": -30,
+      "z": 84,
+      "tool": 5,
+      "hOffset": 5,
+      "note": "",
+      "config": {
+        "pathRows": [
+          {
+            "mode": "G91",
+            "x": 20,
+            "y": 0,
+            "z": 0
+          },
+          {
+            "mode": "G91",
+            "x": 0,
+            "y": 35,
+            "z": 0
+          }
+        ],
+        "safetyHeight": 50,
+        "rapidZ": 5,
+        "depth": -9,
+        "deepCount": 1,
+        "localRotation": 0
+      },
+      "enabled": true
+    },
+    {
+      "face": "180度(背面)",
+      "type": "TOOLPATH",
+      "x": 1085,
+      "y": 5,
+      "z": 84,
+      "tool": 5,
+      "hOffset": 5,
+      "note": "",
+      "config": {
+        "pathRows": [
+          {
+            "mode": "G91",
+            "x": 0,
+            "y": -35,
+            "z": 0
+          },
+          {
+            "mode": "G91",
+            "x": 20,
+            "y": 0,
+            "z": 0
+          }
+        ],
+        "safetyHeight": 50,
+        "rapidZ": 5,
+        "depth": -9,
+        "deepCount": 1,
+        "localRotation": 0
+      },
+      "enabled": true
+    },
+    {
+      "face": "90度(頂面)",
+      "type": "TOOLPATH",
+      "x": 397,
+      "y": -95,
+      "z": 150,
+      "tool": 6,
+      "hOffset": 6,
+      "note": "",
+      "config": {
+        "pathRows": [
+          {
+            "mode": "G91",
+            "x": 6,
+            "y": 0,
+            "z": 0
+          }
+        ],
+        "safetyHeight": 50,
+        "rapidZ": 5,
+        "depth": -3,
+        "deepCount": 1,
+        "localRotation": 0
+      },
+      "enabled": true
+    },
+    {
+      "face": "90度(頂面)",
+      "type": "TOOLPATH",
+      "x": 697,
+      "y": -95,
+      "z": 150,
+      "tool": 6,
+      "hOffset": 6,
+      "note": "",
+      "config": {
+        "pathRows": [
+          {
+            "mode": "G91",
+            "x": 6,
+            "y": 0,
+            "z": 0
+          }
+        ],
+        "safetyHeight": 50,
+        "rapidZ": 5,
+        "depth": -3,
+        "deepCount": 1,
+        "localRotation": 0
+      },
+      "enabled": true
+    },
+    {
+      "face": "90度(頂面)",
+      "type": "TOOLPATH",
+      "x": 997,
+      "y": -95,
+      "z": 150,
+      "tool": 6,
+      "hOffset": 6,
+      "note": "",
+      "config": {
+        "pathRows": [
+          {
+            "mode": "G91",
+            "x": 6,
+            "y": 0,
+            "z": 0
+          }
+        ],
+        "safetyHeight": 50,
+        "rapidZ": 5,
+        "depth": -3,
+        "deepCount": 1,
+        "localRotation": 0
+      },
+      "enabled": true
+    }
+  ]
+}

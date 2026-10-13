@@ -1,10 +1,10 @@
 {
-  "createdAt": "2026-10-13T02:35:29.437Z",
+  "createdAt": "2026-10-13T04:29:13.024Z",
   "simulator": {
     "path": "/home/claude/workspace/cnc-simulator-v2",
-    "gitRev": "faf57bd",
+    "gitRev": "22a0925",
     "dirty": false,
-    "pyParityVersion": "6.73.28"
+    "pyParityVersion": "6.80.0"
   },
   "cases": {
     "C3N054-Q001": {
@@ -322,12 +322,12 @@
       "status": "pass",
       "counts": {
         "expected": 8,
-        "actual": 8,
+        "actual": 12,
         "matched": 8,
         "missing": 0,
         "missingOptional": 0,
         "extraHard": 0,
-        "extraSoft": 0,
+        "extraSoft": 4,
         "zMismatch": 0,
         "faceAlt": 0
       },
@@ -339,7 +339,11 @@
         "BOTTOM|Ø7|15.0|-16.0": "ANNOTATED SIDE/PRIMARY MARKER CROSS-PROJECTION｜ANNOTATED SIDE/PRIMARY MARKER CROSS-PROJECTION｜marker_geometry",
         "BOTTOM|Ø7|15.0|-76.4": "ANNOTATED SIDE/PRIMARY MARKER CROSS-PROJECTION｜ANNOTATED SIDE/PRIMARY MARKER CROSS-PROJECTION｜marker_geometry",
         "BOTTOM|Ø7|85.0|-16.0": "ANNOTATED SIDE/PRIMARY MARKER CROSS-PROJECTION｜ANNOTATED SIDE/PRIMARY MARKER CROSS-PROJECTION｜marker_geometry",
-        "BOTTOM|Ø7|85.0|-76.4": "ANNOTATED SIDE/PRIMARY MARKER CROSS-PROJECTION｜ANNOTATED SIDE/PRIMARY MARKER CROSS-PROJECTION｜marker_geometry"
+        "BOTTOM|Ø7|85.0|-76.4": "ANNOTATED SIDE/PRIMARY MARKER CROSS-PROJECTION｜ANNOTATED SIDE/PRIMARY MARKER CROSS-PROJECTION｜marker_geometry",
+        "BOTTOM|Ø2|10.5|-46.2": "FRONT VIEW EDGE-ON MARK FALLBACK｜FRONT VIEW EDGE-ON MARK FALLBACK｜fallback",
+        "BOTTOM|Ø2|19.5|-46.2": "FRONT VIEW EDGE-ON MARK FALLBACK｜FRONT VIEW EDGE-ON MARK FALLBACK｜fallback",
+        "BOTTOM|Ø2|80.5|-46.2": "FRONT VIEW EDGE-ON MARK FALLBACK｜FRONT VIEW EDGE-ON MARK FALLBACK｜fallback",
+        "BOTTOM|Ø2|89.5|-46.2": "FRONT VIEW EDGE-ON MARK FALLBACK｜FRONT VIEW EDGE-ON MARK FALLBACK｜fallback"
       }
     },
     "NTN007-622A": {
@@ -500,12 +504,12 @@
       "status": "pass",
       "counts": {
         "expected": 14,
-        "actual": 14,
+        "actual": 15,
         "matched": 14,
         "missing": 0,
         "missingOptional": 0,
         "extraHard": 0,
-        "extraSoft": 0,
+        "extraSoft": 1,
         "zMismatch": 0,
         "faceAlt": 0
       },
@@ -523,19 +527,20 @@
         "TOP|Ø4.3|544.0|-7.0": "SECTION VIEW CONVERSION｜SECTION VIEW CONVERSION｜section_dimension",
         "TOP|Ø4.3|544.0|-123.0": "SECTION VIEW CONVERSION｜SECTION VIEW CONVERSION｜section_dimension",
         "TOP|Ø4.3|244.0|-7.0": "SECTION VIEW CONVERSION｜SECTION VIEW CONVERSION｜section_dimension",
-        "TOP|Ø4.3|244.0|-123.0": "SECTION VIEW CONVERSION｜SECTION VIEW CONVERSION｜section_dimension"
+        "TOP|Ø4.3|244.0|-123.0": "SECTION VIEW CONVERSION｜SECTION VIEW CONVERSION｜section_dimension",
+        "BOTTOM|Ø20|604.0|-65.0": "FRONT VIEW EDGE-ON MARK FALLBACK｜FRONT VIEW EDGE-ON MARK FALLBACK｜fallback"
       }
     },
     "PYN13-Z26A(20260901)": {
       "status": "pass",
       "counts": {
         "expected": 17,
-        "actual": 17,
+        "actual": 18,
         "matched": 17,
         "missing": 0,
         "missingOptional": 0,
         "extraHard": 0,
-        "extraSoft": 0,
+        "extraSoft": 1,
         "zMismatch": 0,
         "faceAlt": 0
       },
@@ -556,7 +561,8 @@
         "BOTTOM|Ø4.3|105.0|-76.5": "GEOMETRIC SECTION TEMPLATE｜GEOMETRIC SECTION TEMPLATE｜section_profile",
         "BOTTOM|Ø4.3|155.0|-76.5": "GEOMETRIC SECTION TEMPLATE｜GEOMETRIC SECTION TEMPLATE｜section_profile",
         "BOTTOM|Ø4.3|781.1|-76.5": "GEOMETRIC SECTION TEMPLATE｜GEOMETRIC SECTION TEMPLATE｜section_profile",
-        "BOTTOM|Ø4.3|831.1|-76.5": "GEOMETRIC SECTION TEMPLATE｜GEOMETRIC SECTION TEMPLATE｜section_profile"
+        "BOTTOM|Ø4.3|831.1|-76.5": "GEOMETRIC SECTION TEMPLATE｜GEOMETRIC SECTION TEMPLATE｜section_profile",
+        "BOTTOM|Ø20|10.0|-65.0": "FRONT VIEW EDGE-ON MARK FALLBACK｜FRONT VIEW EDGE-ON MARK FALLBACK｜fallback"
       }
     },
     "PYN13-Z34B(20260831)": {
@@ -711,12 +717,12 @@
       "status": "pass",
       "counts": {
         "expected": 22,
-        "actual": 22,
+        "actual": 23,
         "matched": 22,
         "missing": 0,
         "missingOptional": 0,
         "extraHard": 0,
-        "extraSoft": 0,
+        "extraSoft": 1,
         "zMismatch": 0,
         "faceAlt": 0
       },
@@ -742,7 +748,8 @@
         "BOTTOM|Ø5.5|25.0|-4.0": "CROSS-VIEW MARKER PAIRING｜CROSS-VIEW MARKER PAIRING｜marker_geometry",
         "BOTTOM|Ø5.5|137.5|-4.0": "CROSS-VIEW MARKER PAIRING｜CROSS-VIEW MARKER PAIRING｜marker_geometry",
         "BOTTOM|Ø5.5|437.5|-4.0": "CROSS-VIEW MARKER PAIRING｜CROSS-VIEW MARKER PAIRING｜marker_geometry",
-        "BOTTOM|Ø5.5|555.0|-4.0": "CROSS-VIEW MARKER PAIRING｜CROSS-VIEW MARKER PAIRING｜marker_geometry"
+        "BOTTOM|Ø5.5|555.0|-4.0": "CROSS-VIEW MARKER PAIRING｜CROSS-VIEW MARKER PAIRING｜marker_geometry",
+        "BOTTOM|Ø13.009|568.5|-37.5": "FRONT VIEW EDGE-ON MARK FALLBACK｜FRONT VIEW EDGE-ON MARK FALLBACK｜fallback"
       }
     },
     "PYN73-C02": {
@@ -879,12 +886,12 @@
       "status": "pass",
       "counts": {
         "expected": 6,
-        "actual": 6,
+        "actual": 9,
         "matched": 6,
         "missing": 0,
         "missingOptional": 0,
         "extraHard": 0,
-        "extraSoft": 0,
+        "extraSoft": 3,
         "zMismatch": 0,
         "faceAlt": 0
       },
@@ -894,7 +901,10 @@
         "FRONT|Ø4.2|13.0|-116.0": "DETACHED FRONT FACE GRID｜DETACHED FRONT FACE GRID GEOMETRY｜fallback",
         "FRONT|Ø4.2|53.0|-116.0": "DETACHED FRONT FACE GRID｜DETACHED FRONT FACE GRID GEOMETRY｜fallback",
         "FRONT|Ø4.2|53.0|-81.0": "DETACHED FRONT FACE GRID｜DETACHED FRONT FACE GRID GEOMETRY｜fallback",
-        "FRONT|Ø4.2|53.0|-46.0": "DETACHED FRONT FACE GRID｜DETACHED FRONT FACE GRID GEOMETRY｜fallback"
+        "FRONT|Ø4.2|53.0|-46.0": "DETACHED FRONT FACE GRID｜DETACHED FRONT FACE GRID GEOMETRY｜fallback",
+        "TOP|Ø2.1|45.0|-40.0": "FRONT VIEW EDGE-ON MARK FALLBACK｜FRONT VIEW EDGE-ON MARK FALLBACK｜fallback",
+        "TOP|Ø2.1|80.0|-40.0": "FRONT VIEW EDGE-ON MARK FALLBACK｜FRONT VIEW EDGE-ON MARK FALLBACK｜fallback",
+        "TOP|Ø2.1|115.0|-40.0": "FRONT VIEW EDGE-ON MARK FALLBACK｜FRONT VIEW EDGE-ON MARK FALLBACK｜fallback"
       }
     },
     "TN01A-A3028RA": {
@@ -1049,12 +1059,12 @@
       "status": "pass",
       "counts": {
         "expected": 4,
-        "actual": 4,
+        "actual": 6,
         "matched": 4,
         "missing": 0,
         "missingOptional": 0,
         "extraHard": 0,
-        "extraSoft": 0,
+        "extraSoft": 2,
         "zMismatch": 0,
         "faceAlt": 0
       },
@@ -1062,7 +1072,9 @@
         "BOTTOM|Ø5.5|17.0|-18.0": "SECTION VIEW CONVERSION｜SECTION VIEW CONVERSION｜section_dimension",
         "BOTTOM|Ø5.5|17.0|-52.0": "SECTION VIEW CONVERSION｜SECTION VIEW CONVERSION｜section_dimension",
         "BOTTOM|Ø5.5|987.0|-18.0": "SECTION VIEW CONVERSION｜SECTION VIEW CONVERSION｜section_dimension",
-        "BOTTOM|Ø5.5|987.0|-52.0": "SECTION VIEW CONVERSION｜SECTION VIEW CONVERSION｜section_dimension"
+        "BOTTOM|Ø5.5|987.0|-52.0": "SECTION VIEW CONVERSION｜SECTION VIEW CONVERSION｜section_dimension",
+        "BOTTOM|Ø6|3.0|-35.0": "FRONT VIEW EDGE-ON MARK FALLBACK｜FRONT VIEW EDGE-ON MARK FALLBACK｜fallback",
+        "BOTTOM|Ø6|1001.0|-35.0": "FRONT VIEW EDGE-ON MARK FALLBACK｜FRONT VIEW EDGE-ON MARK FALLBACK｜fallback"
       }
     },
     "TN29-B103A": {
@@ -1086,14 +1098,14 @@
       }
     },
     "TN56W-010(20260903)": {
-      "status": "knownFail",
+      "status": "pass",
       "counts": {
         "expected": 10,
         "actual": 10,
-        "matched": 6,
-        "missing": 4,
+        "matched": 10,
+        "missing": 0,
         "missingOptional": 0,
-        "extraHard": 4,
+        "extraHard": 0,
         "extraSoft": 0,
         "zMismatch": 0,
         "faceAlt": 0
@@ -1115,12 +1127,12 @@
       "status": "pass",
       "counts": {
         "expected": 13,
-        "actual": 13,
+        "actual": 16,
         "matched": 13,
         "missing": 0,
         "missingOptional": 0,
         "extraHard": 0,
-        "extraSoft": 0,
+        "extraSoft": 3,
         "zMismatch": 0,
         "faceAlt": 0
       },
@@ -1137,7 +1149,10 @@
         "TOP|Ø9|1183.0|-100.0": "SECTION VIEW CONVERSION｜END_SECTION_GEOMETRY｜section_dimension",
         "BOTTOM|Ø9|1183.0|-100.0": "SECTION VIEW CONVERSION｜END_SECTION_GEOMETRY｜section_dimension",
         "TOP|Ø9|30.0|-100.0": "SECTION VIEW CONVERSION｜END_SECTION_GEOMETRY｜section_dimension",
-        "BOTTOM|Ø9|30.0|-100.0": "SECTION VIEW CONVERSION｜END_SECTION_GEOMETRY｜section_dimension"
+        "BOTTOM|Ø9|30.0|-100.0": "SECTION VIEW CONVERSION｜END_SECTION_GEOMETRY｜section_dimension",
+        "FRONT|Ø9|1183.0|-100.0": "FRONT VIEW CIRCLE FALLBACK｜FRONT VIEW CIRCLE FALLBACK｜fallback",
+        "FRONT|Ø9|30.0|-100.0": "FRONT VIEW CIRCLE FALLBACK｜FRONT VIEW CIRCLE FALLBACK｜fallback",
+        "BOTTOM|Ø8|410.8|-82.5": "FRONT VIEW EDGE-ON MARK FALLBACK｜FRONT VIEW EDGE-ON MARK FALLBACK｜fallback"
       }
     },
     "TRA005F-Y018": {
@@ -1258,12 +1273,12 @@
       "status": "pass",
       "counts": {
         "expected": 10,
-        "actual": 10,
+        "actual": 11,
         "matched": 10,
         "missing": 0,
         "missingOptional": 0,
         "extraHard": 0,
-        "extraSoft": 0,
+        "extraSoft": 1,
         "zMismatch": 0,
         "faceAlt": 0
       },
@@ -1277,7 +1292,8 @@
         "BOTTOM|Ø5.5|2459.0|-106.2": "CROSS-VIEW MARKER PAIRING｜CROSS-VIEW MARKER PAIRING｜marker_geometry",
         "BOTTOM|Ø5.5|702.0|-106.2": "CROSS-VIEW MARKER PAIRING｜CROSS-VIEW MARKER PAIRING｜marker_geometry",
         "BOTTOM|Ø5.5|1282.0|-106.2": "CROSS-VIEW MARKER PAIRING｜CROSS-VIEW MARKER PAIRING｜marker_geometry",
-        "BOTTOM|Ø5.5|1862.0|-106.2": "CROSS-VIEW MARKER PAIRING｜CROSS-VIEW MARKER PAIRING｜marker_geometry"
+        "BOTTOM|Ø5.5|1862.0|-106.2": "CROSS-VIEW MARKER PAIRING｜CROSS-VIEW MARKER PAIRING｜marker_geometry",
+        "TOP|Ø22|11.0|0.0": "FRONT VIEW EDGE-ON MARK FALLBACK｜FRONT VIEW EDGE-ON MARK FALLBACK｜fallback"
       }
     },
     "TRA040-H25": {
@@ -1356,12 +1372,12 @@
       "status": "pass",
       "counts": {
         "expected": 29,
-        "actual": 29,
+        "actual": 30,
         "matched": 29,
         "missing": 0,
         "missingOptional": 0,
         "extraHard": 0,
-        "extraSoft": 0,
+        "extraSoft": 1,
         "zMismatch": 0,
         "faceAlt": 0
       },
@@ -1394,7 +1410,8 @@
         "BOTTOM|Ø4.3|177.0|-16.0": "CROSS-VIEW MARKER PAIRING｜CROSS-VIEW MARKER PAIRING｜marker_geometry",
         "BOTTOM|Ø4.3|477.0|-16.0": "CROSS-VIEW MARKER PAIRING｜CROSS-VIEW MARKER PAIRING｜marker_geometry",
         "BOTTOM|Ø4.3|777.0|-16.0": "CROSS-VIEW MARKER PAIRING｜CROSS-VIEW MARKER PAIRING｜marker_geometry",
-        "BOTTOM|Ø4.3|1077.0|-16.0": "CROSS-VIEW MARKER PAIRING｜CROSS-VIEW MARKER PAIRING｜marker_geometry"
+        "BOTTOM|Ø4.3|1077.0|-16.0": "CROSS-VIEW MARKER PAIRING｜CROSS-VIEW MARKER PAIRING｜marker_geometry",
+        "TOP|Ø22|11.0|-22.5": "FRONT VIEW EDGE-ON MARK FALLBACK｜FRONT VIEW EDGE-ON MARK FALLBACK｜fallback"
       }
     },
     "WBN11-C002R": {
@@ -1542,12 +1559,12 @@
       "status": "pass",
       "counts": {
         "expected": 6,
-        "actual": 6,
+        "actual": 9,
         "matched": 6,
         "missing": 0,
         "missingOptional": 0,
         "extraHard": 0,
-        "extraSoft": 0,
+        "extraSoft": 3,
         "zMismatch": 0,
         "faceAlt": 0
       },
@@ -1557,7 +1574,10 @@
         "BOTTOM|Ø5.2|522.5|-20.0": "SECTION VIEW CONVERSION｜SECTION VIEW CONVERSION｜section_dimension",
         "BOTTOM|Ø5.2|522.5|-70.0": "SECTION VIEW CONVERSION｜SECTION VIEW CONVERSION｜section_dimension",
         "BOTTOM|Ø5.2|597.5|-20.0": "SECTION VIEW CONVERSION｜SECTION VIEW CONVERSION｜section_dimension",
-        "BOTTOM|Ø5.2|597.5|-70.0": "SECTION VIEW CONVERSION｜SECTION VIEW CONVERSION｜section_dimension"
+        "BOTTOM|Ø5.2|597.5|-70.0": "SECTION VIEW CONVERSION｜SECTION VIEW CONVERSION｜section_dimension",
+        "BOTTOM|Ø30|15.0|-45.0": "FRONT VIEW EDGE-ON MARK FALLBACK｜FRONT VIEW EDGE-ON MARK FALLBACK｜fallback",
+        "BOTTOM|Ø28|560.0|-45.0": "FRONT VIEW EDGE-ON MARK FALLBACK｜FRONT VIEW EDGE-ON MARK FALLBACK｜fallback",
+        "BOTTOM|Ø30|1105.0|-45.0": "FRONT VIEW EDGE-ON MARK FALLBACK｜FRONT VIEW EDGE-ON MARK FALLBACK｜fallback"
       }
     },
     "YCN006-BC005": {

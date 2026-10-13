@@ -3,6 +3,7 @@
  *
  * 用法：node tools/parity.mjs [--ref fixtures/py-reference-6.80] [--case 名稱 ...] [--sim 路徑] [--conf]
  *   --conf 也比較信心度（差超過 0.05 列出）
+ *   --rule 也比較規則名（note 全形括號前段）
  *
  * 輸出：reports/parity.json、reports/parity.md
  * 判定：面向相同，且孔徑、X、Y、Z 都在 ±0.2 內，算同一顆孔。
@@ -15,13 +16,14 @@ import { SIM_PATH } from '../config.mjs';
 
 const HERE = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const args = process.argv.slice(2);
-const opt = { ref: path.join(HERE, 'fixtures', 'py-reference-6.80'), cases: [], sim: path.resolve(HERE, process.env.CNC_SIM_PATH || SIM_PATH), conf: false };
+const opt = { ref: path.join(HERE, 'fixtures', 'py-reference-6.80'), cases: [], sim: path.resolve(HERE, process.env.CNC_SIM_PATH || SIM_PATH), conf: false, rule: false };
 for (let i = 0; i < args.length; i++) {
   const a = args.at(i);
   if (a === '--ref') opt.ref = path.resolve(args.at(++i));
   else if (a === '--case') opt.cases.push(args.at(++i));
   else if (a === '--sim') opt.sim = path.resolve(args.at(++i));
   else if (a === '--conf') opt.conf = true;
+  else if (a === '--rule') opt.rule = true;
 }
 
 const log = console.log;
@@ -33,6 +35,7 @@ const up = (v) => String(v ?? '').toUpperCase();
 const near = (a, b) => a != null && b != null && Math.abs(Number(a) - Number(b)) <= T + 1e-9;
 const same = (p, j) => up(p.face) === up(j.face) && near(p.diameter, j.diameter) && near(p.x, j.x) && near(p.y, j.y)
   && ((p.z == null && j.z == null) || near(p.z, j.z));
+const ruleOf = (n) => String(n ?? '').split(/[（(]/)[0].trim();
 const fmt = (h) => `${up(h.face)} Ø${h.diameter} (${h.x}, ${h.y}, z ${h.z ?? '-'}) c=${h.confidence == null ? '-' : Math.round(h.confidence * 100) / 100}`;
 
 const names = opt.cases.length ? opt.cases : fs.readdirSync(opt.ref).filter((f) => f.endsWith('.json')).map((f) => f.slice(0, -5)).sort();
@@ -47,16 +50,18 @@ for (const name of names) {
   const free = new Set(jh.map((_, i) => i));
   const onlyPy = [];
   const confDiff = [];
+  const ruleDiff = [];
   for (const p of ref.holes) {
     const i = [...free].find((k) => same(p, jh.at(k)));
     if (i === undefined) { onlyPy.push(p); continue; }
     free.delete(i);
     const j = jh.at(i);
+    if (opt.rule && ruleOf(p.note) !== ruleOf(j.note)) ruleDiff.push({ py: p, js: j });
     if (opt.conf && p.confidence != null && j.confidence != null && Math.abs(p.confidence - j.confidence) > 0.05) confDiff.push({ py: p, js: j });
   }
   const onlyJs = [...free].map((i) => jh.at(i));
   const sizeDiff = ['x', 'y', 'z'].filter((k) => !near(ref.size?.[k], js.size?.[k])).map((k) => `${k}: PY ${ref.size?.[k]} / JS ${js.size?.[k]}`);
-  out.push({ name, equal: !onlyPy.length && !onlyJs.length && !sizeDiff.length && !confDiff.length, py: ref.holes.length, js: jh.length, sizeDiff, onlyPy, onlyJs, confDiff });
+  out.push({ name, equal: !onlyPy.length && !onlyJs.length && !sizeDiff.length && !confDiff.length && !ruleDiff.length, py: ref.holes.length, js: jh.length, sizeDiff, onlyPy, onlyJs, confDiff, ruleDiff });
 }
 
 const eq = out.filter((o) => o.equal).length;
@@ -68,6 +73,7 @@ for (const o of out.filter((x) => !x.equal)) {
   for (const s of o.sizeDiff) L.push(`- 尺寸不同：${s}`);
   for (const h of o.onlyPy) L.push(`- 只有 PY：${fmt(h)}　${h.note ?? ''}`);
   for (const h of o.onlyJs) L.push(`- 只有 JS：${fmt(h)}　${h.note ?? ''}`);
+  for (const c of o.ruleDiff ?? []) L.push(`- 規則不同：${fmt(c.py)}　PY ${ruleOf(c.py.note)}／JS ${ruleOf(c.js.note)}`);
   for (const c of o.confDiff) L.push(`- 信心不同：${fmt(c.py)} → JS ${Math.round(c.js.confidence * 100) / 100}`);
   L.push('');
 }

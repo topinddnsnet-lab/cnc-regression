@@ -1,0 +1,73 @@
+{
+  "version": 2,
+  "exportedAt": "2026-09-29T07:05:48.822Z",
+  "tabs": [
+    "270度(底面)"
+  ],
+  "shapes": [
+    {
+      "face": "270度(底面)",
+      "type": "TOOLPATH",
+      "x": -5,
+      "y": -66,
+      "z": 24,
+      "tool": 5,
+      "hOffset": 5,
+      "note": "",
+      "config": {
+        "pathRows": [
+          {
+            "mode": "G91",
+            "x": 50,
+            "y": 0,
+            "z": 0
+          },
+          {
+            "mode": "G91",
+            "x": 0,
+            "y": 71,
+            "z": 0
+          }
+        ],
+        "safetyHeight": 50,
+        "rapidZ": 5,
+        "depth": -5,
+        "deepCount": 1,
+        "localRotation": 0
+      },
+      "enabled": true
+    },
+    {
+      "face": "270度(底面)",
+      "type": "TOOLPATH",
+      "x": 1660,
+      "y": 5,
+      "z": 24,
+      "tool": 5,
+      "hOffset": 5,
+      "note": "",
+      "config": {
+        "pathRows": [
+          {
+            "mode": "G91",
+            "x": 0,
+            "y": -71,
+            "z": 0
+          },
+          {
+            "mode": "G91",
+            "x": 30,
+            "y": 0,
+            "z": 0
+          }
+        ],
+        "safetyHeight": 50,
+        "rapidZ": 5,
+        "depth": -5,
+        "deepCount": 1,
+        "localRotation": 0
+      },
+      "enabled": true
+    }
+  ]
+}

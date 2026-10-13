@@ -7,6 +7,7 @@
 ```bash
 cd cnc-regression
 node tools/selftest.mjs        # 比對規則自我測試，應全部通過
+node --test tests/unit/*.test.mjs  # 合成單元測試，應全部通過
 node run.mjs                   # 全圖，約 15～40 秒；確認起點乾淨（新壞 0）
 ```
 
@@ -56,6 +57,8 @@ node run.mjs                   # 全圖，約 15～40 秒；確認起點乾淨�
 - 一次修改多個不相關的問題。
 
 ## 背景規則（不得更改）
+
+- Python 參考專案已退役。不要為了「跟 Python 一樣」而改程式；判定一律以回歸答案與幾何推導為準（`docs/python-archive/` 只是歷史紀錄）。
 
 - 本檔的修復迴圈是「AI 測試與修改程式」，輪數不限。模擬器內的「AI 輔助建模」是另一回事，每次最多 40 輪（`AgentLoop.js` 的 `MAX_ROUNDS_CAP`），越短得出結論越好，不得調高。
 

@@ -1,0 +1,454 @@
+{
+  "version": 2,
+  "exportedAt": "2026-09-23T02:56:25.094Z",
+  "tabs": [
+    "0度(正面)",
+    "180度(背面)",
+    "270度(底面)"
+  ],
+  "shapes": [
+    {
+      "face": "0度(正面)",
+      "type": "DRILL",
+      "x": "70.0",
+      "y": "-148.0",
+      "z": 54,
+      "tool": 2,
+      "hOffset": 2,
+      "note": "Ø4.3",
+      "config": {},
+      "enabled": true
+    },
+    {
+      "face": "0度(正面)",
+      "type": "DRILL",
+      "x": "370.1",
+      "y": "-148.0",
+      "z": 54,
+      "tool": 2,
+      "hOffset": 2,
+      "note": "Ø4.3",
+      "config": {},
+      "enabled": true
+    },
+    {
+      "face": "0度(正面)",
+      "type": "DRILL",
+      "x": "670.1",
+      "y": "-148.0",
+      "z": 54,
+      "tool": 2,
+      "hOffset": 2,
+      "note": "Ø4.3",
+      "config": {},
+      "enabled": true
+    },
+    {
+      "face": "0度(正面)",
+      "type": "DRILL",
+      "x": "970.0",
+      "y": "-148.0",
+      "z": 54,
+      "tool": 2,
+      "hOffset": 2,
+      "note": "Ø4.3",
+      "config": {},
+      "enabled": true
+    },
+    {
+      "face": "0度(正面)",
+      "type": "DRILL",
+      "x": "1098.8",
+      "y": "-148.0",
+      "z": 54,
+      "tool": 2,
+      "hOffset": 2,
+      "note": "Ø4.3",
+      "config": {},
+      "enabled": true
+    },
+    {
+      "face": "0度(正面)",
+      "type": "DRILL",
+      "x": "1205.6",
+      "y": "-49.5",
+      "z": "68.0",
+      "tool": 3,
+      "hOffset": 3,
+      "note": "Ø7.0",
+      "config": {},
+      "enabled": true
+    },
+    {
+      "face": "0度(正面)",
+      "type": "DRILL",
+      "x": "1235.7",
+      "y": "-42.4",
+      "z": "68.0",
+      "tool": 3,
+      "hOffset": 3,
+      "note": "Ø7.0",
+      "config": {},
+      "enabled": true
+    },
+    {
+      "face": "0度(正面)",
+      "type": "DRILL",
+      "x": "1235.7",
+      "y": "-42.3",
+      "z": "68.0",
+      "tool": 3,
+      "hOffset": 3,
+      "note": "Ø7.0",
+      "config": {},
+      "enabled": true
+    },
+    {
+      "face": "0度(正面)",
+      "type": "DRILL",
+      "x": "1260.6",
+      "y": "-61.7",
+      "z": "68.0",
+      "tool": 3,
+      "hOffset": 3,
+      "note": "Ø7.0",
+      "config": {},
+      "enabled": true
+    },
+    {
+      "face": "0度(正面)",
+      "type": "DRILL",
+      "x": "1239.1",
+      "y": "-83.0",
+      "z": "68.0",
+      "tool": 3,
+      "hOffset": 3,
+      "note": "Ø7.0",
+      "config": {},
+      "enabled": true
+    },
+    {
+      "face": "0度(正面)",
+      "type": "DRILL",
+      "x": "1271.1",
+      "y": "-115.0",
+      "z": "68.0",
+      "tool": 3,
+      "hOffset": 3,
+      "note": "Ø7.0",
+      "config": {},
+      "enabled": true
+    },
+    {
+      "face": "0度(正面)",
+      "type": "DRILL",
+      "x": "1285.1",
+      "y": "-86.4",
+      "z": "68.0",
+      "tool": 3,
+      "hOffset": 3,
+      "note": "Ø7.0",
+      "config": {},
+      "enabled": true
+    },
+    {
+      "face": "0度(正面)",
+      "type": "TOOLPATH",
+      "x": -5,
+      "y": -140,
+      "z": 62,
+      "tool": 5,
+      "hOffset": 5,
+      "note": "",
+      "config": {
+        "pathRows": [
+          {
+            "mode": "G91",
+            "x": 20,
+            "y": 0,
+            "z": 0
+          },
+          {
+            "mode": "G91",
+            "x": 0,
+            "y": -30.5,
+            "z": 0
+          }
+        ],
+        "safetyHeight": 50,
+        "rapidZ": 5,
+        "depth": -10,
+        "deepCount": 1,
+        "localRotation": 0
+      },
+      "enabled": true
+    },
+    {
+      "face": "0度(正面)",
+      "type": "TOOLPATH",
+      "x": 1266,
+      "y": -170.5,
+      "z": 62,
+      "tool": 5,
+      "hOffset": 5,
+      "note": "",
+      "config": {
+        "pathRows": [
+          {
+            "mode": "G91",
+            "x": 0,
+            "y": 30.5,
+            "z": 0
+          },
+          {
+            "mode": "G91",
+            "x": 100,
+            "y": 0,
+            "z": 0
+          }
+        ],
+        "safetyHeight": 50,
+        "rapidZ": 5,
+        "depth": -10,
+        "deepCount": 1,
+        "localRotation": 0
+      },
+      "enabled": true
+    },
+    {
+      "face": "0度(正面)",
+      "type": "TOOLPATH",
+      "x": 1231.5,
+      "y": -79.5,
+      "z": 68,
+      "tool": 5,
+      "hOffset": 5,
+      "note": "",
+      "config": {
+        "pathRows": [
+          {
+            "mode": "G91",
+            "x": 7.5,
+            "y": -7.5,
+            "z": 0
+          },
+          {
+            "mode": "G91",
+            "x": 70,
+            "y": 0,
+            "z": 0
+          }
+        ],
+        "safetyHeight": 50,
+        "rapidZ": 5,
+        "depth": -10,
+        "deepCount": 1,
+        "localRotation": 0
+      },
+      "enabled": true
+    },
+    {
+      "face": "180度(背面)",
+      "type": "CIRCLE",
+      "x": "1205.6",
+      "y": "-116.0",
+      "z": "99.5",
+      "tool": 5,
+      "hOffset": 5,
+      "note": "Ø22.0",
+      "config": {
+        "holeSize": 22,
+        "radius": 11
+      },
+      "enabled": true
+    },
+    {
+      "face": "180度(背面)",
+      "type": "TOOLPATH",
+      "x": 1101,
+      "y": -116.5,
+      "z": 99.5,
+      "tool": 6,
+      "hOffset": 6,
+      "note": "",
+      "config": {
+        "pathRows": [
+          {
+            "mode": "G91",
+            "x": 52,
+            "y": 0,
+            "z": 0
+          }
+        ],
+        "safetyHeight": 50,
+        "rapidZ": 5,
+        "depth": -10,
+        "deepCount": 1,
+        "localRotation": 0
+      },
+      "enabled": true
+    },
+    {
+      "face": "270度(底面)",
+      "type": "DRILL",
+      "x": "70",
+      "y": "-27.5",
+      "z": "87",
+      "tool": 2,
+      "hOffset": 2,
+      "note": "Ø4.3｜SECTION VIEW CONVERSION",
+      "config": {},
+      "enabled": true
+    },
+    {
+      "face": "270度(底面)",
+      "type": "DRILL",
+      "x": "370",
+      "y": "-27.5",
+      "z": "87",
+      "tool": 2,
+      "hOffset": 2,
+      "note": "Ø4.3｜SECTION VIEW CONVERSION",
+      "config": {},
+      "enabled": true
+    },
+    {
+      "face": "270度(底面)",
+      "type": "DRILL",
+      "x": "670.1",
+      "y": "-27.5",
+      "z": "87",
+      "tool": 2,
+      "hOffset": 2,
+      "note": "Ø4.3｜SECTION VIEW CONVERSION",
+      "config": {},
+      "enabled": true
+    },
+    {
+      "face": "270度(底面)",
+      "type": "DRILL",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "tool": 5,
+      "hOffset": 5,
+      "note": "",
+      "config": {},
+      "enabled": true
+    },
+    {
+      "face": "270度(底面)",
+      "type": "DRILL",
+      "x": "970",
+      "y": "-27.5",
+      "z": "87",
+      "tool": 2,
+      "hOffset": 2,
+      "note": "Ø4.3｜SECTION VIEW CONVERSION",
+      "config": {},
+      "enabled": true
+    },
+    {
+      "face": "270度(底面)",
+      "type": "TOOLPATH",
+      "x": -5,
+      "y": -30.5,
+      "z": 144,
+      "tool": 5,
+      "hOffset": 5,
+      "note": "",
+      "config": {
+        "pathRows": [
+          {
+            "mode": "G91",
+            "x": 190,
+            "y": 0,
+            "z": 0
+          },
+          {
+            "mode": "G91",
+            "x": 0,
+            "y": 35.5,
+            "z": 0
+          }
+        ],
+        "safetyHeight": 50,
+        "rapidZ": 5,
+        "depth": -15,
+        "deepCount": 1,
+        "localRotation": 0
+      },
+      "enabled": true
+    },
+    {
+      "face": "270度(底面)",
+      "type": "TOOLPATH",
+      "x": 315,
+      "y": 5,
+      "z": 144,
+      "tool": 5,
+      "hOffset": 5,
+      "note": "",
+      "config": {
+        "pathRows": [
+          {
+            "mode": "G91",
+            "x": 0,
+            "y": -35.5,
+            "z": 0
+          },
+          {
+            "mode": "G91",
+            "x": 710,
+            "y": 0,
+            "z": 0
+          },
+          {
+            "mode": "G91",
+            "x": 0,
+            "y": 35.5,
+            "z": 0
+          }
+        ],
+        "safetyHeight": 50,
+        "rapidZ": 5,
+        "depth": -15,
+        "deepCount": 1,
+        "localRotation": 0
+      },
+      "enabled": true
+    },
+    {
+      "face": "270度(底面)",
+      "type": "TOOLPATH",
+      "x": 1155,
+      "y": 5,
+      "z": 144,
+      "tool": 5,
+      "hOffset": 5,
+      "note": "",
+      "config": {
+        "pathRows": [
+          {
+            "mode": "G91",
+            "x": 0,
+            "y": -35.5,
+            "z": 0
+          },
+          {
+            "mode": "G91",
+            "x": 210,
+            "y": 0,
+            "z": 0
+          }
+        ],
+        "safetyHeight": 50,
+        "rapidZ": 5,
+        "depth": -15,
+        "deepCount": 1,
+        "localRotation": 0
+      },
+      "enabled": true
+    }
+  ]
+}
