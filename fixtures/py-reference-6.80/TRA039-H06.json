@@ -1,0 +1,160 @@
+{
+ "ok": true,
+ "size": {
+  "x": 2559.0,
+  "y": 119.7,
+  "z": 0.0
+ },
+ "holes": [
+  {
+   "face": "BOTTOM",
+   "diameter": 5.5,
+   "x": 122.0,
+   "y": -106.2,
+   "z": 68.2,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "REPEATED Z PROJECTION + EDGE DIMENSION（BOTTOM）",
+   "evidence": [
+    "HoleEvidence(rule='REPEATED Z PROJECTION + EDGE DIMENSION', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='REPEATED Z PROJECTION + EDGE DIMENSION（BOTTOM）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '13F', 'block_path': '20250610181220', 'entity_type': 'LWPOLYLINE'},))"
+   ]
+  },
+  {
+   "face": "BOTTOM",
+   "diameter": 5.5,
+   "x": 702.0,
+   "y": -106.2,
+   "z": 68.2,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "REPEATED Z PROJECTION + EDGE DIMENSION（BOTTOM）",
+   "evidence": [
+    "HoleEvidence(rule='REPEATED Z PROJECTION + EDGE DIMENSION', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='REPEATED Z PROJECTION + EDGE DIMENSION（BOTTOM）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '13F', 'block_path': '20250610181220', 'entity_type': 'LWPOLYLINE'},))"
+   ]
+  },
+  {
+   "face": "BOTTOM",
+   "diameter": 5.5,
+   "x": 1282.0,
+   "y": -106.2,
+   "z": 68.2,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "REPEATED Z PROJECTION + EDGE DIMENSION（BOTTOM）",
+   "evidence": [
+    "HoleEvidence(rule='REPEATED Z PROJECTION + EDGE DIMENSION', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='REPEATED Z PROJECTION + EDGE DIMENSION（BOTTOM）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '13F', 'block_path': '20250610181220', 'entity_type': 'LWPOLYLINE'},))"
+   ]
+  },
+  {
+   "face": "BOTTOM",
+   "diameter": 5.5,
+   "x": 1862.0,
+   "y": -106.2,
+   "z": 68.2,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "REPEATED Z PROJECTION + EDGE DIMENSION（BOTTOM）",
+   "evidence": [
+    "HoleEvidence(rule='REPEATED Z PROJECTION + EDGE DIMENSION', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='REPEATED Z PROJECTION + EDGE DIMENSION（BOTTOM）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '13F', 'block_path': '20250610181220', 'entity_type': 'LWPOLYLINE'},))"
+   ]
+  },
+  {
+   "face": "BOTTOM",
+   "diameter": 5.5,
+   "x": 2459.0,
+   "y": -106.2,
+   "z": 68.2,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "REPEATED Z PROJECTION + EDGE DIMENSION（BOTTOM）",
+   "evidence": [
+    "HoleEvidence(rule='REPEATED Z PROJECTION + EDGE DIMENSION', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='REPEATED Z PROJECTION + EDGE DIMENSION（BOTTOM）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '13F', 'block_path': '20250610181220', 'entity_type': 'LWPOLYLINE'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 5.5,
+   "x": 122.0,
+   "y": -13.5,
+   "z": 68.2,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "NO CONVERSION（幾何孔群拓撲推導）",
+   "evidence": [
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='NO CONVERSION（幾何孔群拓撲推導）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '149', 'block_path': '20250610181345', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='REPEATED Z PROJECTION', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='REPEATED Z PROJECTION', measurement_fields=('z',), source_refs=({'entity_handle': '13F', 'block_path': '20250610181220', 'entity_type': 'LWPOLYLINE', 'measured_by': 'REPEATED Z PROJECTION', 'value_mm': '68.2', 'sample_count': '5'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 5.5,
+   "x": 702.0,
+   "y": -13.5,
+   "z": 68.2,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "NO CONVERSION（幾何孔群拓撲推導）",
+   "evidence": [
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='NO CONVERSION（幾何孔群拓撲推導）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '149', 'block_path': '20250610181345', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='REPEATED Z PROJECTION', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='REPEATED Z PROJECTION', measurement_fields=('z',), source_refs=({'entity_handle': '13F', 'block_path': '20250610181220', 'entity_type': 'LWPOLYLINE', 'measured_by': 'REPEATED Z PROJECTION', 'value_mm': '68.2', 'sample_count': '5'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 5.5,
+   "x": 1282.0,
+   "y": -13.5,
+   "z": 68.2,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "NO CONVERSION（幾何孔群拓撲推導）",
+   "evidence": [
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='NO CONVERSION（幾何孔群拓撲推導）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '149', 'block_path': '20250610181345', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='REPEATED Z PROJECTION', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='REPEATED Z PROJECTION', measurement_fields=('z',), source_refs=({'entity_handle': '13F', 'block_path': '20250610181220', 'entity_type': 'LWPOLYLINE', 'measured_by': 'REPEATED Z PROJECTION', 'value_mm': '68.2', 'sample_count': '5'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 5.5,
+   "x": 1862.0,
+   "y": -13.5,
+   "z": 68.2,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "NO CONVERSION（幾何孔群拓撲推導）",
+   "evidence": [
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='NO CONVERSION（幾何孔群拓撲推導）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '149', 'block_path': '20250610181345', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='REPEATED Z PROJECTION', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='REPEATED Z PROJECTION', measurement_fields=('z',), source_refs=({'entity_handle': '13F', 'block_path': '20250610181220', 'entity_type': 'LWPOLYLINE', 'measured_by': 'REPEATED Z PROJECTION', 'value_mm': '68.2', 'sample_count': '5'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 5.5,
+   "x": 2459.0,
+   "y": -13.5,
+   "z": 68.2,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "NO CONVERSION（幾何孔群拓撲推導）",
+   "evidence": [
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='NO CONVERSION（幾何孔群拓撲推導）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '149', 'block_path': '20250610181345', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='REPEATED Z PROJECTION', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='REPEATED Z PROJECTION', measurement_fields=('z',), source_refs=({'entity_handle': '13F', 'block_path': '20250610181220', 'entity_type': 'LWPOLYLINE', 'measured_by': 'REPEATED Z PROJECTION', 'value_mm': '68.2', 'sample_count': '5'},))"
+   ]
+  },
+  {
+   "face": "TOP",
+   "diameter": 22.0,
+   "x": 11.0,
+   "y": -0.0,
+   "z": 30.183,
+   "confidence": 0.193,
+   "status": "review",
+   "note": "FRONT VIEW EDGE-ON MARK FALLBACK（側面投影孔記號；Y 未知取中線，請人工確認面向、Y、Z）",
+   "evidence": [
+    "HoleEvidence(rule='FRONT VIEW EDGE-ON MARK FALLBACK', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='FRONT VIEW EDGE-ON MARK FALLBACK（側面投影孔記號；Y 未知取中線，請人工確認面向、Y、Z）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '14E', 'entity_type': 'LINE'},))",
+    "HoleEvidence(rule='FRONT VIEW EDGE-ON MARK FALLBACK', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='FRONT VIEW EDGE-ON MARK FALLBACK（側面投影孔記號；Y 未知取中線，請人工確認面向、Y、Z）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '91', 'entity_type': 'LINE'},))"
+   ]
+  }
+ ],
+ "sec": 0.4
+}

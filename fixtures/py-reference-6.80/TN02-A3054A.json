@@ -1,0 +1,119 @@
+{
+ "ok": true,
+ "size": {
+  "x": 1149.0,
+  "y": 166.0,
+  "z": 70.0
+ },
+ "holes": [
+  {
+   "face": "BOTTOM",
+   "diameter": 5.5,
+   "x": 11.5,
+   "y": -17.0,
+   "z": 113.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "FULL VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='FULL VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='FULL VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '12B', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "BOTTOM",
+   "diameter": 5.5,
+   "x": 24.5,
+   "y": -17.0,
+   "z": 113.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "FULL VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='FULL VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='FULL VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '12E', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "BOTTOM",
+   "diameter": 5.5,
+   "x": 1124.5,
+   "y": -17.0,
+   "z": 113.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "FULL VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='FULL VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='FULL VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '136', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "BOTTOM",
+   "diameter": 5.5,
+   "x": 1137.5,
+   "y": -17.0,
+   "z": 113.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "FULL VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='FULL VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='FULL VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '133', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "BACK",
+   "diameter": 4.2,
+   "x": 124.5,
+   "y": -51.0,
+   "z": 70.0,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "NO CONVERSION（幾何孔群拓撲推導）（側視圖方位校正）",
+   "evidence": [
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='NO CONVERSION（幾何孔群拓撲推導）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'FA', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='DETAIL VIEW FRONT Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='DETAIL VIEW FRONT Z', measurement_fields=('z',), source_refs=({'entity_handle': '2E6', 'block_path': '鋁擠型TN02', 'entity_type': 'LWPOLYLINE', 'measured_by': 'DETAIL VIEW FRONT Z', 'value_mm': '70', 'sample_count': '1'},))"
+   ]
+  },
+  {
+   "face": "BACK",
+   "diameter": 4.2,
+   "x": 424.5,
+   "y": -51.0,
+   "z": 70.0,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "NO CONVERSION（幾何孔群拓撲推導）（側視圖方位校正）",
+   "evidence": [
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='NO CONVERSION（幾何孔群拓撲推導）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'FE', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='DETAIL VIEW FRONT Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='DETAIL VIEW FRONT Z', measurement_fields=('z',), source_refs=({'entity_handle': '2E6', 'block_path': '鋁擠型TN02', 'entity_type': 'LWPOLYLINE', 'measured_by': 'DETAIL VIEW FRONT Z', 'value_mm': '70', 'sample_count': '1'},))"
+   ]
+  },
+  {
+   "face": "BACK",
+   "diameter": 4.2,
+   "x": 724.5,
+   "y": -51.0,
+   "z": 70.0,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "NO CONVERSION（幾何孔群拓撲推導）（側視圖方位校正）",
+   "evidence": [
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='NO CONVERSION（幾何孔群拓撲推導）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '101', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='DETAIL VIEW FRONT Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='DETAIL VIEW FRONT Z', measurement_fields=('z',), source_refs=({'entity_handle': '2E6', 'block_path': '鋁擠型TN02', 'entity_type': 'LWPOLYLINE', 'measured_by': 'DETAIL VIEW FRONT Z', 'value_mm': '70', 'sample_count': '1'},))"
+   ]
+  },
+  {
+   "face": "BACK",
+   "diameter": 4.2,
+   "x": 1024.5,
+   "y": -51.0,
+   "z": 70.0,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "NO CONVERSION（幾何孔群拓撲推導）（側視圖方位校正）",
+   "evidence": [
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='NO CONVERSION（幾何孔群拓撲推導）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '104', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='DETAIL VIEW FRONT Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='DETAIL VIEW FRONT Z', measurement_fields=('z',), source_refs=({'entity_handle': '2E6', 'block_path': '鋁擠型TN02', 'entity_type': 'LWPOLYLINE', 'measured_by': 'DETAIL VIEW FRONT Z', 'value_mm': '70', 'sample_count': '1'},))"
+   ]
+  }
+ ],
+ "sec": 0.8
+}

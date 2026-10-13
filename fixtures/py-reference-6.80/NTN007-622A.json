@@ -1,0 +1,121 @@
+{
+ "ok": true,
+ "size": {
+  "x": 1150.0,
+  "y": 172.0,
+  "z": 103.0
+ },
+ "holes": [
+  {
+   "face": "BACK",
+   "diameter": 4.3,
+   "x": 99.9,
+   "y": -160.0,
+   "z": 103.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '163', 'block_path': '*U23/*U30', 'entity_type': 'LWPOLYLINE'},))",
+    "HoleEvidence(rule='CROSS-VIEW SECTION MARKER CORROBORATION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='CROSS-VIEW SECTION MARKER CORROBORATION', measurement_fields=('face', 'diameter', 'y'), source_refs=({'entity_handle': 'EB', 'block_path': '*U28', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': '8D0', 'entity_type': 'CIRCLE'}))"
+   ]
+  },
+  {
+   "face": "BACK",
+   "diameter": 4.3,
+   "x": 399.9,
+   "y": -160.0,
+   "z": 103.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '3DB', 'block_path': '*U23/*U27', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': '163', 'block_path': '*U23/*U30', 'entity_type': 'LWPOLYLINE'}))",
+    "HoleEvidence(rule='CROSS-VIEW SECTION MARKER CORROBORATION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='CROSS-VIEW SECTION MARKER CORROBORATION', measurement_fields=('face', 'diameter', 'y'), source_refs=({'entity_handle': 'EB', 'block_path': '*U28', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': '8CD', 'entity_type': 'CIRCLE'}))"
+   ]
+  },
+  {
+   "face": "BACK",
+   "diameter": 4.3,
+   "x": 699.9,
+   "y": -160.0,
+   "z": 103.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '3DB', 'block_path': '*U23/*U27', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': '163', 'block_path': '*U23/*U30', 'entity_type': 'LWPOLYLINE'}))",
+    "HoleEvidence(rule='CROSS-VIEW SECTION MARKER CORROBORATION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='CROSS-VIEW SECTION MARKER CORROBORATION', measurement_fields=('face', 'diameter', 'y'), source_refs=({'entity_handle': 'EB', 'block_path': '*U28', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': '8D6', 'entity_type': 'CIRCLE'}))"
+   ]
+  },
+  {
+   "face": "BACK",
+   "diameter": 4.3,
+   "x": 999.9,
+   "y": -160.0,
+   "z": 103.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '3DB', 'block_path': '*U23/*U27', 'entity_type': 'LWPOLYLINE'},))",
+    "HoleEvidence(rule='CROSS-VIEW SECTION MARKER CORROBORATION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='CROSS-VIEW SECTION MARKER CORROBORATION', measurement_fields=('face', 'diameter', 'y'), source_refs=({'entity_handle': 'EB', 'block_path': '*U28', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': '8D9', 'entity_type': 'CIRCLE'}))"
+   ]
+  },
+  {
+   "face": "BOTTOM",
+   "diameter": 17.0,
+   "x": 575.0,
+   "y": -63.0,
+   "z": 132.8,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '26F', 'block_path': '*U25', 'entity_type': 'LWPOLYLINE'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 8.0,
+   "x": 70.0,
+   "y": -141.0,
+   "z": 61.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '8D5', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='CROSS-VIEW SECTION MARKER CORROBORATION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='CROSS-VIEW SECTION MARKER CORROBORATION', measurement_fields=('face', 'diameter', 'y'), source_refs=({'entity_handle': '322', 'block_path': '*U29', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': '8D5', 'entity_type': 'CIRCLE'}))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 8.0,
+   "x": 1080.0,
+   "y": -141.0,
+   "z": 61.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '8DE', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='CROSS-VIEW SECTION MARKER CORROBORATION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='CROSS-VIEW SECTION MARKER CORROBORATION', measurement_fields=('face', 'diameter', 'y'), source_refs=({'entity_handle': '322', 'block_path': '*U29', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': '8DE', 'entity_type': 'CIRCLE'}))"
+   ]
+  },
+  {
+   "face": "TOP",
+   "diameter": 6.0,
+   "x": 99.9,
+   "y": -95.0,
+   "z": 150.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '162', 'block_path': '*U23/*U30', 'entity_type': 'LWPOLYLINE'},))"
+   ]
+  }
+ ],
+ "sec": 2.4
+}

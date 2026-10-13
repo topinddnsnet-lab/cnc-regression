@@ -1,0 +1,149 @@
+{
+ "ok": true,
+ "size": {
+  "x": 6075.0,
+  "y": 158.5,
+  "z": 229.1
+ },
+ "holes": [
+  {
+   "face": "BOTTOM",
+   "diameter": 9.0,
+   "x": 50.0,
+   "y": -35.0,
+   "z": 150.0,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "FRONT VIEW MARKER + SECTION TEMPLATE MIRROR（BOTTOM）",
+   "evidence": [
+    "HoleEvidence(rule='FRONT VIEW MARKER + SECTION TEMPLATE MIRROR', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='FRONT VIEW MARKER + SECTION TEMPLATE MIRROR（BOTTOM）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'CF', 'block_path': 'A$C516763b4', 'entity_type': 'LWPOLYLINE'},))"
+   ]
+  },
+  {
+   "face": "BOTTOM",
+   "diameter": 9.0,
+   "x": 6025.0,
+   "y": -35.0,
+   "z": 150.0,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "FRONT VIEW MARKER + SECTION TEMPLATE MIRROR（BOTTOM）",
+   "evidence": [
+    "HoleEvidence(rule='FRONT VIEW MARKER + SECTION TEMPLATE MIRROR', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='FRONT VIEW MARKER + SECTION TEMPLATE MIRROR（BOTTOM）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'CF', 'block_path': 'A$C516763b4', 'entity_type': 'LWPOLYLINE'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 22.0,
+   "x": 2070.1,
+   "y": -120.2,
+   "z": 70.0,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "NO CONVERSION（完整異徑同心孔網格：較大徑近側開口）",
+   "evidence": [
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='NO CONVERSION（完整異徑同心孔網格：較大徑近側開口）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'E82', 'block_path': 'A$Cdabe1cc5', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='DETAIL VIEW FRONT Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='DETAIL VIEW FRONT Z', measurement_fields=('z',), source_refs=({'entity_handle': '14B5', 'entity_type': 'LWPOLYLINE', 'measured_by': 'DETAIL VIEW FRONT Z', 'value_mm': '70'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 7.0,
+   "x": 2070.1,
+   "y": -38.3,
+   "z": 70.0,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "NO CONVERSION（完整異徑同心孔網格：較小徑與大徑同面，Y 以材料總寬鏡射）",
+   "evidence": [
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='NO CONVERSION（完整異徑同心孔網格：較小徑與大徑同面，Y 以材料總寬鏡射）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'E7F', 'block_path': 'A$Cdabe1cc5', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='DETAIL VIEW FRONT Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='DETAIL VIEW FRONT Z', measurement_fields=('z',), source_refs=({'entity_handle': '14B5', 'entity_type': 'LWPOLYLINE', 'measured_by': 'DETAIL VIEW FRONT Z', 'value_mm': '70'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 7.0,
+   "x": 2070.2,
+   "y": -128.3,
+   "z": 70.0,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "NO CONVERSION（完整異徑同心孔網格：較小徑與大徑同面，Y 以材料總寬鏡射）",
+   "evidence": [
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='NO CONVERSION（完整異徑同心孔網格：較小徑與大徑同面，Y 以材料總寬鏡射）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'E7F', 'block_path': 'A$Cdabe1cc5', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='DETAIL VIEW FRONT Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='DETAIL VIEW FRONT Z', measurement_fields=('z',), source_refs=({'entity_handle': '14B5', 'entity_type': 'LWPOLYLINE', 'measured_by': 'DETAIL VIEW FRONT Z', 'value_mm': '70'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 22.0,
+   "x": 2070.2,
+   "y": -30.2,
+   "z": 70.0,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "NO CONVERSION（完整異徑同心孔網格：較大徑近側開口）",
+   "evidence": [
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='NO CONVERSION（完整異徑同心孔網格：較大徑近側開口）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'E82', 'block_path': 'A$Cdabe1cc5', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='DETAIL VIEW FRONT Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='DETAIL VIEW FRONT Z', measurement_fields=('z',), source_refs=({'entity_handle': '14B5', 'entity_type': 'LWPOLYLINE', 'measured_by': 'DETAIL VIEW FRONT Z', 'value_mm': '70'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 7.0,
+   "x": 2246.1,
+   "y": -128.3,
+   "z": 70.0,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "NO CONVERSION（完整異徑同心孔網格：較小徑與大徑同面，Y 以材料總寬鏡射）",
+   "evidence": [
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='NO CONVERSION（完整異徑同心孔網格：較小徑與大徑同面，Y 以材料總寬鏡射）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'E7F', 'block_path': 'A$Cdabe1cc5', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='DETAIL VIEW FRONT Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='DETAIL VIEW FRONT Z', measurement_fields=('z',), source_refs=({'entity_handle': '14B5', 'entity_type': 'LWPOLYLINE', 'measured_by': 'DETAIL VIEW FRONT Z', 'value_mm': '70'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 22.0,
+   "x": 2246.1,
+   "y": -120.2,
+   "z": 70.0,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "NO CONVERSION（完整異徑同心孔網格：較大徑近側開口）",
+   "evidence": [
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='NO CONVERSION（完整異徑同心孔網格：較大徑近側開口）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'E82', 'block_path': 'A$Cdabe1cc5', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='DETAIL VIEW FRONT Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='DETAIL VIEW FRONT Z', measurement_fields=('z',), source_refs=({'entity_handle': '14B5', 'entity_type': 'LWPOLYLINE', 'measured_by': 'DETAIL VIEW FRONT Z', 'value_mm': '70'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 7.0,
+   "x": 2246.1,
+   "y": -38.3,
+   "z": 70.0,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "NO CONVERSION（完整異徑同心孔網格：較小徑與大徑同面，Y 以材料總寬鏡射）",
+   "evidence": [
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='NO CONVERSION（完整異徑同心孔網格：較小徑與大徑同面，Y 以材料總寬鏡射）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'E7F', 'block_path': 'A$Cdabe1cc5', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='DETAIL VIEW FRONT Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='DETAIL VIEW FRONT Z', measurement_fields=('z',), source_refs=({'entity_handle': '14B5', 'entity_type': 'LWPOLYLINE', 'measured_by': 'DETAIL VIEW FRONT Z', 'value_mm': '70'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 22.0,
+   "x": 2246.1,
+   "y": -30.2,
+   "z": 70.0,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "NO CONVERSION（完整異徑同心孔網格：較大徑近側開口）",
+   "evidence": [
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='NO CONVERSION（完整異徑同心孔網格：較大徑近側開口）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'E82', 'block_path': 'A$Cdabe1cc5', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='DETAIL VIEW FRONT Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='DETAIL VIEW FRONT Z', measurement_fields=('z',), source_refs=({'entity_handle': '14B5', 'entity_type': 'LWPOLYLINE', 'measured_by': 'DETAIL VIEW FRONT Z', 'value_mm': '70'},))"
+   ]
+  }
+ ],
+ "sec": 0.5
+}

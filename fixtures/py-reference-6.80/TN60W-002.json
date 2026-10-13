@@ -1,0 +1,224 @@
+{
+ "ok": true,
+ "size": {
+  "x": 1213.0,
+  "y": 200.0,
+  "z": 164.9
+ },
+ "holes": [
+  {
+   "face": "BACK",
+   "diameter": 5.5,
+   "x": 339.3,
+   "y": -105.0,
+   "z": 200.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '1099', 'block_path': 'A$Cb3a1919d', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "BACK",
+   "diameter": 5.5,
+   "x": 339.3,
+   "y": -45.0,
+   "z": 200.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '1099', 'block_path': 'A$Cb3a1919d', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "BACK",
+   "diameter": 5.5,
+   "x": 419.3,
+   "y": -105.0,
+   "z": 200.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '1099', 'block_path': 'A$Cb3a1919d', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "BACK",
+   "diameter": 5.5,
+   "x": 419.3,
+   "y": -45.0,
+   "z": 200.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '1099', 'block_path': 'A$Cb3a1919d', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "BACK",
+   "diameter": 5.5,
+   "x": 793.7,
+   "y": -105.0,
+   "z": 200.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '1099', 'block_path': 'A$Cb3a1919d', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "BACK",
+   "diameter": 5.5,
+   "x": 793.7,
+   "y": -45.0,
+   "z": 200.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '1099', 'block_path': 'A$Cb3a1919d', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "BACK",
+   "diameter": 5.5,
+   "x": 873.7,
+   "y": -105.0,
+   "z": 200.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '1099', 'block_path': 'A$Cb3a1919d', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "BACK",
+   "diameter": 5.5,
+   "x": 873.7,
+   "y": -45.0,
+   "z": 200.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '1099', 'block_path': 'A$Cb3a1919d', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "BOTTOM",
+   "diameter": 9.0,
+   "x": 30.0,
+   "y": -100.0,
+   "z": 150.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION（端部剖面雙面投影）",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION（端部剖面雙面投影）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=())",
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='NO CONVERSION（幾何孔群拓撲推導）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'E0', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "BOTTOM",
+   "diameter": 9.0,
+   "x": 1183.0,
+   "y": -100.0,
+   "z": 150.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION（端部剖面雙面投影）",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION（端部剖面雙面投影）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=())",
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='NO CONVERSION（幾何孔群拓撲推導）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'DD', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 16.0,
+   "x": 414.8,
+   "y": -54.5,
+   "z": 200.0,
+   "confidence": 0.77,
+   "status": "accepted",
+   "note": "CROSS-VIEW IDENTITY MERGE（次視圖幾何提供 Y/Z，主視圖提供面向）",
+   "evidence": [
+    "HoleEvidence(rule='CROSS-VIEW IDENTITY MERGE', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='CROSS-VIEW IDENTITY MERGE（次視圖幾何提供 Y/Z，主視圖提供面向）', measurement_fields=('face', 'diameter', 'x', 'y'), source_refs=({'entity_handle': 'C5C', 'block_path': '*U17', 'entity_type': 'CIRCLE'}, {'entity_handle': 'C6A', 'block_path': '*U17', 'entity_type': 'CIRCLE'}))"
+   ]
+  },
+  {
+   "face": "TOP",
+   "diameter": 9.0,
+   "x": 30.0,
+   "y": -100.0,
+   "z": 150.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION（端部剖面雙面投影）",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION（端部剖面雙面投影）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=())",
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='NO CONVERSION（幾何孔群拓撲推導）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'E0', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "TOP",
+   "diameter": 9.0,
+   "x": 1183.0,
+   "y": -100.0,
+   "z": 150.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION（端部剖面雙面投影）",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION（端部剖面雙面投影）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=())",
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='NO CONVERSION（幾何孔群拓撲推導）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'DD', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 9.0,
+   "x": 1183.0,
+   "y": -99.996,
+   "z": 164.9,
+   "confidence": 0.193,
+   "status": "review",
+   "note": "FRONT VIEW CIRCLE FALLBACK（無面向證據，請人工確認面向與 Z）",
+   "evidence": [
+    "HoleEvidence(rule='FRONT VIEW CIRCLE FALLBACK', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='FRONT VIEW CIRCLE FALLBACK（無面向證據，請人工確認面向與 Z）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'DD', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 9.0,
+   "x": 30.0,
+   "y": -99.996,
+   "z": 164.9,
+   "confidence": 0.193,
+   "status": "review",
+   "note": "FRONT VIEW CIRCLE FALLBACK（無面向證據，請人工確認面向與 Z）",
+   "evidence": [
+    "HoleEvidence(rule='FRONT VIEW CIRCLE FALLBACK', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='FRONT VIEW CIRCLE FALLBACK（無面向證據，請人工確認面向與 Z）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'E0', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "BOTTOM",
+   "diameter": 8.0,
+   "x": 410.8,
+   "y": -82.45,
+   "z": 2.999,
+   "confidence": 0.193,
+   "status": "review",
+   "note": "FRONT VIEW EDGE-ON MARK FALLBACK（側面投影孔記號；Y 未知取中線，請人工確認面向、Y、Z）",
+   "evidence": [
+    "HoleEvidence(rule='FRONT VIEW EDGE-ON MARK FALLBACK', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='FRONT VIEW EDGE-ON MARK FALLBACK（側面投影孔記號；Y 未知取中線，請人工確認面向、Y、Z）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'C63', 'block_path': '*U17', 'entity_type': 'LINE'},))",
+    "HoleEvidence(rule='FRONT VIEW EDGE-ON MARK FALLBACK', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='FRONT VIEW EDGE-ON MARK FALLBACK（側面投影孔記號；Y 未知取中線，請人工確認面向、Y、Z）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'C66', 'block_path': '*U17', 'entity_type': 'LINE'},))"
+   ]
+  }
+ ],
+ "sec": 0.5
+}

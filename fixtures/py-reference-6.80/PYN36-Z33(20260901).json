@@ -1,0 +1,67 @@
+{
+ "ok": true,
+ "size": {
+  "x": 1345.0,
+  "y": 31.5,
+  "z": 16.0
+ },
+ "holes": [
+  {
+   "face": "FRONT",
+   "diameter": 5.5,
+   "x": 330.0,
+   "y": -6.5,
+   "z": 16.0,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "NO CONVERSION（幾何孔群拓撲推導）",
+   "evidence": [
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='NO CONVERSION（幾何孔群拓撲推導）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '1DB', 'block_path': '*U12/YQ0305090342', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='MATERIAL BOX Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='MATERIAL BOX Z', measurement_fields=('z',), source_refs=({'entity_handle': '248', 'block_path': 'YQ0305091181', 'entity_type': 'REGION_PROFILE', 'measured_by': 'MATERIAL BOX Z', 'value_mm': '16'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 5.5,
+   "x": 630.0,
+   "y": -6.5,
+   "z": 16.0,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "NO CONVERSION（幾何孔群拓撲推導）",
+   "evidence": [
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='NO CONVERSION（幾何孔群拓撲推導）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '1DB', 'block_path': '*U12/YQ0305090342', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='MATERIAL BOX Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='MATERIAL BOX Z', measurement_fields=('z',), source_refs=({'entity_handle': '248', 'block_path': 'YQ0305091181', 'entity_type': 'REGION_PROFILE', 'measured_by': 'MATERIAL BOX Z', 'value_mm': '16'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 5.5,
+   "x": 930.0,
+   "y": -6.5,
+   "z": 16.0,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "NO CONVERSION（幾何孔群拓撲推導）",
+   "evidence": [
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='NO CONVERSION（幾何孔群拓撲推導）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '1DB', 'block_path': '*U12/YQ0305090342', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='MATERIAL BOX Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='MATERIAL BOX Z', measurement_fields=('z',), source_refs=({'entity_handle': '248', 'block_path': 'YQ0305091181', 'entity_type': 'REGION_PROFILE', 'measured_by': 'MATERIAL BOX Z', 'value_mm': '16'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 5.5,
+   "x": 1230.0,
+   "y": -6.5,
+   "z": 16.0,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "NO CONVERSION（幾何孔群拓撲推導）",
+   "evidence": [
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='NO CONVERSION（幾何孔群拓撲推導）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '1DB', 'block_path': '*U12/YQ0305090342', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='MATERIAL BOX Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='MATERIAL BOX Z', measurement_fields=('z',), source_refs=({'entity_handle': '248', 'block_path': 'YQ0305091181', 'entity_type': 'REGION_PROFILE', 'measured_by': 'MATERIAL BOX Z', 'value_mm': '16'},))"
+   ]
+  }
+ ],
+ "sec": 0.3
+}

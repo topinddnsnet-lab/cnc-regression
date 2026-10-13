@@ -1,0 +1,63 @@
+{
+ "ok": true,
+ "size": {
+  "x": 1069.0,
+  "y": 160.0,
+  "z": 70.0
+ },
+ "holes": [
+  {
+   "face": "BOTTOM",
+   "diameter": 5.5,
+   "x": 11.5,
+   "y": -17.0,
+   "z": 113.0,
+   "confidence": 0.55,
+   "status": "review",
+   "note": "MARKER PAIRING（無CIRCLE，矩形標記配對正視/剖面）",
+   "evidence": [
+    "HoleEvidence(rule='MARKER PAIRING', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='MARKER PAIRING（無CIRCLE，矩形標記配對正視/剖面）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '1DC', 'block_path': 'BK11150428277', 'entity_type': 'LINE'}, {'entity_handle': '1DE', 'block_path': 'BK11150428277', 'entity_type': 'LINE'}, {'entity_handle': '1F4', 'block_path': 'BK11150428277', 'entity_type': 'HATCH'}, {'entity_handle': '1F5', 'block_path': 'BK11150428277', 'entity_type': 'LWPOLYLINE'}))"
+   ]
+  },
+  {
+   "face": "BOTTOM",
+   "diameter": 5.5,
+   "x": 24.5,
+   "y": -17.0,
+   "z": 113.0,
+   "confidence": 0.55,
+   "status": "review",
+   "note": "MARKER PAIRING（無CIRCLE，矩形標記配對正視/剖面）",
+   "evidence": [
+    "HoleEvidence(rule='MARKER PAIRING', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='MARKER PAIRING（無CIRCLE，矩形標記配對正視/剖面）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '1EC', 'block_path': 'BK11150428277', 'entity_type': 'LINE'}, {'entity_handle': '1EE', 'block_path': 'BK11150428277', 'entity_type': 'LINE'}, {'entity_handle': '1F4', 'block_path': 'BK11150428277', 'entity_type': 'HATCH'}, {'entity_handle': '1F5', 'block_path': 'BK11150428277', 'entity_type': 'LWPOLYLINE'}))"
+   ]
+  },
+  {
+   "face": "BOTTOM",
+   "diameter": 5.5,
+   "x": 1044.5,
+   "y": -17.0,
+   "z": 113.0,
+   "confidence": 0.55,
+   "status": "review",
+   "note": "MARKER PAIRING（無CIRCLE，矩形標記配對正視/剖面）",
+   "evidence": [
+    "HoleEvidence(rule='MARKER PAIRING', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='MARKER PAIRING（無CIRCLE，矩形標記配對正視/剖面）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '219', 'block_path': 'BK11150428277', 'entity_type': 'LINE'}, {'entity_handle': '21B', 'block_path': 'BK11150428277', 'entity_type': 'LINE'}, {'entity_handle': '1F4', 'block_path': 'BK11150428277', 'entity_type': 'HATCH'}, {'entity_handle': '1F5', 'block_path': 'BK11150428277', 'entity_type': 'LWPOLYLINE'}))"
+   ]
+  },
+  {
+   "face": "BOTTOM",
+   "diameter": 5.5,
+   "x": 1057.5,
+   "y": -17.0,
+   "z": 113.0,
+   "confidence": 0.55,
+   "status": "review",
+   "note": "MARKER PAIRING（無CIRCLE，矩形標記配對正視/剖面）",
+   "evidence": [
+    "HoleEvidence(rule='MARKER PAIRING', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='MARKER PAIRING（無CIRCLE，矩形標記配對正視/剖面）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '209', 'block_path': 'BK11150428277', 'entity_type': 'LINE'}, {'entity_handle': '20B', 'block_path': 'BK11150428277', 'entity_type': 'LINE'}, {'entity_handle': '1F4', 'block_path': 'BK11150428277', 'entity_type': 'HATCH'}, {'entity_handle': '1F5', 'block_path': 'BK11150428277', 'entity_type': 'LWPOLYLINE'}))"
+   ]
+  }
+ ],
+ "sec": 0.3
+}

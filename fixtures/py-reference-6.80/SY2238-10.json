@@ -1,0 +1,115 @@
+{
+ "ok": true,
+ "size": {
+  "x": 563.1,
+  "y": 234.6,
+  "z": 30.0
+ },
+ "holes": [
+  {
+   "face": "BOTTOM",
+   "diameter": 7.0,
+   "x": 35.0,
+   "y": -80.0,
+   "z": 199.6,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "FULL VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='FULL VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='FULL VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '124FE8', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "BOTTOM",
+   "diameter": 7.0,
+   "x": 35.0,
+   "y": -60.0,
+   "z": 199.6,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "FULL VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='FULL VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='FULL VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '1273AD', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "BOTTOM",
+   "diameter": 7.0,
+   "x": 35.0,
+   "y": -40.0,
+   "z": 199.6,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "FULL VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='FULL VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='FULL VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '1273B3', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "BOTTOM",
+   "diameter": 7.0,
+   "x": 35.0,
+   "y": -20.0,
+   "z": 199.6,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "FULL VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='FULL VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='FULL VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '124FE5', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "BOTTOM",
+   "diameter": 7.0,
+   "x": 513.1,
+   "y": -80.0,
+   "z": 199.6,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "FULL VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='FULL VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='FULL VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '124FDC', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "BOTTOM",
+   "diameter": 7.0,
+   "x": 513.1,
+   "y": -60.0,
+   "z": 199.6,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "FULL VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='FULL VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='FULL VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '1273AA', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "BOTTOM",
+   "diameter": 7.0,
+   "x": 513.1,
+   "y": -40.0,
+   "z": 199.6,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "FULL VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='FULL VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='FULL VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '1273B0', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "BOTTOM",
+   "diameter": 7.0,
+   "x": 513.1,
+   "y": -20.0,
+   "z": 199.6,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "FULL VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='FULL VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='FULL VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '124FD9', 'entity_type': 'CIRCLE'},))"
+   ]
+  }
+ ],
+ "sec": 0.7
+}

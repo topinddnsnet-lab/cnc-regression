@@ -4,8 +4,12 @@
   "description": "CNC 模擬器孔位回歸測試（獨立專案）",
   "type": "module",
   "scripts": {
-    "test": "node tools/selftest.mjs && node run.mjs",
-    "affected": "node run.mjs --affected-git"
+    "test": "node tools/selftest.mjs && node --test tests/unit/*.test.mjs && node run.mjs",
+    "affected": "node run.mjs --affected-git",
+    "unit": "node --test tests/unit/*.test.mjs",
+    "parity": "node tools/parity.mjs"
   },
-  "engines": { "node": ">=18" }
+  "engines": {
+    "node": ">=18"
+  }
 }

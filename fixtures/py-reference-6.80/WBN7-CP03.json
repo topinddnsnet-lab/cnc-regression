@@ -1,0 +1,187 @@
+{
+ "ok": true,
+ "size": {
+  "x": 1045.0,
+  "y": 91.5,
+  "z": 63.0
+ },
+ "holes": [
+  {
+   "face": "BACK",
+   "diameter": 6.0,
+   "x": 9.0,
+   "y": -29.0,
+   "z": 54.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "NO CONVERSION（同心群實線真孔，隱藏建構圈排除）",
+   "evidence": [
+    "HoleEvidence(rule='CROSS-VIEW SECTION MARKER CORROBORATION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='CROSS-VIEW SECTION MARKER CORROBORATION', measurement_fields=('face', 'diameter', 'y'), source_refs=({'entity_handle': 'EB', 'block_path': 'A$C8e0925b2', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': 'DF', 'block_path': 'A$Cf214b71b', 'entity_type': 'CIRCLE'}))",
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.VISIBILITY_TOPOLOGY: 200>, raw_note='NO CONVERSION（同心群實線真孔，隱藏建構圈排除）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'DF', 'block_path': 'A$Cf214b71b', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='MATERIAL BOX Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='MATERIAL BOX Z', measurement_fields=('z',), source_refs=({'entity_handle': '5E6', 'entity_type': 'REGION_PROFILE', 'measured_by': 'MATERIAL BOX Z', 'value_mm': '63'},))"
+   ]
+  },
+  {
+   "face": "BACK",
+   "diameter": 6.0,
+   "x": 64.0,
+   "y": -29.0,
+   "z": 54.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "NO CONVERSION（同心群實線真孔，隱藏建構圈排除）",
+   "evidence": [
+    "HoleEvidence(rule='CROSS-VIEW SECTION MARKER CORROBORATION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='CROSS-VIEW SECTION MARKER CORROBORATION', measurement_fields=('face', 'diameter', 'y'), source_refs=({'entity_handle': 'EB', 'block_path': 'A$C8e0925b2', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': 'DF', 'block_path': 'A$Cf214b71b', 'entity_type': 'CIRCLE'}))",
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.VISIBILITY_TOPOLOGY: 200>, raw_note='NO CONVERSION（同心群實線真孔，隱藏建構圈排除）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'DF', 'block_path': 'A$Cf214b71b', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='MATERIAL BOX Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='MATERIAL BOX Z', measurement_fields=('z',), source_refs=({'entity_handle': '5E6', 'entity_type': 'REGION_PROFILE', 'measured_by': 'MATERIAL BOX Z', 'value_mm': '63'},))"
+   ]
+  },
+  {
+   "face": "BACK",
+   "diameter": 5.5,
+   "x": 80.0,
+   "y": -83.5,
+   "z": 52.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '8A', 'block_path': 'A$Cef0be59b', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='CROSS-VIEW SECTION MARKER CORROBORATION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='CROSS-VIEW SECTION MARKER CORROBORATION', measurement_fields=('face', 'diameter', 'y'), source_refs=({'entity_handle': '5EE', 'entity_type': 'HATCH'}, {'entity_handle': '8A', 'block_path': 'A$Cef0be59b', 'entity_type': 'CIRCLE'}))"
+   ]
+  },
+  {
+   "face": "BACK",
+   "diameter": 6.0,
+   "x": 333.0,
+   "y": -29.0,
+   "z": 54.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "NO CONVERSION（同心群實線真孔，隱藏建構圈排除）",
+   "evidence": [
+    "HoleEvidence(rule='CROSS-VIEW SECTION MARKER CORROBORATION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='CROSS-VIEW SECTION MARKER CORROBORATION', measurement_fields=('face', 'diameter', 'y'), source_refs=({'entity_handle': 'EB', 'block_path': 'A$C8e0925b2', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': 'DF', 'block_path': 'A$Cf214b71b', 'entity_type': 'CIRCLE'}))",
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.VISIBILITY_TOPOLOGY: 200>, raw_note='NO CONVERSION（同心群實線真孔，隱藏建構圈排除）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'DF', 'block_path': 'A$Cf214b71b', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='MATERIAL BOX Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='MATERIAL BOX Z', measurement_fields=('z',), source_refs=({'entity_handle': '5E6', 'entity_type': 'REGION_PROFILE', 'measured_by': 'MATERIAL BOX Z', 'value_mm': '63'},))"
+   ]
+  },
+  {
+   "face": "BACK",
+   "diameter": 5.5,
+   "x": 372.5,
+   "y": -83.5,
+   "z": 52.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '49C', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': '49D', 'entity_type': 'LWPOLYLINE'}))",
+    "HoleEvidence(rule='CROSS-VIEW SECTION MARKER CORROBORATION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='CROSS-VIEW SECTION MARKER CORROBORATION', measurement_fields=('face', 'diameter', 'y'), source_refs=({'entity_handle': '5EE', 'entity_type': 'HATCH'}, {'entity_handle': '8A', 'block_path': 'A$Cef0be59b', 'entity_type': 'CIRCLE'}))"
+   ]
+  },
+  {
+   "face": "BACK",
+   "diameter": 6.0,
+   "x": 388.0,
+   "y": -29.0,
+   "z": 54.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "NO CONVERSION（同心群實線真孔，隱藏建構圈排除）",
+   "evidence": [
+    "HoleEvidence(rule='CROSS-VIEW SECTION MARKER CORROBORATION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='CROSS-VIEW SECTION MARKER CORROBORATION', measurement_fields=('face', 'diameter', 'y'), source_refs=({'entity_handle': 'EB', 'block_path': 'A$C8e0925b2', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': 'DF', 'block_path': 'A$Cf214b71b', 'entity_type': 'CIRCLE'}))",
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.VISIBILITY_TOPOLOGY: 200>, raw_note='NO CONVERSION（同心群實線真孔，隱藏建構圈排除）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'DF', 'block_path': 'A$Cf214b71b', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='MATERIAL BOX Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='MATERIAL BOX Z', measurement_fields=('z',), source_refs=({'entity_handle': '5E6', 'entity_type': 'REGION_PROFILE', 'measured_by': 'MATERIAL BOX Z', 'value_mm': '63'},))"
+   ]
+  },
+  {
+   "face": "BACK",
+   "diameter": 6.0,
+   "x": 657.0,
+   "y": -29.0,
+   "z": 54.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "NO CONVERSION（同心群實線真孔，隱藏建構圈排除）",
+   "evidence": [
+    "HoleEvidence(rule='CROSS-VIEW SECTION MARKER CORROBORATION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='CROSS-VIEW SECTION MARKER CORROBORATION', measurement_fields=('face', 'diameter', 'y'), source_refs=({'entity_handle': 'EB', 'block_path': 'A$C8e0925b2', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': 'DF', 'block_path': 'A$Cf214b71b', 'entity_type': 'CIRCLE'}))",
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.VISIBILITY_TOPOLOGY: 200>, raw_note='NO CONVERSION（同心群實線真孔，隱藏建構圈排除）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'DF', 'block_path': 'A$Cf214b71b', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='MATERIAL BOX Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='MATERIAL BOX Z', measurement_fields=('z',), source_refs=({'entity_handle': '5E6', 'entity_type': 'REGION_PROFILE', 'measured_by': 'MATERIAL BOX Z', 'value_mm': '63'},))"
+   ]
+  },
+  {
+   "face": "BACK",
+   "diameter": 5.5,
+   "x": 672.5,
+   "y": -83.5,
+   "z": 52.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '8A', 'block_path': 'A$Cef0be59b', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='CROSS-VIEW SECTION MARKER CORROBORATION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='CROSS-VIEW SECTION MARKER CORROBORATION', measurement_fields=('face', 'diameter', 'y'), source_refs=({'entity_handle': '5EE', 'entity_type': 'HATCH'}, {'entity_handle': '8A', 'block_path': 'A$Cef0be59b', 'entity_type': 'CIRCLE'}))"
+   ]
+  },
+  {
+   "face": "BACK",
+   "diameter": 6.0,
+   "x": 712.0,
+   "y": -29.0,
+   "z": 54.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "NO CONVERSION（同心群實線真孔，隱藏建構圈排除）",
+   "evidence": [
+    "HoleEvidence(rule='CROSS-VIEW SECTION MARKER CORROBORATION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='CROSS-VIEW SECTION MARKER CORROBORATION', measurement_fields=('face', 'diameter', 'y'), source_refs=({'entity_handle': 'EB', 'block_path': 'A$C8e0925b2', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': 'DF', 'block_path': 'A$Cf214b71b', 'entity_type': 'CIRCLE'}))",
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.VISIBILITY_TOPOLOGY: 200>, raw_note='NO CONVERSION（同心群實線真孔，隱藏建構圈排除）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'DF', 'block_path': 'A$Cf214b71b', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='MATERIAL BOX Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='MATERIAL BOX Z', measurement_fields=('z',), source_refs=({'entity_handle': '5E6', 'entity_type': 'REGION_PROFILE', 'measured_by': 'MATERIAL BOX Z', 'value_mm': '63'},))"
+   ]
+  },
+  {
+   "face": "BACK",
+   "diameter": 5.5,
+   "x": 965.0,
+   "y": -83.5,
+   "z": 52.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '8A', 'block_path': 'A$Cef0be59b', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='CROSS-VIEW SECTION MARKER CORROBORATION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='CROSS-VIEW SECTION MARKER CORROBORATION', measurement_fields=('face', 'diameter', 'y'), source_refs=({'entity_handle': '5EE', 'entity_type': 'HATCH'}, {'entity_handle': '8A', 'block_path': 'A$Cef0be59b', 'entity_type': 'CIRCLE'}))"
+   ]
+  },
+  {
+   "face": "BACK",
+   "diameter": 6.0,
+   "x": 981.0,
+   "y": -29.0,
+   "z": 54.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "NO CONVERSION（同心群實線真孔，隱藏建構圈排除）",
+   "evidence": [
+    "HoleEvidence(rule='CROSS-VIEW SECTION MARKER CORROBORATION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='CROSS-VIEW SECTION MARKER CORROBORATION', measurement_fields=('face', 'diameter', 'y'), source_refs=({'entity_handle': 'EB', 'block_path': 'A$C8e0925b2', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': 'DF', 'block_path': 'A$Cf214b71b', 'entity_type': 'CIRCLE'}))",
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.VISIBILITY_TOPOLOGY: 200>, raw_note='NO CONVERSION（同心群實線真孔，隱藏建構圈排除）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'DF', 'block_path': 'A$Cf214b71b', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='MATERIAL BOX Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='MATERIAL BOX Z', measurement_fields=('z',), source_refs=({'entity_handle': '5E6', 'entity_type': 'REGION_PROFILE', 'measured_by': 'MATERIAL BOX Z', 'value_mm': '63'},))"
+   ]
+  },
+  {
+   "face": "BACK",
+   "diameter": 6.0,
+   "x": 1036.0,
+   "y": -29.0,
+   "z": 54.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "NO CONVERSION（同心群實線真孔，隱藏建構圈排除）",
+   "evidence": [
+    "HoleEvidence(rule='CROSS-VIEW SECTION MARKER CORROBORATION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='CROSS-VIEW SECTION MARKER CORROBORATION', measurement_fields=('face', 'diameter', 'y'), source_refs=({'entity_handle': 'EB', 'block_path': 'A$C8e0925b2', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': 'DF', 'block_path': 'A$Cf214b71b', 'entity_type': 'CIRCLE'}))",
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.VISIBILITY_TOPOLOGY: 200>, raw_note='NO CONVERSION（同心群實線真孔，隱藏建構圈排除）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'DF', 'block_path': 'A$Cf214b71b', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='MATERIAL BOX Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='MATERIAL BOX Z', measurement_fields=('z',), source_refs=({'entity_handle': '5E6', 'entity_type': 'REGION_PROFILE', 'measured_by': 'MATERIAL BOX Z', 'value_mm': '63'},))"
+   ]
+  }
+ ],
+ "sec": 0.5
+}

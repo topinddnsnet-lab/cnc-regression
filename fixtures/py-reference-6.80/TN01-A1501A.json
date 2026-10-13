@@ -1,0 +1,131 @@
+{
+ "ok": true,
+ "size": {
+  "x": 140.0,
+  "y": 70.0,
+  "z": 80.0
+ },
+ "holes": [
+  {
+   "face": "FRONT",
+   "diameter": 4.2,
+   "x": 13.0,
+   "y": -116.0,
+   "z": 70.0,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "DETACHED FRONT FACE GRID",
+   "evidence": [
+    "HoleEvidence(rule='DETACHED FRONT FACE GRID', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='DETACHED FRONT FACE GRID', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '24C', 'block_path': '*U13', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 4.2,
+   "x": 13.0,
+   "y": -81.0,
+   "z": 70.0,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "DETACHED FRONT FACE GRID",
+   "evidence": [
+    "HoleEvidence(rule='DETACHED FRONT FACE GRID', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='DETACHED FRONT FACE GRID', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '24C', 'block_path': '*U13', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 4.2,
+   "x": 13.0,
+   "y": -46.0,
+   "z": 70.0,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "DETACHED FRONT FACE GRID",
+   "evidence": [
+    "HoleEvidence(rule='DETACHED FRONT FACE GRID', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='DETACHED FRONT FACE GRID', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '24C', 'block_path': '*U13', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 4.2,
+   "x": 53.0,
+   "y": -116.0,
+   "z": 70.0,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "DETACHED FRONT FACE GRID",
+   "evidence": [
+    "HoleEvidence(rule='DETACHED FRONT FACE GRID', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='DETACHED FRONT FACE GRID', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '24C', 'block_path': '*U13', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 4.2,
+   "x": 53.0,
+   "y": -81.0,
+   "z": 70.0,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "DETACHED FRONT FACE GRID",
+   "evidence": [
+    "HoleEvidence(rule='DETACHED FRONT FACE GRID', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='DETACHED FRONT FACE GRID', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '24C', 'block_path': '*U13', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 4.2,
+   "x": 53.0,
+   "y": -46.0,
+   "z": 70.0,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "DETACHED FRONT FACE GRID",
+   "evidence": [
+    "HoleEvidence(rule='DETACHED FRONT FACE GRID', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='DETACHED FRONT FACE GRID', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '24C', 'block_path': '*U13', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "TOP",
+   "diameter": 2.1,
+   "x": 44.95,
+   "y": -40.0,
+   "z": 3.0,
+   "confidence": 0.193,
+   "status": "review",
+   "note": "FRONT VIEW EDGE-ON MARK FALLBACK（側面投影孔記號；Y 未知取中線，請人工確認面向、Y、Z）",
+   "evidence": [
+    "HoleEvidence(rule='FRONT VIEW EDGE-ON MARK FALLBACK', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='FRONT VIEW EDGE-ON MARK FALLBACK（側面投影孔記號；Y 未知取中線，請人工確認面向、Y、Z）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '144', 'block_path': '*U12', 'entity_type': 'LINE'},))",
+    "HoleEvidence(rule='FRONT VIEW EDGE-ON MARK FALLBACK', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='FRONT VIEW EDGE-ON MARK FALLBACK（側面投影孔記號；Y 未知取中線，請人工確認面向、Y、Z）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '147', 'block_path': '*U12', 'entity_type': 'LINE'},))"
+   ]
+  },
+  {
+   "face": "TOP",
+   "diameter": 2.1,
+   "x": 79.95,
+   "y": -40.0,
+   "z": 3.0,
+   "confidence": 0.193,
+   "status": "review",
+   "note": "FRONT VIEW EDGE-ON MARK FALLBACK（側面投影孔記號；Y 未知取中線，請人工確認面向、Y、Z）",
+   "evidence": [
+    "HoleEvidence(rule='FRONT VIEW EDGE-ON MARK FALLBACK', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='FRONT VIEW EDGE-ON MARK FALLBACK（側面投影孔記號；Y 未知取中線，請人工確認面向、Y、Z）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '144', 'block_path': '*U12', 'entity_type': 'LINE'},))",
+    "HoleEvidence(rule='FRONT VIEW EDGE-ON MARK FALLBACK', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='FRONT VIEW EDGE-ON MARK FALLBACK（側面投影孔記號；Y 未知取中線，請人工確認面向、Y、Z）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '147', 'block_path': '*U12', 'entity_type': 'LINE'},))"
+   ]
+  },
+  {
+   "face": "TOP",
+   "diameter": 2.1,
+   "x": 114.95,
+   "y": -40.0,
+   "z": 3.0,
+   "confidence": 0.193,
+   "status": "review",
+   "note": "FRONT VIEW EDGE-ON MARK FALLBACK（側面投影孔記號；Y 未知取中線，請人工確認面向、Y、Z）",
+   "evidence": [
+    "HoleEvidence(rule='FRONT VIEW EDGE-ON MARK FALLBACK', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='FRONT VIEW EDGE-ON MARK FALLBACK（側面投影孔記號；Y 未知取中線，請人工確認面向、Y、Z）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '144', 'block_path': '*U12', 'entity_type': 'LINE'},))",
+    "HoleEvidence(rule='FRONT VIEW EDGE-ON MARK FALLBACK', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='FRONT VIEW EDGE-ON MARK FALLBACK（側面投影孔記號；Y 未知取中線，請人工確認面向、Y、Z）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '147', 'block_path': '*U12', 'entity_type': 'LINE'},))"
+   ]
+  }
+ ],
+ "sec": 0.5
+}

@@ -1,0 +1,133 @@
+{
+ "ok": true,
+ "size": {
+  "x": 1329.0,
+  "y": 166.0,
+  "z": 70.0
+ },
+ "holes": [
+  {
+   "face": "BOTTOM",
+   "diameter": 5.5,
+   "x": 11.5,
+   "y": -17.0,
+   "z": 113.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "FULL VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='FULL VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='FULL VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '5BB', 'block_path': 'BK30093304202', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "BOTTOM",
+   "diameter": 5.5,
+   "x": 24.5,
+   "y": -17.0,
+   "z": 113.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "FULL VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='FULL VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='FULL VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '5BE', 'block_path': 'BK30093304202', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "BOTTOM",
+   "diameter": 5.5,
+   "x": 1304.5,
+   "y": -17.0,
+   "z": 113.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "FULL VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='FULL VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='FULL VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '5C6', 'block_path': 'BK30093304202', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "BOTTOM",
+   "diameter": 5.5,
+   "x": 1317.5,
+   "y": -17.0,
+   "z": 113.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "FULL VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='FULL VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='FULL VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '5C3', 'block_path': 'BK30093304202', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 4.2,
+   "x": 64.5,
+   "y": -34.0,
+   "z": 70.0,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "NO CONVERSION（幾何孔群拓撲推導）",
+   "evidence": [
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='NO CONVERSION（幾何孔群拓撲推導）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '55E', 'block_path': 'BK30093304202', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='DETAIL VIEW FRONT Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='DETAIL VIEW FRONT Z', measurement_fields=('z',), source_refs=({'entity_handle': 'B1', 'block_path': 'BK30093304202/鋁擠型TN02', 'entity_type': 'LWPOLYLINE', 'measured_by': 'DETAIL VIEW FRONT Z', 'value_mm': '70', 'sample_count': '1'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 4.2,
+   "x": 364.5,
+   "y": -34.0,
+   "z": 70.0,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "NO CONVERSION（幾何孔群拓撲推導）",
+   "evidence": [
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='NO CONVERSION（幾何孔群拓撲推導）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '561', 'block_path': 'BK30093304202', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='DETAIL VIEW FRONT Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='DETAIL VIEW FRONT Z', measurement_fields=('z',), source_refs=({'entity_handle': 'B1', 'block_path': 'BK30093304202/鋁擠型TN02', 'entity_type': 'LWPOLYLINE', 'measured_by': 'DETAIL VIEW FRONT Z', 'value_mm': '70', 'sample_count': '1'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 4.2,
+   "x": 664.5,
+   "y": -34.0,
+   "z": 70.0,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "NO CONVERSION（幾何孔群拓撲推導）",
+   "evidence": [
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='NO CONVERSION（幾何孔群拓撲推導）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '564', 'block_path': 'BK30093304202', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='DETAIL VIEW FRONT Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='DETAIL VIEW FRONT Z', measurement_fields=('z',), source_refs=({'entity_handle': 'B1', 'block_path': 'BK30093304202/鋁擠型TN02', 'entity_type': 'LWPOLYLINE', 'measured_by': 'DETAIL VIEW FRONT Z', 'value_mm': '70', 'sample_count': '1'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 4.2,
+   "x": 964.5,
+   "y": -34.0,
+   "z": 70.0,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "NO CONVERSION（幾何孔群拓撲推導）",
+   "evidence": [
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='NO CONVERSION（幾何孔群拓撲推導）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '5EB', 'block_path': 'BK30093304202', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='DETAIL VIEW FRONT Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='DETAIL VIEW FRONT Z', measurement_fields=('z',), source_refs=({'entity_handle': 'B1', 'block_path': 'BK30093304202/鋁擠型TN02', 'entity_type': 'LWPOLYLINE', 'measured_by': 'DETAIL VIEW FRONT Z', 'value_mm': '70', 'sample_count': '1'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 4.2,
+   "x": 1264.5,
+   "y": -34.0,
+   "z": 70.0,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "NO CONVERSION（幾何孔群拓撲推導）",
+   "evidence": [
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='NO CONVERSION（幾何孔群拓撲推導）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '567', 'block_path': 'BK30093304202', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='DETAIL VIEW FRONT Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='DETAIL VIEW FRONT Z', measurement_fields=('z',), source_refs=({'entity_handle': 'B1', 'block_path': 'BK30093304202/鋁擠型TN02', 'entity_type': 'LWPOLYLINE', 'measured_by': 'DETAIL VIEW FRONT Z', 'value_mm': '70', 'sample_count': '1'},))"
+   ]
+  }
+ ],
+ "sec": 1.3
+}

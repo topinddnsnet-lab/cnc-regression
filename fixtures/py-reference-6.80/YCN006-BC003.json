@@ -1,0 +1,131 @@
+{
+ "ok": true,
+ "size": {
+  "x": 1120.0,
+  "y": 180.5,
+  "z": 90.0
+ },
+ "holes": [
+  {
+   "face": "BOTTOM",
+   "diameter": 5.2,
+   "x": 522.5,
+   "y": -70.0,
+   "z": 170.5,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=())"
+   ]
+  },
+  {
+   "face": "BOTTOM",
+   "diameter": 5.2,
+   "x": 522.5,
+   "y": -20.0,
+   "z": 170.5,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=())"
+   ]
+  },
+  {
+   "face": "BOTTOM",
+   "diameter": 17.0,
+   "x": 560.0,
+   "y": -45.0,
+   "z": 170.5,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '6D2', 'block_path': '*U58', 'entity_type': 'LWPOLYLINE'},))"
+   ]
+  },
+  {
+   "face": "BOTTOM",
+   "diameter": 17.0,
+   "x": 560.0,
+   "y": -45.0,
+   "z": 180.5,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '6D2', 'block_path': '*U58', 'entity_type': 'LWPOLYLINE'},))"
+   ]
+  },
+  {
+   "face": "BOTTOM",
+   "diameter": 5.2,
+   "x": 597.5,
+   "y": -70.0,
+   "z": 170.5,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=())"
+   ]
+  },
+  {
+   "face": "BOTTOM",
+   "diameter": 5.2,
+   "x": 597.5,
+   "y": -20.0,
+   "z": 170.5,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=())"
+   ]
+  },
+  {
+   "face": "BOTTOM",
+   "diameter": 30.0,
+   "x": 15.0,
+   "y": -45.0,
+   "z": 10.0,
+   "confidence": 0.193,
+   "status": "review",
+   "note": "FRONT VIEW EDGE-ON MARK FALLBACK（側面投影孔記號；Y 未知取中線，請人工確認面向、Y、Z）",
+   "evidence": [
+    "HoleEvidence(rule='FRONT VIEW EDGE-ON MARK FALLBACK', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='FRONT VIEW EDGE-ON MARK FALLBACK（側面投影孔記號；Y 未知取中線，請人工確認面向、Y、Z）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '70D', 'block_path': '*U62', 'entity_type': 'LWPOLYLINE'},))",
+    "HoleEvidence(rule='FRONT VIEW EDGE-ON MARK FALLBACK', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='FRONT VIEW EDGE-ON MARK FALLBACK（側面投影孔記號；Y 未知取中線，請人工確認面向、Y、Z）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '70D', 'block_path': '*U62', 'entity_type': 'LWPOLYLINE'},))"
+   ]
+  },
+  {
+   "face": "BOTTOM",
+   "diameter": 28.0,
+   "x": 560.0,
+   "y": -45.0,
+   "z": 10.036,
+   "confidence": 0.193,
+   "status": "review",
+   "note": "FRONT VIEW EDGE-ON MARK FALLBACK（側面投影孔記號；Y 未知取中線，請人工確認面向、Y、Z）",
+   "evidence": [
+    "HoleEvidence(rule='FRONT VIEW EDGE-ON MARK FALLBACK', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='FRONT VIEW EDGE-ON MARK FALLBACK（側面投影孔記號；Y 未知取中線，請人工確認面向、Y、Z）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '6D8', 'block_path': '*U59', 'entity_type': 'LWPOLYLINE'},))",
+    "HoleEvidence(rule='FRONT VIEW EDGE-ON MARK FALLBACK', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='FRONT VIEW EDGE-ON MARK FALLBACK（側面投影孔記號；Y 未知取中線，請人工確認面向、Y、Z）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '6D8', 'block_path': '*U59', 'entity_type': 'LWPOLYLINE'},))"
+   ]
+  },
+  {
+   "face": "BOTTOM",
+   "diameter": 30.0,
+   "x": 1105.0,
+   "y": -45.0,
+   "z": 10.0,
+   "confidence": 0.193,
+   "status": "review",
+   "note": "FRONT VIEW EDGE-ON MARK FALLBACK（側面投影孔記號；Y 未知取中線，請人工確認面向、Y、Z）",
+   "evidence": [
+    "HoleEvidence(rule='FRONT VIEW EDGE-ON MARK FALLBACK', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='FRONT VIEW EDGE-ON MARK FALLBACK（側面投影孔記號；Y 未知取中線，請人工確認面向、Y、Z）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '70D', 'block_path': '*U62', 'entity_type': 'LWPOLYLINE'},))",
+    "HoleEvidence(rule='FRONT VIEW EDGE-ON MARK FALLBACK', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='FRONT VIEW EDGE-ON MARK FALLBACK（側面投影孔記號；Y 未知取中線，請人工確認面向、Y、Z）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '70D', 'block_path': '*U62', 'entity_type': 'LWPOLYLINE'},))"
+   ]
+  }
+ ],
+ "sec": 1.2
+}

@@ -1,0 +1,37 @@
+{
+ "ok": true,
+ "size": {
+  "x": 271.4,
+  "y": 146.4,
+  "z": 69.4
+ },
+ "holes": [
+  {
+   "face": "BACK",
+   "diameter": 7.0,
+   "x": 76.5,
+   "y": -48.2,
+   "z": 67.1,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '83', 'block_path': '7圆孔', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "BACK",
+   "diameter": 7.0,
+   "x": 131.5,
+   "y": -103.2,
+   "z": 66.1,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '83', 'block_path': '7圆孔', 'entity_type': 'CIRCLE'},))"
+   ]
+  }
+ ],
+ "sec": 0.1
+}

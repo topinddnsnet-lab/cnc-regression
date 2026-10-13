@@ -1,0 +1,50 @@
+{
+ "ok": true,
+ "size": {
+  "x": 1110.0,
+  "y": 90.0,
+  "z": 73.0
+ },
+ "holes": [
+  {
+   "face": "TOP",
+   "diameter": 5.5,
+   "x": 205.0,
+   "y": -65.5,
+   "z": 68.0,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "CROSS-VIEW MARKER PAIRING",
+   "evidence": [
+    "HoleEvidence(rule='CROSS-VIEW MARKER PAIRING', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='CROSS-VIEW MARKER PAIRING', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '234', 'block_path': '*U5', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': '14C', 'block_path': 'A$C64a05bf8/*U4', 'entity_type': 'LWPOLYLINE'}))"
+   ]
+  },
+  {
+   "face": "TOP",
+   "diameter": 5.5,
+   "x": 555.0,
+   "y": -65.5,
+   "z": 68.0,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "CROSS-VIEW MARKER PAIRING",
+   "evidence": [
+    "HoleEvidence(rule='CROSS-VIEW MARKER PAIRING', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='CROSS-VIEW MARKER PAIRING', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '234', 'block_path': '*U5', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': '14C', 'block_path': 'A$C64a05bf8/*U4', 'entity_type': 'LWPOLYLINE'}))"
+   ]
+  },
+  {
+   "face": "TOP",
+   "diameter": 5.5,
+   "x": 905.0,
+   "y": -65.5,
+   "z": 68.0,
+   "confidence": 0.85,
+   "status": "accepted",
+   "note": "CROSS-VIEW MARKER PAIRING",
+   "evidence": [
+    "HoleEvidence(rule='CROSS-VIEW MARKER PAIRING', rank=<EvidenceRank.SECTION_TEMPLATE: 250>, raw_note='CROSS-VIEW MARKER PAIRING', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '234', 'block_path': '*U5', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': '14C', 'block_path': 'A$C64a05bf8/*U4', 'entity_type': 'LWPOLYLINE'}))"
+   ]
+  }
+ ],
+ "sec": 0.5
+}

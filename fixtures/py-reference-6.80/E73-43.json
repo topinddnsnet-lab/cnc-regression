@@ -1,0 +1,95 @@
+{
+ "ok": true,
+ "size": {
+  "x": 2606.5,
+  "y": 180.0,
+  "z": 100.0
+ },
+ "holes": [
+  {
+   "face": "BACK",
+   "diameter": 7.6,
+   "x": 2346.2,
+   "y": -151.7,
+   "z": 100.0,
+   "confidence": 0.55,
+   "status": "review",
+   "note": "BACK CONVERSION（同心異徑孔整群隱藏線＝背面開口）",
+   "evidence": [
+    "HoleEvidence(rule='BACK CONVERSION', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='BACK CONVERSION（同心異徑孔整群隱藏線＝背面開口）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '927D0', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='MATERIAL BOX Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='MATERIAL BOX Z', measurement_fields=('z',), source_refs=({'entity_handle': '9010D', 'block_path': 'FGWEGW', 'entity_type': 'REGION_PROFILE', 'measured_by': 'MATERIAL BOX Z', 'value_mm': '100'},))"
+   ]
+  },
+  {
+   "face": "BACK",
+   "diameter": 7.6,
+   "x": 2346.2,
+   "y": -101.7,
+   "z": 100.0,
+   "confidence": 0.55,
+   "status": "review",
+   "note": "BACK CONVERSION（同心異徑孔整群隱藏線＝背面開口）",
+   "evidence": [
+    "HoleEvidence(rule='BACK CONVERSION', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='BACK CONVERSION（同心異徑孔整群隱藏線＝背面開口）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '927D2', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='MATERIAL BOX Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='MATERIAL BOX Z', measurement_fields=('z',), source_refs=({'entity_handle': '9010D', 'block_path': 'FGWEGW', 'entity_type': 'REGION_PROFILE', 'measured_by': 'MATERIAL BOX Z', 'value_mm': '100'},))"
+   ]
+  },
+  {
+   "face": "BACK",
+   "diameter": 7.6,
+   "x": 2346.2,
+   "y": -51.7,
+   "z": 100.0,
+   "confidence": 0.55,
+   "status": "review",
+   "note": "BACK CONVERSION（同心異徑孔整群隱藏線＝背面開口）",
+   "evidence": [
+    "HoleEvidence(rule='BACK CONVERSION', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='BACK CONVERSION（同心異徑孔整群隱藏線＝背面開口）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '927D4', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='MATERIAL BOX Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='MATERIAL BOX Z', measurement_fields=('z',), source_refs=({'entity_handle': '9010D', 'block_path': 'FGWEGW', 'entity_type': 'REGION_PROFILE', 'measured_by': 'MATERIAL BOX Z', 'value_mm': '100'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 7.6,
+   "x": 2573.5,
+   "y": -128.3,
+   "z": 100.0,
+   "confidence": 0.7,
+   "status": "accepted",
+   "note": "NO CONVERSION（同心異徑孔整群實線＝正面開口）",
+   "evidence": [
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.VISIBILITY_TOPOLOGY: 200>, raw_note='NO CONVERSION（同心異徑孔整群實線＝正面開口）', measurement_fields=('face', 'diameter', 'x', 'y'), source_refs=({'entity_handle': '927DA', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='MATERIAL BOX Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='MATERIAL BOX Z', measurement_fields=('z',), source_refs=({'entity_handle': '9010D', 'block_path': 'FGWEGW', 'entity_type': 'REGION_PROFILE', 'measured_by': 'MATERIAL BOX Z', 'value_mm': '100'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 7.6,
+   "x": 2573.5,
+   "y": -78.3,
+   "z": 100.0,
+   "confidence": 0.7,
+   "status": "accepted",
+   "note": "NO CONVERSION（同心異徑孔整群實線＝正面開口）",
+   "evidence": [
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.VISIBILITY_TOPOLOGY: 200>, raw_note='NO CONVERSION（同心異徑孔整群實線＝正面開口）', measurement_fields=('face', 'diameter', 'x', 'y'), source_refs=({'entity_handle': '927D8', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='MATERIAL BOX Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='MATERIAL BOX Z', measurement_fields=('z',), source_refs=({'entity_handle': '9010D', 'block_path': 'FGWEGW', 'entity_type': 'REGION_PROFILE', 'measured_by': 'MATERIAL BOX Z', 'value_mm': '100'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 7.6,
+   "x": 2573.5,
+   "y": -28.3,
+   "z": 100.0,
+   "confidence": 0.7,
+   "status": "accepted",
+   "note": "NO CONVERSION（同心異徑孔整群實線＝正面開口）",
+   "evidence": [
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.VISIBILITY_TOPOLOGY: 200>, raw_note='NO CONVERSION（同心異徑孔整群實線＝正面開口）', measurement_fields=('face', 'diameter', 'x', 'y'), source_refs=({'entity_handle': '927D6', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='MATERIAL BOX Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='MATERIAL BOX Z', measurement_fields=('z',), source_refs=({'entity_handle': '9010D', 'block_path': 'FGWEGW', 'entity_type': 'REGION_PROFILE', 'measured_by': 'MATERIAL BOX Z', 'value_mm': '100'},))"
+   ]
+  }
+ ],
+ "sec": 4.2
+}

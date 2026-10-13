@@ -1,0 +1,115 @@
+{
+ "ok": true,
+ "size": {
+  "x": 930.0,
+  "y": 81.5,
+  "z": 111.0
+ },
+ "holes": [
+  {
+   "face": "BACK",
+   "diameter": 6.5,
+   "x": 25.0,
+   "y": -10.0,
+   "z": 96.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'B7', 'block_path': 'A$C6A1F79E9', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "BACK",
+   "diameter": 6.5,
+   "x": 58.1,
+   "y": -10.0,
+   "z": 96.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'B7', 'block_path': 'A$C6A1F79E9', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "BACK",
+   "diameter": 6.5,
+   "x": 871.9,
+   "y": -10.0,
+   "z": 96.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'B7', 'block_path': 'A$C6A1F79E9', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "BACK",
+   "diameter": 6.5,
+   "x": 905.0,
+   "y": -10.0,
+   "z": 96.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'B7', 'block_path': 'A$C6A1F79E9', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 6.5,
+   "x": 25.0,
+   "y": -71.5,
+   "z": 96.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'B7', 'block_path': 'A$C6A1F79E9', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 6.5,
+   "x": 58.1,
+   "y": -71.5,
+   "z": 96.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'B7', 'block_path': 'A$C6A1F79E9', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 6.5,
+   "x": 871.9,
+   "y": -71.5,
+   "z": 96.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'B7', 'block_path': 'A$C6A1F79E9', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 6.5,
+   "x": 905.0,
+   "y": -71.5,
+   "z": 96.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'B7', 'block_path': 'A$C6A1F79E9', 'entity_type': 'CIRCLE'},))"
+   ]
+  }
+ ],
+ "sec": 0.3
+}

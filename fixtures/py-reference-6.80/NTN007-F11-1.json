@@ -1,0 +1,308 @@
+{
+ "ok": true,
+ "size": {
+  "x": 1098.0,
+  "y": 172.0,
+  "z": 80.0
+ },
+ "holes": [
+  {
+   "face": "BACK",
+   "diameter": 6.4,
+   "x": 19.0,
+   "y": -150.0,
+   "z": 80.0000000008148,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '993', 'block_path': '新增开窗横直料加工图2026.8.11_20260814174643_51250', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': '993', 'block_path': '新增开窗横直料加工图2026.8.11_20260814174643_51250', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': '9C7', 'block_path': '新增开窗横直料加工图2026.8.11_20260814174730_51250', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': '9C7', 'block_path': '新增开窗横直料加工图2026.8.11_20260814174730_51250/*U118', 'entity_type': 'LWPOLYLINE'}))",
+    "HoleEvidence(rule='CROSS-VIEW SECTION MARKER CORROBORATION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='CROSS-VIEW SECTION MARKER CORROBORATION', measurement_fields=('face', 'diameter', 'y'), source_refs=({'entity_handle': '9C7', 'block_path': '新增开窗横直料加工图2026.8.11_20260814174719_51250/*U118', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': '997', 'block_path': '新增开窗横直料加工图2026.8.11_20260814174643_51250', 'entity_type': 'CIRCLE'}))"
+   ]
+  },
+  {
+   "face": "BACK",
+   "diameter": 6.4,
+   "x": 19.0,
+   "y": -53.5,
+   "z": 80.0000000008148,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '993', 'block_path': '新增开窗横直料加工图2026.8.11_20260814174643_51250', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': '993', 'block_path': '新增开窗横直料加工图2026.8.11_20260814174643_51250', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': '9C7', 'block_path': '新增开窗横直料加工图2026.8.11_20260814174730_51250', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': '9C7', 'block_path': '新增开窗横直料加工图2026.8.11_20260814174730_51250/*U118', 'entity_type': 'LWPOLYLINE'}))",
+    "HoleEvidence(rule='CROSS-VIEW SECTION MARKER CORROBORATION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='CROSS-VIEW SECTION MARKER CORROBORATION', measurement_fields=('face', 'diameter', 'y'), source_refs=({'entity_handle': '9C7', 'block_path': '新增开窗横直料加工图2026.8.11_20260814174719_51250/*U118', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': '997', 'block_path': '新增开窗横直料加工图2026.8.11_20260814174643_51250', 'entity_type': 'CIRCLE'}))"
+   ]
+  },
+  {
+   "face": "BACK",
+   "diameter": 6.4,
+   "x": 1079.0,
+   "y": -150.0,
+   "z": 80.0000000008148,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '993', 'block_path': '新增开窗横直料加工图2026.8.11_20260814174658_51250/*U116', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': '993', 'block_path': '新增开窗横直料加工图2026.8.11_20260814174658_51250/*U116', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': '9C7', 'block_path': '新增开窗横直料加工图2026.8.11_20260814174733_51250/*U118', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': '9C7', 'block_path': '新增开窗横直料加工图2026.8.11_20260814174733_51250', 'entity_type': 'LWPOLYLINE'}))",
+    "HoleEvidence(rule='CROSS-VIEW SECTION MARKER CORROBORATION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='CROSS-VIEW SECTION MARKER CORROBORATION', measurement_fields=('face', 'diameter', 'y'), source_refs=({'entity_handle': '9C7', 'block_path': '新增开窗横直料加工图2026.8.11_20260814174719_51250/*U118', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': '997', 'block_path': '新增开窗横直料加工图2026.8.11_20260814174658_51250/*U116', 'entity_type': 'CIRCLE'}))"
+   ]
+  },
+  {
+   "face": "BACK",
+   "diameter": 6.4,
+   "x": 1079.0,
+   "y": -53.5,
+   "z": 80.0000000008148,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '993', 'block_path': '新增开窗横直料加工图2026.8.11_20260814174658_51250/*U116', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': '993', 'block_path': '新增开窗横直料加工图2026.8.11_20260814174658_51250/*U116', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': '9C7', 'block_path': '新增开窗横直料加工图2026.8.11_20260814174733_51250/*U118', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': '9C7', 'block_path': '新增开窗横直料加工图2026.8.11_20260814174733_51250', 'entity_type': 'LWPOLYLINE'}))",
+    "HoleEvidence(rule='CROSS-VIEW SECTION MARKER CORROBORATION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='CROSS-VIEW SECTION MARKER CORROBORATION', measurement_fields=('face', 'diameter', 'y'), source_refs=({'entity_handle': '9C7', 'block_path': '新增开窗横直料加工图2026.8.11_20260814174719_51250/*U118', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': '997', 'block_path': '新增开窗横直料加工图2026.8.11_20260814174658_51250/*U116', 'entity_type': 'CIRCLE'}))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 6.4,
+   "x": 19.0,
+   "y": -118.5,
+   "z": 80.0000000008148,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION（剖面證據錨定的原始圓群）",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION（剖面證據錨定的原始圓群）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '997', 'block_path': '新增开窗横直料加工图2026.8.11_20260814174643_51250', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='CROSS-VIEW SECTION MARKER CORROBORATION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='CROSS-VIEW SECTION MARKER CORROBORATION', measurement_fields=('face', 'diameter', 'y'), source_refs=({'entity_handle': '9C7', 'block_path': '新增开窗横直料加工图2026.8.11_20260814174719_51250', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': '997', 'block_path': '新增开窗横直料加工图2026.8.11_20260814174643_51250', 'entity_type': 'CIRCLE'}))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 6.4,
+   "x": 19.0,
+   "y": -22.0,
+   "z": 80.0000000008148,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION（剖面證據錨定的原始圓群）",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION（剖面證據錨定的原始圓群）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '997', 'block_path': '新增开窗横直料加工图2026.8.11_20260814174643_51250', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='CROSS-VIEW SECTION MARKER CORROBORATION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='CROSS-VIEW SECTION MARKER CORROBORATION', measurement_fields=('face', 'diameter', 'y'), source_refs=({'entity_handle': '9C7', 'block_path': '新增开窗横直料加工图2026.8.11_20260814174719_51250', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': '997', 'block_path': '新增开窗横直料加工图2026.8.11_20260814174643_51250', 'entity_type': 'CIRCLE'}))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 4.3,
+   "x": 74.0,
+   "y": -114.0,
+   "z": 80.0000000008148,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION（剖面證據錨定的原始圓群）",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION（剖面證據錨定的原始圓群）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'C1B', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 4.3,
+   "x": 74.0,
+   "y": -99.0,
+   "z": 80.0000000008148,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION（剖面證據錨定的原始圓群）",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION（剖面證據錨定的原始圓群）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'C18', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='CROSS-VIEW SECTION MARKER CORROBORATION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='CROSS-VIEW SECTION MARKER CORROBORATION', measurement_fields=('face', 'diameter', 'y'), source_refs=({'entity_handle': '18E', 'block_path': '*U15', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': 'C18', 'entity_type': 'CIRCLE'}))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 4.3,
+   "x": 134.0,
+   "y": -101.0,
+   "z": 80.0000000008148,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION（剖面證據錨定的原始圓群）",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION（剖面證據錨定的原始圓群）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'C0C', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 4.3,
+   "x": 324.0,
+   "y": -101.0,
+   "z": 80.0000000008148,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION（剖面證據錨定的原始圓群）",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION（剖面證據錨定的原始圓群）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'C0F', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 4.3,
+   "x": 374.0,
+   "y": -114.0,
+   "z": 80.0000000008148,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION（剖面證據錨定的原始圓群）",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION（剖面證據錨定的原始圓群）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'C21', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 4.3,
+   "x": 374.0,
+   "y": -99.0,
+   "z": 80.0000000008148,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION（剖面證據錨定的原始圓群）",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION（剖面證據錨定的原始圓群）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'C1E', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='CROSS-VIEW SECTION MARKER CORROBORATION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='CROSS-VIEW SECTION MARKER CORROBORATION', measurement_fields=('face', 'diameter', 'y'), source_refs=({'entity_handle': '18E', 'block_path': '*U15', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': 'C1E', 'entity_type': 'CIRCLE'}))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 4.3,
+   "x": 424.0,
+   "y": -101.0,
+   "z": 80.0000000008148,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION（剖面證據錨定的原始圓群）",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION（剖面證據錨定的原始圓群）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'C12', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 4.3,
+   "x": 574.0,
+   "y": -114.0,
+   "z": 80.0000000008148,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION（剖面證據錨定的原始圓群）",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION（剖面證據錨定的原始圓群）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'C27', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 4.3,
+   "x": 574.0,
+   "y": -99.0,
+   "z": 80.0000000008148,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION（剖面證據錨定的原始圓群）",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION（剖面證據錨定的原始圓群）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'C24', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='CROSS-VIEW SECTION MARKER CORROBORATION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='CROSS-VIEW SECTION MARKER CORROBORATION', measurement_fields=('face', 'diameter', 'y'), source_refs=({'entity_handle': '18E', 'block_path': '*U15', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': 'C24', 'entity_type': 'CIRCLE'}))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 4.3,
+   "x": 614.0,
+   "y": -101.0,
+   "z": 80.0000000008148,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION（剖面證據錨定的原始圓群）",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION（剖面證據錨定的原始圓群）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'C15', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 4.3,
+   "x": 775.5,
+   "y": -110.0,
+   "z": 80.0000000008148,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION（剖面證據錨定的原始圓群）",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION（剖面證據錨定的原始圓群）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '6D7', 'block_path': '新增开窗横直料加工图2026.8.11_20260814180131_51250', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 4.3,
+   "x": 775.5,
+   "y": -32.0,
+   "z": 80.0000000008148,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION（剖面證據錨定的原始圓群）",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION（剖面證據錨定的原始圓群）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '6DF', 'block_path': '新增开窗横直料加工图2026.8.11_20260814180131_51250', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 4.3,
+   "x": 822.5,
+   "y": -110.0,
+   "z": 80.0000000008148,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION（剖面證據錨定的原始圓群）",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION（剖面證據錨定的原始圓群）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '6E5', 'block_path': '新增开窗横直料加工图2026.8.11_20260814180131_51250', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 4.3,
+   "x": 822.5,
+   "y": -32.0,
+   "z": 80.0000000008148,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION（剖面證據錨定的原始圓群）",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION（剖面證據錨定的原始圓群）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '6E2', 'block_path': '新增开窗横直料加工图2026.8.11_20260814180131_51250', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 6.4,
+   "x": 1079.0,
+   "y": -118.5,
+   "z": 80.0000000008148,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION（剖面證據錨定的原始圓群）",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION（剖面證據錨定的原始圓群）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '997', 'block_path': '新增开窗横直料加工图2026.8.11_20260814174658_51250/*U116', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='CROSS-VIEW SECTION MARKER CORROBORATION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='CROSS-VIEW SECTION MARKER CORROBORATION', measurement_fields=('face', 'diameter', 'y'), source_refs=({'entity_handle': '9C7', 'block_path': '新增开窗横直料加工图2026.8.11_20260814174719_51250', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': '997', 'block_path': '新增开窗横直料加工图2026.8.11_20260814174658_51250/*U116', 'entity_type': 'CIRCLE'}))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 6.4,
+   "x": 1079.0,
+   "y": -22.0,
+   "z": 80.0000000008148,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION（剖面證據錨定的原始圓群）",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION（剖面證據錨定的原始圓群）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '997', 'block_path': '新增开窗横直料加工图2026.8.11_20260814174658_51250/*U116', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='CROSS-VIEW SECTION MARKER CORROBORATION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='CROSS-VIEW SECTION MARKER CORROBORATION', measurement_fields=('face', 'diameter', 'y'), source_refs=({'entity_handle': '9C7', 'block_path': '新增开窗横直料加工图2026.8.11_20260814174719_51250', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': '997', 'block_path': '新增开窗横直料加工图2026.8.11_20260814174658_51250/*U116', 'entity_type': 'CIRCLE'}))"
+   ]
+  }
+ ],
+ "sec": 4.3
+}

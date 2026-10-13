@@ -1,0 +1,91 @@
+{
+ "ok": true,
+ "size": {
+  "x": 890.0,
+  "y": 83.5,
+  "z": 69.9
+ },
+ "holes": [
+  {
+   "face": "FRONT",
+   "diameter": 5.2,
+   "x": 9.0,
+   "y": -75.5,
+   "z": 69.9,
+   "confidence": 0.7,
+   "status": "accepted",
+   "note": "NO CONVERSION（同心群實線真孔，隱藏建構圈排除）",
+   "evidence": [
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.VISIBILITY_TOPOLOGY: 200>, raw_note='NO CONVERSION（同心群實線真孔，隱藏建構圈排除）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '329', 'block_path': 'DSDFDS123', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='MATERIAL BOX Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='MATERIAL BOX Z', measurement_fields=('z',), source_refs=({'entity_handle': 'C0', 'block_path': 'PYN73111', 'entity_type': 'REGION_PROFILE', 'measured_by': 'MATERIAL BOX Z', 'value_mm': '69.9'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 5.2,
+   "x": 881.0,
+   "y": -75.5,
+   "z": 69.9,
+   "confidence": 0.7,
+   "status": "accepted",
+   "note": "NO CONVERSION（同心群實線真孔，隱藏建構圈排除）",
+   "evidence": [
+    "HoleEvidence(rule='NO CONVERSION', rank=<EvidenceRank.VISIBILITY_TOPOLOGY: 200>, raw_note='NO CONVERSION（同心群實線真孔，隱藏建構圈排除）', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '329', 'block_path': 'DSDFDS123', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='MATERIAL BOX Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='MATERIAL BOX Z', measurement_fields=('z',), source_refs=({'entity_handle': 'C0', 'block_path': 'PYN73111', 'entity_type': 'REGION_PROFILE', 'measured_by': 'MATERIAL BOX Z', 'value_mm': '69.9'},))"
+   ]
+  },
+  {
+   "face": "TOP",
+   "diameter": 4.3,
+   "x": 145.0,
+   "y": -54.7,
+   "z": 70.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '236', 'block_path': 'SDFSFA123', 'entity_type': 'LWPOLYLINE'},))"
+   ]
+  },
+  {
+   "face": "TOP",
+   "diameter": 4.3,
+   "x": 195.0,
+   "y": -54.7,
+   "z": 70.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '236', 'block_path': 'SDFSFA123', 'entity_type': 'LWPOLYLINE'},))"
+   ]
+  },
+  {
+   "face": "TOP",
+   "diameter": 4.3,
+   "x": 695.0,
+   "y": -54.7,
+   "z": 70.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '236', 'block_path': 'SDFSFA123', 'entity_type': 'LWPOLYLINE'},))"
+   ]
+  },
+  {
+   "face": "TOP",
+   "diameter": 4.3,
+   "x": 745.0,
+   "y": -54.7,
+   "z": 70.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': '236', 'block_path': 'SDFSFA123', 'entity_type': 'LWPOLYLINE'},))"
+   ]
+  }
+ ],
+ "sec": 0.4
+}

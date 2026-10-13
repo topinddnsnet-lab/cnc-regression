@@ -1,0 +1,205 @@
+{
+ "ok": true,
+ "size": {
+  "x": 293.0,
+  "y": 157.0,
+  "z": 39.0
+ },
+ "holes": [
+  {
+   "face": "BACK",
+   "diameter": 6.5,
+   "x": 38.5,
+   "y": -130.5,
+   "z": 39.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'C8E6C', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': 'C918C', 'entity_type': 'CIRCLE'}))",
+    "HoleEvidence(rule='CROSS-VIEW SECTION MARKER CORROBORATION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='CROSS-VIEW SECTION MARKER CORROBORATION', measurement_fields=('face', 'diameter', 'y'), source_refs=({'entity_handle': 'C8793', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': 'C8798', 'entity_type': 'CIRCLE'}))"
+   ]
+  },
+  {
+   "face": "BACK",
+   "diameter": 6.5,
+   "x": 38.5,
+   "y": -88.5,
+   "z": 39.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'C8E6C', 'entity_type': 'LWPOLYLINE'},))",
+    "HoleEvidence(rule='CROSS-VIEW SECTION MARKER CORROBORATION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='CROSS-VIEW SECTION MARKER CORROBORATION', measurement_fields=('face', 'diameter', 'y'), source_refs=({'entity_handle': 'C8795', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': 'C8799', 'entity_type': 'CIRCLE'}))"
+   ]
+  },
+  {
+   "face": "BACK",
+   "diameter": 6.6,
+   "x": 38.5,
+   "y": -35.0,
+   "z": 39.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'C8E6C', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': 'C8798', 'entity_type': 'CIRCLE'}))",
+    "HoleEvidence(rule='CROSS-VIEW SECTION MARKER CORROBORATION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='CROSS-VIEW SECTION MARKER CORROBORATION', measurement_fields=('face', 'diameter', 'y'), source_refs=({'entity_handle': 'C8797', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': 'C918C', 'entity_type': 'CIRCLE'}))"
+   ]
+  },
+  {
+   "face": "BOTTOM",
+   "diameter": 4.2,
+   "x": 80.0,
+   "y": -13.0,
+   "z": 157.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "FULL VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='FULL VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='FULL VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'C8E7F', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "BOTTOM",
+   "diameter": 4.2,
+   "x": 255.0,
+   "y": -13.0,
+   "z": 157.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "FULL VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='FULL VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='FULL VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'C8E80', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 20.0,
+   "x": 38.5,
+   "y": -122.0,
+   "z": 35.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'C918D', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='CROSS-VIEW SECTION MARKER CORROBORATION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='CROSS-VIEW SECTION MARKER CORROBORATION', measurement_fields=('face', 'diameter', 'y'), source_refs=({'entity_handle': 'C890C', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': 'C918D', 'entity_type': 'CIRCLE'}))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 20.0,
+   "x": 38.5,
+   "y": -68.5,
+   "z": 27.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'C8788', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='CROSS-VIEW SECTION MARKER CORROBORATION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='CROSS-VIEW SECTION MARKER CORROBORATION', measurement_fields=('face', 'diameter', 'y'), source_refs=({'entity_handle': 'C878B', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': 'C8788', 'entity_type': 'CIRCLE'}))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 20.0,
+   "x": 38.5,
+   "y": -26.5,
+   "z": 27.0,
+   "confidence": 1.0,
+   "status": "accepted",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'C8789', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='CROSS-VIEW SECTION MARKER CORROBORATION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='CROSS-VIEW SECTION MARKER CORROBORATION', measurement_fields=('face', 'diameter', 'y'), source_refs=({'entity_handle': 'C878D', 'entity_type': 'LWPOLYLINE'}, {'entity_handle': 'C8789', 'entity_type': 'CIRCLE'}))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 5.5,
+   "x": 60.0,
+   "y": -130.4,
+   "z": 39.0,
+   "confidence": 0.76,
+   "status": "accepted",
+   "note": "FRONT VIEW MARKER（同軸複合孔；側視幾何交叉）",
+   "evidence": [
+    "HoleEvidence(rule='FRONT VIEW MARKER', rank=<EvidenceRank.FRONT_MARKER: 220>, raw_note='FRONT VIEW MARKER（同軸複合孔；側視幾何交叉）', measurement_fields=('face', 'x', 'y'), source_refs=({'entity_handle': 'C8F35', 'entity_type': 'LWPOLYLINE'},))",
+    "HoleEvidence(rule='GEOMETRIC COAXIAL FEATURE', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='GEOMETRIC COAXIAL FEATURE（兩徑重複中心）', measurement_fields=('diameter', 'x', 'y'), source_refs=({'entity_handle': 'C8E3E', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='SIDE VIEW MATERIAL BOX Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='SIDE VIEW MATERIAL BOX Z', measurement_fields=('z',), source_refs=({'entity_handle': 'C878F', 'entity_type': 'LWPOLYLINE', 'measured_by': 'SIDE VIEW MATERIAL BOX Z', 'value_mm': '39', 'side_view_source': 'adjacent_cluster'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 9.2,
+   "x": 60.0,
+   "y": -130.4,
+   "z": 35.0,
+   "confidence": 0.136,
+   "status": "review",
+   "note": "FRONT VIEW MARKER（同軸複合孔；側視弱深度候選）",
+   "evidence": [
+    "HoleEvidence(rule='FRONT VIEW MARKER', rank=<EvidenceRank.FRONT_MARKER: 220>, raw_note='FRONT VIEW MARKER（同軸複合孔；側視弱深度候選）', measurement_fields=('face', 'x', 'y'), source_refs=({'entity_handle': 'C8F35', 'entity_type': 'LWPOLYLINE'},))",
+    "HoleEvidence(rule='GEOMETRIC COAXIAL FEATURE', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='GEOMETRIC COAXIAL FEATURE（兩徑重複中心）', measurement_fields=('diameter', 'x', 'y'), source_refs=({'entity_handle': 'C8C12', 'block_path': 'A$Cfa6b7a42', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 5.5,
+   "x": 240.0,
+   "y": -130.4,
+   "z": 39.0,
+   "confidence": 0.76,
+   "status": "accepted",
+   "note": "FRONT VIEW MARKER（同軸複合孔；側視幾何交叉）",
+   "evidence": [
+    "HoleEvidence(rule='FRONT VIEW MARKER', rank=<EvidenceRank.FRONT_MARKER: 220>, raw_note='FRONT VIEW MARKER（同軸複合孔；側視幾何交叉）', measurement_fields=('face', 'x', 'y'), source_refs=({'entity_handle': 'C8F35', 'entity_type': 'LWPOLYLINE'},))",
+    "HoleEvidence(rule='GEOMETRIC COAXIAL FEATURE', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='GEOMETRIC COAXIAL FEATURE（兩徑重複中心）', measurement_fields=('diameter', 'x', 'y'), source_refs=({'entity_handle': 'C8E40', 'entity_type': 'CIRCLE'},))",
+    "HoleEvidence(rule='SIDE VIEW MATERIAL BOX Z', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='SIDE VIEW MATERIAL BOX Z', measurement_fields=('z',), source_refs=({'entity_handle': 'C878F', 'entity_type': 'LWPOLYLINE', 'measured_by': 'SIDE VIEW MATERIAL BOX Z', 'value_mm': '39', 'side_view_source': 'adjacent_cluster'},))"
+   ]
+  },
+  {
+   "face": "FRONT",
+   "diameter": 9.2,
+   "x": 240.0,
+   "y": -130.4,
+   "z": 35.0,
+   "confidence": 0.136,
+   "status": "review",
+   "note": "FRONT VIEW MARKER（同軸複合孔；側視弱深度候選）",
+   "evidence": [
+    "HoleEvidence(rule='FRONT VIEW MARKER', rank=<EvidenceRank.FRONT_MARKER: 220>, raw_note='FRONT VIEW MARKER（同軸複合孔；側視弱深度候選）', measurement_fields=('face', 'x', 'y'), source_refs=({'entity_handle': 'C8F35', 'entity_type': 'LWPOLYLINE'},))",
+    "HoleEvidence(rule='GEOMETRIC COAXIAL FEATURE', rank=<EvidenceRank.GEOMETRIC: 150>, raw_note='GEOMETRIC COAXIAL FEATURE（兩徑重複中心）', measurement_fields=('diameter', 'x', 'y'), source_refs=({'entity_handle': 'C8C12', 'block_path': 'A$Cfa6b7a42', 'entity_type': 'CIRCLE'},))"
+   ]
+  },
+  {
+   "face": "TOP",
+   "diameter": 4.2,
+   "x": 80.0,
+   "y": -26.5,
+   "z": 153.0,
+   "confidence": 0.2,
+   "status": "review",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'C8CC0', 'entity_type': 'LWPOLYLINE'},))"
+   ]
+  },
+  {
+   "face": "TOP",
+   "diameter": 4.2,
+   "x": 255.0,
+   "y": -26.5,
+   "z": 153.0,
+   "confidence": 0.2,
+   "status": "review",
+   "note": "SECTION VIEW CONVERSION",
+   "evidence": [
+    "HoleEvidence(rule='SECTION VIEW CONVERSION', rank=<EvidenceRank.SECTION_CONVERSION: 300>, raw_note='SECTION VIEW CONVERSION', measurement_fields=('face', 'diameter', 'x', 'y', 'z'), source_refs=({'entity_handle': 'C8CBE', 'entity_type': 'LWPOLYLINE'},))"
+   ]
+  }
+ ],
+ "sec": 0.9
+}
