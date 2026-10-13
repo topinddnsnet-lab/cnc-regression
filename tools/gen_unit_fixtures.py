@@ -61,3 +61,30 @@ for a, b in zip(pts, pts[1:]):
 msp.add_arc((x0 + 2, 2), 0.0001, 0, 90)
 msp.add_line((x0 + 1, 20), (x0 - 15, 30))
 save(doc, "open_profile.dxf")
+
+
+def x_dim_case(name, dim_p1, dim_p2, extra_line=None):
+    """幾何 X 總長退路（6.78／6.79）合成圖：1000×50 材料盒＋一條短線＋一個尺寸。"""
+    doc = ezdxf.new(); msp = doc.modelspace()
+    msp.add_lwpolyline([(0, 0), (1000, 0), (1000, 50), (0, 50)], close=True)
+    msp.add_line((300, 20), (320, 20))
+    if extra_line:
+        msp.add_line(*extra_line)
+    msp.add_linear_dim(base=(0, 80), p1=dim_p1, p2=dim_p2).render()
+    save(doc, name)
+
+
+x_dim_case("xdim_unsupported_small.dxf", (500, 50), (515, 50))
+x_dim_case("xdim_supported_with_long_line.dxf", (300, 20), (320, 20), extra_line=((-2000, -300), (3000, -300)))
+
+
+doc = ezdxf.new(); msp = doc.modelspace()
+msp.add_line((0, 0), (10, 0))
+hidden = msp.add_line((0, 5), (10, 5)); hidden.dxf.invisible = 1
+save(doc, "invisible_top_level.dxf")
+
+doc = ezdxf.new(); msp = doc.modelspace()
+msp.add_line((0, 0), (100, 0)); msp.add_line((0, -20), (100, -20))
+msp.add_line((47.25, -20), (47.25, -17)); msp.add_line((52.75, -20), (52.75, -17))
+msp.add_line((50, -22), (50, -13)); msp.add_line((80, -12), (80, -8))
+save(doc, "edge_on_pair.dxf")
