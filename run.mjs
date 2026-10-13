@@ -360,5 +360,12 @@ function renderMarkdown(s, cases) {
     for (const c of z) for (const m of c.zMismatch) L.push(`| ${c.name} | ${m.face} Ø${m.diameter} (${m.x}, ${m.y}) | ${m.expectedZ} | ${m.actualZ} |`);
     L.push('');
   }
+  const label = { pass: '通過', fail: '失敗', knownFail: '已知失敗', error: '錯誤' };
+  L.push('## 全部案例', '', '| 案例 | 結果 | 答案／輸出孔數 | 群組（相似度） | 耗時 ms |', '| --- | --- | --- | --- | --- |');
+  for (const c of cases) {
+    const g = c.group ? `${c.group.isNew ? '新型態？' : ''}${c.group.name || c.group.group || '-'}（${c.group.similarity}）` : '-';
+    L.push(`| ${c.name} | ${label[c.status] ?? c.status} | ${c.counts ? `${c.counts.expected}／${c.counts.actual}` : '-'} | ${g} | ${c.ms ?? '-'} |`);
+  }
+  L.push('');
   return L.join('\n');
 }
