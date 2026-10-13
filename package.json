@@ -1,0 +1,11 @@
+{
+  "name": "cnc-regression",
+  "private": true,
+  "description": "CNC 模擬器孔位回歸測試（獨立專案）",
+  "type": "module",
+  "scripts": {
+    "test": "node tools/selftest.mjs && node run.mjs",
+    "affected": "node run.mjs --affected-git"
+  },
+  "engines": { "node": ">=18" }
+}

@@ -1,0 +1,933 @@
+{
+  "threshold": 0.4,
+  "ignoredFeatures": [
+    "有圖框",
+    "有警告"
+  ],
+  "說明": "分群（自動產生，2026-10-13）。name 請由人填寫；members 與 features 由 node run.mjs --classify 重新產生後人工合併。",
+  "groups": [
+    {
+      "id": "G01",
+      "members": [
+        "NTN007-622A",
+        "PYN13-Z14B-20260831",
+        "PYN13-Z26A(20260901)",
+        "PYN13-Z34B(20260831)",
+        "PYN64-B11",
+        "TRA005F-Y018",
+        "WBN2-C215",
+        "WBN4-C019R",
+        "YCN001-BC011",
+        "YCN007-CC201"
+      ],
+      "signature": [
+        "有剖面群",
+        "有詳圖",
+        "有面向標記",
+        "規則:SECTION VIEW CONVERSION",
+        "詳圖倍率:1",
+        "面:BACK",
+        "面:FRONT"
+      ],
+      "name": ""
+    },
+    {
+      "id": "G02",
+      "members": [
+        "PYN01-B05",
+        "PYN46-B51",
+        "SMC-N01-P002",
+        "TN01A-A3028RA",
+        "TRA032-C20",
+        "TRA040-H25",
+        "TRA041-H33"
+      ],
+      "signature": [
+        "有剖面群",
+        "有詳圖",
+        "有面向標記",
+        "規則:SECTION VIEW CONVERSION",
+        "視圖群:50+",
+        "長料",
+        "面:BACK",
+        "面:FRONT"
+      ],
+      "name": ""
+    },
+    {
+      "id": "G03",
+      "members": [
+        "C3N405-1AE05",
+        "FWN15-AH01",
+        "N13-S06",
+        "NKN01-VP14",
+        "TN02-B002R",
+        "TRA036-S045"
+      ],
+      "signature": [
+        "孔徑種類:1-2",
+        "孔數:6-20",
+        "有剖面群",
+        "有詳圖",
+        "有面向標記",
+        "規則:SECTION VIEW CONVERSION",
+        "面:FRONT"
+      ],
+      "name": ""
+    },
+    {
+      "id": "G04",
+      "members": [
+        "E73-43",
+        "FWN01-A05B",
+        "NTN007-F11-1",
+        "PYN36-Z33(20260901)",
+        "TN56W-010(20260903)",
+        "WBN7-CP03"
+      ],
+      "signature": [
+        "有剖面群",
+        "有詳圖",
+        "規則:NO CONVERSION",
+        "視圖群:6-20",
+        "長料",
+        "面:FRONT"
+      ],
+      "name": ""
+    },
+    {
+      "id": "G05",
+      "members": [
+        "C3N064-Y002",
+        "SY2238-10",
+        "TN02-2041A",
+        "TN02-A3054A",
+        "YCN006-BC003"
+      ],
+      "signature": [
+        "孔徑種類:1-2",
+        "孔數:6-20",
+        "有剖面群",
+        "有詳圖",
+        "視圖群:6-20",
+        "面:BOTTOM"
+      ],
+      "name": ""
+    },
+    {
+      "id": "G06",
+      "members": [
+        "FWN82-10R",
+        "NKN04-01",
+        "YCN006-BC005"
+      ],
+      "signature": [
+        "孔徑種類:1-2",
+        "有面向標記",
+        "詳圖倍率:1",
+        "面:FRONT"
+      ],
+      "name": ""
+    },
+    {
+      "id": "G07",
+      "members": [
+        "PYN73-C02",
+        "TRA039-H06",
+        "YCN043-Y003"
+      ],
+      "signature": [
+        "孔數:6-20",
+        "有詳圖",
+        "規則:CROSS-VIEW MARKER PAIRING",
+        "視圖群:21-50",
+        "長料",
+        "面:FRONT"
+      ],
+      "name": ""
+    },
+    {
+      "id": "G08",
+      "members": [
+        "C3N054-Q001",
+        "TN108-B256A"
+      ],
+      "signature": [
+        "孔徑種類:1-2",
+        "規則:SECTION VIEW CONVERSION",
+        "視圖群:3-5",
+        "詳圖倍率:1"
+      ],
+      "name": ""
+    },
+    {
+      "id": "G09",
+      "members": [
+        "CJN38-32"
+      ],
+      "signature": [
+        "孔徑種類:1-2",
+        "孔數:3-5",
+        "有剖面群",
+        "有詳圖",
+        "規則:CROSS-VIEW MARKER PAIRING",
+        "視圖群:3-5",
+        "詳圖倍率:2",
+        "長料",
+        "面:TOP"
+      ],
+      "name": ""
+    },
+    {
+      "id": "G10",
+      "members": [
+        "N201-BH001"
+      ],
+      "signature": [
+        "孔徑種類:1-2",
+        "孔數:3-5",
+        "有剖面群",
+        "有面向標記",
+        "規則:SECTION VIEW CONVERSION",
+        "視圖群:6-20",
+        "詳圖倍率:0.4",
+        "詳圖倍率:1.1",
+        "長料",
+        "面:BACK",
+        "面:FRONT"
+      ],
+      "name": ""
+    },
+    {
+      "id": "G11",
+      "members": [
+        "PYN02-L38A"
+      ],
+      "signature": [
+        "孔徑種類:3-5",
+        "孔數:21-50",
+        "有面向標記",
+        "規則:SECTION VIEW CONVERSION",
+        "規則:同座標不同直徑配對",
+        "視圖群:21-50",
+        "詳圖倍率:3",
+        "面:BACK",
+        "面:FRONT"
+      ],
+      "name": ""
+    },
+    {
+      "id": "G12",
+      "members": [
+        "TN01-A1501A"
+      ],
+      "signature": [
+        "孔徑種類:1-2",
+        "孔數:6-20",
+        "次要斷面:FRONT_BACK",
+        "次要斷面:TOP_BOTTOM",
+        "規則:DETACHED FRONT FACE GRID",
+        "視圖群:6-20",
+        "詳圖倍率:1",
+        "面:FRONT"
+      ],
+      "name": ""
+    },
+    {
+      "id": "G13",
+      "members": [
+        "TN29-B103A"
+      ],
+      "signature": [
+        "孔徑種類:1-2",
+        "孔數:3-5",
+        "規則:MARKER PAIRING",
+        "視圖群:1-2",
+        "詳圖倍率:1",
+        "面:BOTTOM"
+      ],
+      "name": ""
+    },
+    {
+      "id": "G14",
+      "members": [
+        "TN60W-002"
+      ],
+      "signature": [
+        "孔徑種類:3-5",
+        "孔數:6-20",
+        "有剖面群",
+        "有未解孔",
+        "次要斷面:FRONT_BACK",
+        "次要斷面:TOP_BOTTOM",
+        "規則:CROSS-VIEW IDENTITY MERGE",
+        "規則:SECTION VIEW CONVERSION",
+        "視圖群:6-20",
+        "詳圖倍率:0.2",
+        "面:BACK",
+        "面:BOTTOM",
+        "面:FRONT",
+        "面:TOP"
+      ],
+      "name": ""
+    },
+    {
+      "id": "G15",
+      "members": [
+        "WBN11-C002R"
+      ],
+      "signature": [
+        "孔徑種類:1-2",
+        "孔數:1-2",
+        "規則:CROSS-VIEW CIRCLE MARKER PAIRING",
+        "視圖群:1-2",
+        "詳圖倍率:1",
+        "面:BACK"
+      ],
+      "name": ""
+    }
+  ],
+  "features": {
+    "C3N054-Q001": [
+      "孔徑種類:1-2",
+      "孔數:1-2",
+      "規則:SECTION VIEW CONVERSION",
+      "視圖群:3-5",
+      "詳圖倍率:1",
+      "面:BACK"
+    ],
+    "C3N064-Y002": [
+      "孔徑種類:1-2",
+      "孔數:6-20",
+      "有剖面群",
+      "有詳圖",
+      "規則:CROSS-VIEW MARKER PAIRING",
+      "視圖群:6-20",
+      "詳圖倍率:3",
+      "長料",
+      "面:BOTTOM"
+    ],
+    "C3N405-1AE05": [
+      "孔徑種類:1-2",
+      "孔數:6-20",
+      "有剖面群",
+      "有詳圖",
+      "有面向標記",
+      "規則:SECTION VIEW CONVERSION",
+      "視圖群:3-5",
+      "詳圖倍率:1.4",
+      "面:BACK",
+      "面:FRONT"
+    ],
+    "CJN38-32": [
+      "孔徑種類:1-2",
+      "孔數:3-5",
+      "有剖面群",
+      "有詳圖",
+      "規則:CROSS-VIEW MARKER PAIRING",
+      "視圖群:3-5",
+      "詳圖倍率:2",
+      "長料",
+      "面:TOP"
+    ],
+    "E73-43": [
+      "孔徑種類:1-2",
+      "孔數:6-20",
+      "有剖面群",
+      "有詳圖",
+      "規則:BACK CONVERSION",
+      "規則:NO CONVERSION",
+      "視圖群:6-20",
+      "詳圖倍率:0.5",
+      "詳圖倍率:1",
+      "長料",
+      "面:BACK",
+      "面:FRONT"
+    ],
+    "FWN01-A05B": [
+      "孔徑種類:6-20",
+      "孔數:21-50",
+      "有剖面群",
+      "有詳圖",
+      "有面向標記",
+      "規則:CORROBORATED VISIBILITY TOPOLOGY",
+      "規則:NO CONVERSION",
+      "規則:SECTION VIEW CONVERSION",
+      "規則:VISIBILITY TOPOLOGY",
+      "視圖群:6-20",
+      "詳圖倍率:0.4",
+      "詳圖倍率:1",
+      "詳圖倍率:2",
+      "長料",
+      "面:BACK",
+      "面:FRONT"
+    ],
+    "FWN15-AH01": [
+      "孔徑種類:6-20",
+      "孔數:6-20",
+      "有剖面群",
+      "有詳圖",
+      "有面向標記",
+      "次要斷面:TOP_BOTTOM",
+      "直視圓",
+      "規則:FRONT VIEW MARKER",
+      "規則:FULL VIEW CONVERSION",
+      "規則:SECTION VIEW CONVERSION",
+      "視圖群:3-5",
+      "詳圖倍率:0.2",
+      "詳圖倍率:1",
+      "面:BACK",
+      "面:BOTTOM",
+      "面:FRONT",
+      "面:TOP"
+    ],
+    "FWN82-10R": [
+      "孔徑種類:1-2",
+      "孔數:21-50",
+      "有面向標記",
+      "規則:FRONT VIEW MARKER + SECTION TEMPLATE MIRROR",
+      "規則:SECTION VIEW CONVERSION",
+      "視圖群:3-5",
+      "詳圖倍率:1",
+      "面:BACK",
+      "面:BOTTOM",
+      "面:FRONT"
+    ],
+    "N13-S06": [
+      "孔徑種類:1-2",
+      "孔數:6-20",
+      "有詳圖",
+      "有面向標記",
+      "次要斷面:TOP_BOTTOM",
+      "直視圓",
+      "規則:FULL VIEW DIRECT CIRCLE",
+      "規則:SECTION VIEW CONVERSION",
+      "視圖群:3-5",
+      "詳圖倍率:1",
+      "面:BACK",
+      "面:TOP"
+    ],
+    "N201-BH001": [
+      "孔徑種類:1-2",
+      "孔數:3-5",
+      "有剖面群",
+      "有面向標記",
+      "規則:SECTION VIEW CONVERSION",
+      "視圖群:6-20",
+      "詳圖倍率:0.4",
+      "詳圖倍率:1.1",
+      "長料",
+      "面:BACK",
+      "面:FRONT"
+    ],
+    "NKN01-VP14": [
+      "孔徑種類:1-2",
+      "孔數:6-20",
+      "有剖面群",
+      "有未解孔",
+      "有詳圖",
+      "有面向標記",
+      "次要斷面:TOP_BOTTOM",
+      "直視圓",
+      "規則:SECTION VIEW CONVERSION",
+      "視圖群:6-20",
+      "詳圖倍率:3",
+      "面:FRONT"
+    ],
+    "NKN04-01": [
+      "孔徑種類:1-2",
+      "孔數:6-20",
+      "有面向標記",
+      "規則:ANNOTATED SIDE/PRIMARY MARKER CROSS-PROJECTION",
+      "規則:SECTION VIEW CONVERSION",
+      "視圖群:1-2",
+      "詳圖倍率:1",
+      "面:BOTTOM",
+      "面:FRONT"
+    ],
+    "NTN007-622A": [
+      "孔徑種類:3-5",
+      "孔數:6-20",
+      "有剖面群",
+      "有詳圖",
+      "有面向標記",
+      "規則:SECTION VIEW CONVERSION",
+      "視圖群:6-20",
+      "詳圖倍率:1",
+      "面:BACK",
+      "面:BOTTOM",
+      "面:FRONT",
+      "面:TOP"
+    ],
+    "NTN007-F11-1": [
+      "孔徑種類:1-2",
+      "孔數:21-50",
+      "有剖面群",
+      "有詳圖",
+      "次要斷面:FRONT_BACK",
+      "規則:NO CONVERSION",
+      "規則:SECTION VIEW CONVERSION",
+      "視圖群:6-20",
+      "詳圖倍率:1",
+      "面:BACK",
+      "面:FRONT"
+    ],
+    "PYN01-B05": [
+      "孔徑種類:6-20",
+      "孔數:21-50",
+      "有剖面群",
+      "有詳圖",
+      "有面向標記",
+      "規則:SECTION MARKER PROMOTION",
+      "規則:SECTION VIEW CONVERSION",
+      "視圖群:50+",
+      "詳圖倍率:3",
+      "長料",
+      "面:BACK",
+      "面:FRONT"
+    ],
+    "PYN02-L38A": [
+      "孔徑種類:3-5",
+      "孔數:21-50",
+      "有面向標記",
+      "規則:SECTION VIEW CONVERSION",
+      "規則:同座標不同直徑配對",
+      "視圖群:21-50",
+      "詳圖倍率:3",
+      "面:BACK",
+      "面:FRONT"
+    ],
+    "PYN13-Z14B-20260831": [
+      "孔徑種類:1-2",
+      "孔數:6-20",
+      "有剖面群",
+      "有詳圖",
+      "有面向標記",
+      "規則:ANNOTATED SIDE/PRIMARY MARKER CROSS-PROJECTION",
+      "規則:SECTION VIEW CONVERSION",
+      "視圖群:21-50",
+      "詳圖倍率:1",
+      "面:BACK",
+      "面:BOTTOM",
+      "面:FRONT",
+      "面:TOP"
+    ],
+    "PYN13-Z26A(20260901)": [
+      "孔徑種類:1-2",
+      "孔數:6-20",
+      "有剖面群",
+      "有詳圖",
+      "有面向標記",
+      "規則:GEOMETRIC SECTION TEMPLATE",
+      "規則:SECTION VIEW CONVERSION",
+      "視圖群:21-50",
+      "詳圖倍率:1",
+      "面:BACK",
+      "面:BOTTOM",
+      "面:FRONT",
+      "面:TOP"
+    ],
+    "PYN13-Z34B(20260831)": [
+      "孔徑種類:1-2",
+      "孔數:6-20",
+      "有剖面群",
+      "有詳圖",
+      "有面向標記",
+      "規則:CROSS-VIEW MARKER PAIRING",
+      "規則:GEOMETRIC SECTION TEMPLATE",
+      "規則:SECTION VIEW CONVERSION",
+      "視圖群:21-50",
+      "詳圖倍率:1",
+      "面:BACK",
+      "面:BOTTOM",
+      "面:FRONT",
+      "面:TOP"
+    ],
+    "PYN36-Z33(20260901)": [
+      "孔徑種類:1-2",
+      "孔數:3-5",
+      "有剖面群",
+      "有詳圖",
+      "規則:NO CONVERSION",
+      "視圖群:6-20",
+      "詳圖倍率:2",
+      "長料",
+      "面:FRONT"
+    ],
+    "PYN46-B51": [
+      "孔徑種類:6-20",
+      "孔數:50+",
+      "有剖面群",
+      "有詳圖",
+      "有面向標記",
+      "規則:CROSS-VIEW MARKER PAIRING",
+      "規則:QUADRANT BOX OBLIQUE HOLE MEASUREMENT",
+      "規則:SECTION VIEW CONVERSION",
+      "視圖群:50+",
+      "詳圖倍率:1",
+      "長料",
+      "面:BACK",
+      "面:BOTTOM",
+      "面:FRONT"
+    ],
+    "PYN64-B11": [
+      "孔徑種類:3-5",
+      "孔數:21-50",
+      "有剖面群",
+      "有詳圖",
+      "有面向標記",
+      "規則:CROSS-VIEW MARKER PAIRING",
+      "規則:SECTION VIEW CONVERSION",
+      "視圖群:21-50",
+      "詳圖倍率:1",
+      "面:BACK",
+      "面:BOTTOM",
+      "面:FRONT"
+    ],
+    "PYN73-C02": [
+      "孔徑種類:1-2",
+      "孔數:6-20",
+      "有剖面群",
+      "有詳圖",
+      "規則:CROSS-VIEW MARKER PAIRING",
+      "規則:NO CONVERSION",
+      "視圖群:21-50",
+      "詳圖倍率:1",
+      "長料",
+      "面:FRONT",
+      "面:TOP"
+    ],
+    "SMC-N01-P002": [
+      "孔徑種類:6-20",
+      "孔數:50+",
+      "有剖面群",
+      "有詳圖",
+      "有面向標記",
+      "次要斷面:FRONT_BACK",
+      "規則:CROSS-VIEW MARKER PAIRING",
+      "規則:SECTION VIEW CONVERSION",
+      "視圖群:21-50",
+      "詳圖倍率:3",
+      "長料",
+      "面:BACK",
+      "面:FRONT",
+      "面:TOP"
+    ],
+    "SY2238-10": [
+      "孔徑種類:1-2",
+      "孔數:6-20",
+      "有剖面群",
+      "次要斷面:TOP_BOTTOM",
+      "規則:FULL VIEW CONVERSION",
+      "視圖群:6-20",
+      "詳圖倍率:0.1",
+      "面:BOTTOM"
+    ],
+    "TN01-A1501A": [
+      "孔徑種類:1-2",
+      "孔數:6-20",
+      "次要斷面:FRONT_BACK",
+      "次要斷面:TOP_BOTTOM",
+      "規則:DETACHED FRONT FACE GRID",
+      "視圖群:6-20",
+      "詳圖倍率:1",
+      "面:FRONT"
+    ],
+    "TN01A-A3028RA": [
+      "孔徑種類:1-2",
+      "孔數:50+",
+      "有剖面群",
+      "有詳圖",
+      "有面向標記",
+      "規則:NO CONVERSION",
+      "規則:SECTION VIEW CONVERSION",
+      "視圖群:50+",
+      "詳圖倍率:0.4",
+      "詳圖倍率:4",
+      "長料",
+      "面:BACK",
+      "面:FRONT"
+    ],
+    "TN02-2041A": [
+      "孔徑種類:1-2",
+      "孔數:6-20",
+      "有剖面群",
+      "有詳圖",
+      "次要斷面:TOP_BOTTOM",
+      "直視圓",
+      "規則:FULL VIEW CONVERSION",
+      "規則:NO CONVERSION",
+      "視圖群:6-20",
+      "詳圖倍率:1",
+      "面:BOTTOM",
+      "面:FRONT"
+    ],
+    "TN02-A3054A": [
+      "孔徑種類:1-2",
+      "孔數:6-20",
+      "有剖面群",
+      "有詳圖",
+      "次要斷面:TOP_BOTTOM",
+      "直視圓",
+      "規則:FULL VIEW CONVERSION",
+      "規則:NO CONVERSION",
+      "視圖群:3-5",
+      "詳圖倍率:1",
+      "面:BACK",
+      "面:BOTTOM"
+    ],
+    "TN02-B002R": [
+      "孔徑種類:1-2",
+      "孔數:6-20",
+      "有剖面群",
+      "有詳圖",
+      "有面向標記",
+      "次要斷面:TOP_BOTTOM",
+      "直視圓",
+      "規則:FULL VIEW DIRECT CIRCLE",
+      "規則:SECTION VIEW CONVERSION",
+      "視圖群:6-20",
+      "詳圖倍率:0.4",
+      "詳圖倍率:1",
+      "面:BOTTOM",
+      "面:FRONT"
+    ],
+    "TN108-B256A": [
+      "孔徑種類:1-2",
+      "孔數:3-5",
+      "規則:SECTION VIEW CONVERSION",
+      "視圖群:3-5",
+      "詳圖倍率:1",
+      "面:BOTTOM"
+    ],
+    "TN29-B103A": [
+      "孔徑種類:1-2",
+      "孔數:3-5",
+      "規則:MARKER PAIRING",
+      "視圖群:1-2",
+      "詳圖倍率:1",
+      "面:BOTTOM"
+    ],
+    "TN56W-010(20260903)": [
+      "孔徑種類:3-5",
+      "孔數:6-20",
+      "有剖面群",
+      "有詳圖",
+      "規則:FRONT VIEW MARKER + SECTION TEMPLATE MIRROR",
+      "規則:NO CONVERSION",
+      "視圖群:6-20",
+      "詳圖倍率:0.4",
+      "長料",
+      "面:BOTTOM",
+      "面:FRONT"
+    ],
+    "TN60W-002": [
+      "孔徑種類:3-5",
+      "孔數:6-20",
+      "有剖面群",
+      "有未解孔",
+      "次要斷面:FRONT_BACK",
+      "次要斷面:TOP_BOTTOM",
+      "規則:CROSS-VIEW IDENTITY MERGE",
+      "規則:SECTION VIEW CONVERSION",
+      "視圖群:6-20",
+      "詳圖倍率:0.2",
+      "面:BACK",
+      "面:BOTTOM",
+      "面:FRONT",
+      "面:TOP"
+    ],
+    "TRA005F-Y018": [
+      "孔徑種類:3-5",
+      "孔數:21-50",
+      "有剖面群",
+      "有詳圖",
+      "有面向標記",
+      "規則:CROSS-VIEW MARKER PAIRING",
+      "規則:SECTION VIEW CONVERSION",
+      "視圖群:21-50",
+      "詳圖倍率:1",
+      "面:BACK",
+      "面:TOP"
+    ],
+    "TRA032-C20": [
+      "孔徑種類:1-2",
+      "孔數:21-50",
+      "有剖面群",
+      "有詳圖",
+      "有面向標記",
+      "規則:SECTION VIEW CONVERSION",
+      "視圖群:50+",
+      "詳圖倍率:3",
+      "長料",
+      "面:BACK"
+    ],
+    "TRA036-S045": [
+      "孔徑種類:1-2",
+      "孔數:6-20",
+      "有剖面群",
+      "有詳圖",
+      "有面向標記",
+      "規則:SCALED SECTION TICK PAIR EVIDENCE",
+      "規則:SECTION VIEW CONVERSION",
+      "視圖群:6-20",
+      "詳圖倍率:4",
+      "長料",
+      "面:FRONT",
+      "面:TOP"
+    ],
+    "TRA039-H06": [
+      "孔徑種類:1-2",
+      "孔數:6-20",
+      "有詳圖",
+      "規則:CROSS-VIEW CIRCLE MARKER PAIRING",
+      "規則:CROSS-VIEW MARKER PAIRING",
+      "視圖群:21-50",
+      "長料",
+      "面:BOTTOM",
+      "面:FRONT"
+    ],
+    "TRA040-H25": [
+      "孔徑種類:6-20",
+      "孔數:50+",
+      "有剖面群",
+      "有詳圖",
+      "有面向標記",
+      "次要斷面:FRONT_BACK",
+      "規則:BACK CONVERSION",
+      "規則:CROSS-VIEW MARKER PAIRING",
+      "規則:SECTION VIEW CONVERSION",
+      "視圖群:50+",
+      "詳圖倍率:2",
+      "長料",
+      "面:BACK",
+      "面:BOTTOM",
+      "面:FRONT"
+    ],
+    "TRA041-H33": [
+      "孔徑種類:6-20",
+      "孔數:21-50",
+      "有剖面群",
+      "有詳圖",
+      "有面向標記",
+      "次要斷面:FRONT_BACK",
+      "規則:CROSS-VIEW MARKER PAIRING",
+      "規則:SECTION VIEW CONVERSION",
+      "視圖群:50+",
+      "詳圖倍率:1",
+      "面:BACK",
+      "面:BOTTOM",
+      "面:FRONT"
+    ],
+    "WBN11-C002R": [
+      "孔徑種類:1-2",
+      "孔數:1-2",
+      "規則:CROSS-VIEW CIRCLE MARKER PAIRING",
+      "視圖群:1-2",
+      "詳圖倍率:1",
+      "面:BACK"
+    ],
+    "WBN2-C215": [
+      "孔徑種類:3-5",
+      "孔數:21-50",
+      "有剖面群",
+      "有未解孔",
+      "有詳圖",
+      "有面向標記",
+      "規則:GEOMETRIC SECTION TEMPLATE",
+      "規則:SECTION VIEW CONVERSION",
+      "視圖群:21-50",
+      "詳圖倍率:2",
+      "長料",
+      "面:BACK",
+      "面:BOTTOM",
+      "面:FRONT"
+    ],
+    "WBN4-C019R": [
+      "孔徑種類:3-5",
+      "孔數:6-20",
+      "有剖面群",
+      "有詳圖",
+      "有面向標記",
+      "規則:SECTION VIEW CONVERSION",
+      "視圖群:6-20",
+      "詳圖倍率:1",
+      "面:BACK",
+      "面:FRONT"
+    ],
+    "WBN7-CP03": [
+      "孔徑種類:1-2",
+      "孔數:6-20",
+      "有剖面群",
+      "有詳圖",
+      "規則:NO CONVERSION",
+      "視圖群:6-20",
+      "詳圖倍率:2",
+      "長料",
+      "面:BACK"
+    ],
+    "YCN001-BC011": [
+      "孔徑種類:6-20",
+      "孔數:6-20",
+      "有剖面群",
+      "有詳圖",
+      "有面向標記",
+      "規則:CROSS-VIEW MARKER PAIRING",
+      "規則:NO CONVERSION",
+      "規則:SECTION VIEW CONVERSION",
+      "視圖群:21-50",
+      "詳圖倍率:1",
+      "面:BACK",
+      "面:BOTTOM",
+      "面:FRONT"
+    ],
+    "YCN006-BC003": [
+      "孔徑種類:1-2",
+      "孔數:6-20",
+      "有剖面群",
+      "有詳圖",
+      "規則:SECTION VIEW CONVERSION",
+      "視圖群:6-20",
+      "詳圖倍率:1",
+      "面:BOTTOM"
+    ],
+    "YCN006-BC005": [
+      "孔徑種類:1-2",
+      "孔數:6-20",
+      "有面向標記",
+      "規則:NO CONVERSION",
+      "視圖群:3-5",
+      "詳圖倍率:1",
+      "面:FRONT"
+    ],
+    "YCN007-CC201": [
+      "孔徑種類:3-5",
+      "孔數:21-50",
+      "有剖面群",
+      "有詳圖",
+      "有面向標記",
+      "規則:CROSS-VIEW MARKER PAIRING",
+      "規則:SECTION VIEW CONVERSION",
+      "視圖群:6-20",
+      "詳圖倍率:1",
+      "面:BACK",
+      "面:TOP"
+    ],
+    "YCN043-Y003": [
+      "孔徑種類:3-5",
+      "孔數:6-20",
+      "有剖面群",
+      "有詳圖",
+      "有面向標記",
+      "規則:CROSS-VIEW CIRCLE MARKER PAIRING",
+      "規則:CROSS-VIEW MARKER PAIRING",
+      "視圖群:21-50",
+      "詳圖倍率:0.8",
+      "詳圖倍率:3",
+      "長料",
+      "面:BOTTOM",
+      "面:FRONT",
+      "面:TOP"
+    ]
+  }
+}
