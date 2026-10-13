@@ -7,8 +7,11 @@
 ```
 workspace/
 ├─ cnc-simulator-v2/     模擬器
-└─ cnc-regression/       本專案（預設在模擬器同層；不同位置時加 --sim <路徑>）
+└─ cnc-regression/       本專案
 ```
+
+模擬器位置在 `config.mjs` 的 `SIM_PATH`（預設 `../cnc-simulator-v2`，相對本資料夾）。
+臨時改用其他位置：環境變數 `CNC_SIM_PATH`，或命令列 `--sim <路徑>`（優先順序：命令列 > 環境變數 > config.mjs）。
 
 ## 常用指令
 
@@ -19,7 +22,8 @@ node run.mjs --affected-git          # 只跑模擬器未提交改動會影響�
 node tools/selftest.mjs              # 比對規則自我測試
 ```
 
-報告：`reports/report.md`（人看）、`reports/report.json`（AI 看）、`reports/cases/`（細節）。
+報告：每次執行都會重新產生 `reports/report.md`（人看）、`reports/report.json`（AI 看）、`reports/cases/`（細節）。
+`reports/` 不進 git（每次重產），打包時附上一份 2026-10-13 的執行結果供參考。
 
 ## 限人工的指令
 

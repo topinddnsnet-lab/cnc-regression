@@ -3,15 +3,15 @@
  * @file 孔位回歸執行器（JS 版，取代 Python run_regression.py）。
  *
  * 用法（在 cnc-regression 資料夾執行）：
- *   node run.mjs                         全圖（預設模擬器位置 ../cnc-simulator-v2）
- *   node run.mjs --sim <模擬器路徑>        指定模擬器
+ *   node run.mjs                         全圖（模擬器位置見 config.mjs 的 SIM_PATH，或環境變數 CNC_SIM_PATH）
+ *   node run.mjs --sim <模擬器路徑>        臨時指定模擬器（優先於 config.mjs）
  *   node run.mjs --case PYN02-L38A       單案例（可重複）
  *   node run.mjs --affected src/ai/services/dxf3d/holePipeline.js   只跑用到這些檔案的案例
  *   node run.mjs --affected-git          以模擬器 git 未提交的改動決定影響案例
  *   node run.mjs --coverage              同時收集覆蓋率（較慢）
  *   node run.mjs --accept                【限人工】全圖跑完後把結果寫成新 baseline
  *   node run.mjs --classify              全圖跑完後產生分群草稿 reports/groups.draft.json
- *   選項：--jobs N（平行數）、--timeout 秒（單案例上限，預設 180）
+ *   選項：--jobs N（平行數）、--timeout 秒（單案例上限）；預設值都在 config.mjs
  *
  * 輸出：reports/report.json（給 AI）、reports/report.md（給人）、reports/cases/<案例>.json（失敗或有變化的案例細節）
  * 結束碼：0＝沒有新壞；1＝有新壞或分析錯誤（無 baseline 時：有任何失敗）；2＝參數錯誤
@@ -23,6 +23,7 @@ import { Worker } from 'node:worker_threads';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { compareCase } from './lib/match.mjs';
+import { SIM_PATH, CASE_TIMEOUT_SEC, JOBS } from './config.mjs';
 import { featureSet, clusterCases, classifyCase, ubiquitousFeatures, withoutFeatures } from './lib/trace.mjs';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
@@ -39,8 +40,9 @@ const CLASSIFY_THRESHOLD = 0.4;
  * @returns {object}
  */
 function parseArgs(argv) {
-  const o = { sim: path.resolve(HERE, '..', 'cnc-simulator-v2'), cases: [], affected: [], affectedGit: false,
-    coverage: false, accept: false, classify: false, jobs: Math.max(1, Math.min(os.cpus().length - 1, 8)), timeout: 180 };
+  const o = { sim: path.resolve(HERE, process.env.CNC_SIM_PATH || SIM_PATH), cases: [], affected: [], affectedGit: false,
+    coverage: false, accept: false, classify: false,
+    jobs: JOBS > 0 ? JOBS : Math.max(1, Math.min(os.cpus().length - 1, 8)), timeout: CASE_TIMEOUT_SEC };
   for (let i = 0; i < argv.length; i++) {
     const a = argv.at(i), next = () => argv.at(++i);
     if (a === '--sim') o.sim = path.resolve(next());
@@ -172,7 +174,7 @@ function decisionDiff(before, after) {
 // ---------------- 主流程 ----------------
 const opt = parseArgs(process.argv.slice(2));
 if (!fs.existsSync(path.join(opt.sim, 'src/ai/services/dxf3d/index.js'))) {
-  console.error(`找不到模擬器演算法：${opt.sim}/src/ai/services/dxf3d/index.js（用 --sim 指定）`);
+  console.error(`找不到模擬器演算法：${opt.sim}/src/ai/services/dxf3d/index.js（請修改 config.mjs 的 SIM_PATH，或用 --sim 指定）`);
   process.exit(2);
 }
 const baseline = readJson(path.join(BASE, 'holes.json'));
