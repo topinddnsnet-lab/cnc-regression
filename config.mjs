@@ -9,7 +9,7 @@
  */
 
 /** 模擬器專案資料夾（含 src/ai/services/dxf3d/index.js 的那一層） */
-export const SIM_PATH = '../cnc-simulator-v2';
+export const SIM_PATH = '../web';
 
 /** 單案例逾時（秒） */
 export const CASE_TIMEOUT_SEC = 180;
