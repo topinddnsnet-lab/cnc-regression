@@ -294,46 +294,46 @@
     "z": 200
   },
   {
-    "face": "FRONT",
+    "face": "BACK",
     "diameter": 22,
     "x": 10.1,
-    "y": -52,
-    "z": 158.5
+    "y": -121,
+    "z": 44.5
   },
   {
-    "face": "FRONT",
+    "face": "BACK",
     "diameter": 22,
     "x": 61.6,
-    "y": -52,
-    "z": 158.5
+    "y": -121,
+    "z": 44.5
   },
   {
-    "face": "FRONT",
+    "face": "BACK",
     "diameter": 22,
     "x": 1094.4,
-    "y": -52,
-    "z": 158.5
+    "y": -121,
+    "z": 44.5
   },
   {
-    "face": "FRONT",
+    "face": "BACK",
     "diameter": 22,
     "x": 1161.6,
-    "y": -52,
-    "z": 158.5
+    "y": -121,
+    "z": 44.5
   },
   {
-    "face": "FRONT",
+    "face": "BACK",
     "diameter": 22,
     "x": 2384.4,
-    "y": -52,
-    "z": 158.5
+    "y": -121,
+    "z": 44.5
   },
   {
-    "face": "FRONT",
+    "face": "BACK",
     "diameter": 22,
     "x": 2451.6,
-    "y": -52,
-    "z": 158.5
+    "y": -121,
+    "z": 44.5
   },
   {
     "face": "BACK",
