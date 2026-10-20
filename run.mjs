@@ -223,6 +223,7 @@ for (const name of selected) {
   caseReports.push({
     name, status, ms: r.ms, baselineStatus: before?.status ?? null,
     counts: cmp.counts, missing: cmp.missing, extraHard: cmp.extraHard, extraSoft: cmp.extraSoft,
+    comparisonWarnings: cmp.warnings,
     zMismatch: cmp.zMismatch, faceAlt: cmp.faceAlt, decisionChanges: dd,
     size: r.size, unresolved: r.unresolved, warnings: r.warnings, tags: r.tags,
     group: groups ? classifyCase(withoutFeatures(feat, groups.ignoredFeatures), groups.groups, groupFeats, groups.threshold ?? CLASSIFY_THRESHOLD) : null,
@@ -246,9 +247,10 @@ const summary = {
   mode, selectNote: selectNote || null,
   simulator: { path: opt.sim, gitRev: simRev, dirty: simDirty, pyParityVersion: caseReports.find((c) => c._version)?._version ?? null },
   baseline: baseline ? { createdAt: baseline.createdAt, gitRev: baseline.simulator?.gitRev ?? null } : null,
-  tolerance: { diameter: 0.2, x: 0.2, y: 0.2, z: '只報告（±0.2）', extraHard: 'status=accepted 或 confidence≥0.5' },
+  tolerance: { diameter: 0.2, x: 0.2, y: 0.2, z: '只報告（±0.2）', extraHard: 'status=accepted 或 confidence≥0.5（僅分類）', extras:'多孔只警告；必要孔必須全數匹配' },
   totals: {
     cases: caseReports.length, pass: count('pass'), fail: count('fail'), knownFail: count('knownFail'), error: count('error'),
+    warningCases: caseReports.filter(c=>c.comparisonWarnings?.length).length,
     zMismatchHoles: caseReports.reduce((s, c) => s + (c.counts?.zMismatch ?? 0), 0),
     seconds: Math.round((Date.now() - t0) / 100) / 10,
   },
@@ -266,13 +268,14 @@ const compact = (c) => ({
   ...(c.status === 'error' ? { error: c.error } : {}),
   ...(c.missing?.length ? { missing: c.missing } : {}),
   ...(c.extraHard?.length ? { extraHard: c.extraHard } : {}),
+  ...(c.comparisonWarnings?.length ? { comparisonWarnings:c.comparisonWarnings } : {}),
   ...(c.decisionChanges && (c.decisionChanges.changed.length + c.decisionChanges.added.length + c.decisionChanges.removed.length)
     ? { decisionChanges: c.decisionChanges } : {}),
 });
 fs.rmSync(path.join(REP, 'cases'), { recursive: true, force: true });
 writeJson(path.join(REP, 'report.json'), { ...summary, cases: caseReports.map(compact) });
 for (const c of caseReports) {
-  if (c.status !== 'pass' || c.counts?.zMismatch || c.counts?.extraSoft || decisionChanged.includes(c)) writeJson(path.join(REP, 'cases', `${c.name}.json`), strip(c));
+  if (c.status !== 'pass' || c.comparisonWarnings?.length || c.counts?.zMismatch || decisionChanged.includes(c)) writeJson(path.join(REP, 'cases', `${c.name}.json`), strip(c));
 }
 fs.writeFileSync(path.join(REP, 'report.md'), renderMarkdown(summary, caseReports), 'utf8');
 
@@ -309,6 +312,7 @@ if (baseline) console.log(`新壞 ${newlyBroken.length}：${summary.newlyBroken.
 else console.log('尚無 baseline：人工確認結果後執行 node run.mjs --accept');
 if (selectNote) console.log(selectNote);
 console.log('報告：reports/report.json、reports/report.md');
+console.log(`多孔警告 ${summary.totals.warningCases} 案（不影響通過；必要孔缺少或錯面仍失敗）`);
 process.exit(opt.accept ? 0 : exitCode);
 
 /**
@@ -324,6 +328,7 @@ function renderMarkdown(s, cases) {
   L.push(`- 時間：${s.generatedAt}　模式：${s.mode}　模擬器：${s.simulator.gitRev ?? '(無 git)'}${s.simulator.dirty ? '（有未提交改動）' : ''}`);
   L.push(`- 結果：通過 ${t.pass}、失敗 ${t.fail}、已知失敗 ${t.knownFail}、錯誤 ${t.error}（共 ${t.cases} 案，${t.seconds} 秒）`);
   L.push(`- Z 不符（只報告）：${t.zMismatchHoles} 顆`);
+  L.push(`- 多孔警告：${t.warningCases} 案；多孔不判失敗，必要孔仍須全部匹配。`);
   if (s.baseline) L.push(`- 對照 baseline（${s.baseline.createdAt}）：新壞 ${s.newlyBroken.length}、新修好 ${s.newlyFixed.length}、決策有變 ${s.decisionChanged.length}`);
   else L.push('- 尚無 baseline');
   if (s.selectNote) L.push(`- 注意：${s.selectNote}`);
@@ -335,12 +340,14 @@ function renderMarkdown(s, cases) {
     L.push(`### ${c.name}　${c.status}${c.baselineStatus ? `（baseline：${c.baselineStatus}）` : ''}${c.group?.name ? `　群組：${c.group.name}` : ''}`, '');
     if (c.status === 'error') { L.push('```', c.error, '```', ''); return; }
     const cap = (list, fn) => { list.slice(0, 12).forEach(fn); if (list.length > 12) L.push(`- …還有 ${list.length - 12} 筆，詳見 reports/cases/${c.name}.json`); };
+    for(const w of c.comparisonWarnings ?? []) L.push(`- ⚠ ${w.message}`);
     cap(c.missing ?? [], (m) => {
       const n = m.nearest;
       const near = n ? `；最接近：${n.face} Δx ${n.delta.x}、Δy ${n.delta.y}、ΔØ ${n.delta.diameter}（信心 ${n.confidence ?? '-'}）` : '；附近沒有候選';
       L.push(`- 缺：${fmtH(m.expected)}${m.optional ? '（可選）' : ''}${m.knownFail ? `（已知：${m.knownFail.reason}）` : ''}${near}`);
     });
     cap(c.extraHard ?? [], (e) => L.push(`- 多出：${fmtH(e)}　信心 ${e.confidence}　${e.status}　規則 ${e.decision ?? '-'}`));
+    cap(c.extraSoft ?? [], (e) => L.push(`- 多出低信心：${fmtH(e)}　信心 ${e.confidence}　${e.status}`));
     const dc = c.decisionChanges;
     if (dc) {
       cap(dc.changed, (x) => L.push(`- 決策變更：${x.hole}　${x.before} → ${x.after}`));
@@ -353,6 +360,7 @@ function renderMarkdown(s, cases) {
   sect('失敗與錯誤', cases.filter((c) => (c.status === 'fail' || c.status === 'error') && !s.newlyBroken.includes(c.name)));
   sect('已知失敗', cases.filter((c) => c.status === 'knownFail' && !s.newlyBroken.includes(c.name)));
   sect('新修好', cases.filter((c) => s.newlyFixed.includes(c.name)));
+  sect('通過但有多孔警告', cases.filter(c=>c.status==='pass' && c.comparisonWarnings?.length));
   sect('通過但決策有變', cases.filter((c) => c.status === 'pass' && s.decisionChanged.includes(c.name) && !s.newlyFixed.includes(c.name)));
   const z = cases.filter((c) => c.zMismatch?.length);
   if (z.length) {
@@ -364,7 +372,8 @@ function renderMarkdown(s, cases) {
   L.push('## 全部案例', '', '| 案例 | 結果 | 答案／輸出孔數 | 群組（相似度） | 耗時 ms |', '| --- | --- | --- | --- | --- |');
   for (const c of cases) {
     const g = c.group ? `${c.group.isNew ? '新型態？' : ''}${c.group.name || c.group.group || '-'}（${c.group.similarity}）` : '-';
-    L.push(`| ${c.name} | ${label[c.status] ?? c.status} | ${c.counts ? `${c.counts.expected}／${c.counts.actual}` : '-'} | ${g} | ${c.ms ?? '-'} |`);
+    const warning=c.comparisonWarnings?.length?' ⚠ 多孔警告':'';
+    L.push(`| ${c.name} | ${label[c.status] ?? c.status}${warning} | ${c.counts ? `${c.counts.expected}／${c.counts.actual}` : '-'} | ${g} | ${c.ms ?? '-'} |`);
   }
   L.push('');
   return L.join('\n');

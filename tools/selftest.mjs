@@ -43,10 +43,20 @@ t('optional 沒抓到 → 通過', () => {
   assert.equal(r.pass, true);
   assert.equal(r.counts.missingOptional, 1);
 });
-t('多出低信心候選 → 通過；多出 accepted → 失敗', () => {
-  assert.equal(compareCase([], [got('FRONT', 7, 10, -20, 5, 0.3, 'review')]).pass, true);
-  assert.equal(compareCase([], [got('FRONT', 7, 10, -20, 5, 0.3, 'accepted')]).pass, false);
-  assert.equal(compareCase([], [got('FRONT', 7, 10, -20, 5, 0.6, 'review')]).pass, false);
+t('只多孔 → 通過並警告，不因 accepted／信心度判失敗', () => {
+  for(const [confidence,status] of [[.3,'review'],[.3,'accepted'],[.6,'review']]) {
+    const r=compareCase([], [got('FRONT',7,10,-20,5,confidence,status)]);
+    assert.equal(r.pass,true);assert.equal(r.warnings[0].code,'extra_holes');
+    assert.equal(r.warnings[0].count,1);
+  }
+});
+t('有多孔但必要孔缺少／錯面 → 仍失敗', () => {
+  const expected=[H('BACK',7,10,-20,5)];
+  for(const actual of [[got('FRONT',7,10,-20,5)], [got('BACK',8,30,-20,5)]]) {
+    const r=compareCase(expected,actual);
+    assert.equal(r.pass,false);assert.equal(r.counts.missing,1);
+    assert.equal(r.warnings[0].count,1);
+  }
 });
 t('knownFail 缺孔 → knownFailOnly；未標記 → 一般失敗', () => {
   const kf = { _match: { knownFail: { since: '2026-10-13', reason: 'test' } } };
