@@ -1,8 +1,8 @@
-# PYN01-Z12：高度不同但有正視圓與 4-4 佐證的引孔
+# PYN01-Z12：高度不一致的純幾何補孔
 
-- 原始 `PYN01-Z12.dwg` SHA-256：`d997db5e336f501b3030751ca69d2501459348e3f31625ab88ff68ac3cd02deb`。CAD-Viewer 轉換所得 `source.dxf` 依既有規則留在本機、不加入 Git。
-- 使用者確認目標為 10 個 Ø4.3，引線指向右側 INSERT 圓族；同高度另有 5 個同徑圓，不依數量任意截取，也不將兩族合併。
-- 目視 4-4：Ø4.3 引孔位於右壁、距上緣 55，依現有軸定義為 FRONT，Z=73。原料斷面高 150，主視加工投影高 113；不把兩者強制改成同一高度。
-- 使用者要求：高度不同但正視有實際圓時，保留為低信心候選，不完全捨棄。這 10 孔應保持 `status=review`、`needsReview=true`、confidence 不高於 0.5，並包含 `section_primary_height_mismatch` 警告。對應單元測試防止最終證據評分升回 accepted。
-- expected 僅驗證使用者確認的這 10 孔。X 取實際圓心；部分 240 標註對應實際約 240.25，屬需視覺判讀的標註／幾何差異，不在演算法校正比例或放寬公差。
-- web 的 `test-counted-section-recovery.mjs <原始 DWG>` 額外檢查原有 21 孔、材料尺寸及選取的圓族。未更改既有答案、baseline、已知失敗或公差，也未執行 `--accept`。
+- 原始 DWG SHA-256：`d997db5e336f501b3030751ca69d2501459348e3f31625ab88ff68ac3cd02deb`。轉換的 `source.dxf` 留在本機、不加入 Git。
+- 使用者要求另 5 個真圓亦應保留，因此 expected 改為全部 15 個 Ø4.3。標註的 10 孔數量與 INSERT 來源不得排除幾何吻合的真圓。
+- 新增補孔只使用完整側視輪廓在等比例縮放／鏡射後的吻合、實際圓徑與孔列位置；尺寸文字、引線、標題不參與此規則推導。既有 X 原點與比例流程維持原範圍。
+- 已目視 4-4 右壁孔形。斷面高度 150 與主視圖高度 113 不符，保留原工件尺寸，15 孔均須 status=review、needsReview=true、confidence<=0.5，附 section_primary_height_mismatch。需視覺判讀，不強行讓兩視圖高度相同。
+- X、孔徑與上緣距離取實際幾何；不以標註校正幾何。web 的 `tests/test-geometric-section-recovery.mjs <DWG 或 DXF>` 同時驗證其餘 21 孔與工件尺寸保持一致，以及標註移除／竄改不影響新增規則。
+- 未修改既有其他案例、baseline 或公差，未執行 --accept。
