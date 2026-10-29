@@ -14,7 +14,20 @@ const FIX = path.join(path.dirname(fileURLToPath(import.meta.url)), 'fixtures');
 for (const k of ['log', 'warn', 'info', 'debug']) console[k] = () => {};
 const { extractSpatialHoles } = await dxf3d('index.js');
 const { closedLoopsFromEntities, BBox, bboxOfPoints } = await dxf3d('geometry.js');
-const { frontMaterialEdgeYs, isProjectionAligned } = await dxf3d('projectionEvidence.js');
+const { frontMaterialEdgeYs, isProjectionAligned, corroboratesFullSectionHeight } = await dxf3d('projectionEvidence.js');
+
+test('局部減料投影須有相鄰端面與兩張獨立尺寸化剖面才採用完整高度', () => {
+  const side = { source: 'adjacent', yValue: 150, zValue: 45, bbox: new BBox(0,45,0,150), profilePoints: [{},{},{},{}] };
+  const material = { yValue: 132, topY: 150 };
+  const section = x => ({ box: new BBox(x,x+135,-600,-150), scale: { value: 3, sampleCount: 2 } });
+  const a = section(200), b = section(500);
+  assert.equal(corroboratesFullSectionHeight(side, material, [a,b], 0.5), true);
+  assert.equal(corroboratesFullSectionHeight(side, material, [a,a], 0.5), false, '同一剖面不可重複計數');
+  assert.equal(corroboratesFullSectionHeight(side, material, [a,{...b,scale:{value:3,sampleCount:1}}], 0.5), false, '倍率證據不足');
+  assert.equal(corroboratesFullSectionHeight({...side, source:'detached'}, material, [a,b], 0.5), false, '無相鄰端面');
+  assert.equal(corroboratesFullSectionHeight(side, {...material,topY:145}, [a,b], 0.5), false, '上緣不對齊');
+  assert.equal(corroboratesFullSectionHeight(side, material, [a,{...b,scale:{value:4,sampleCount:2}}], 0.5), false, '只有一張相符剖面');
+});
 
 const sizeOf = (name) => extractSpatialHoles(fs.readFileSync(path.join(FIX, name), 'utf8')).size;
 const near = (a, b) => Math.abs(a - b) < 1e-6;

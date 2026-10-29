@@ -1,0 +1,306 @@
+[
+  {
+    "face": "FRONT",
+    "x": 1250,
+    "y": -55,
+    "z": 45,
+    "note": "Ø4.3",
+    "diameter": 4.3
+  },
+  {
+    "face": "FRONT",
+    "x": 1521.3,
+    "y": -55,
+    "z": 45,
+    "note": "Ø4.3",
+    "diameter": 4.3
+  },
+  {
+    "face": "FRONT",
+    "x": 1792.5,
+    "y": -55,
+    "z": 45,
+    "note": "Ø4.3",
+    "diameter": 4.3
+  },
+  {
+    "face": "FRONT",
+    "x": 2063.8,
+    "y": -55,
+    "z": 45,
+    "note": "Ø4.3",
+    "diameter": 4.3
+  },
+  {
+    "face": "FRONT",
+    "x": 2335,
+    "y": -55,
+    "z": 45,
+    "note": "Ø4.3",
+    "diameter": 4.3
+  },
+  {
+    "face": "FRONT",
+    "x": 2606.3,
+    "y": -55,
+    "z": 45,
+    "note": "Ø4.3",
+    "diameter": 4.3
+  },
+  {
+    "face": "FRONT",
+    "x": 2877.5,
+    "y": -55,
+    "z": 45,
+    "note": "Ø4.3",
+    "diameter": 4.3
+  },
+  {
+    "face": "FRONT",
+    "x": 3148.8,
+    "y": -55,
+    "z": 45,
+    "note": "Ø4.3",
+    "diameter": 4.3
+  },
+  {
+    "face": "FRONT",
+    "x": 3420,
+    "y": -55,
+    "z": 45,
+    "note": "Ø4.3",
+    "diameter": 4.3
+  },
+  {
+    "face": "FRONT",
+    "x": 1121.4,
+    "y": -92,
+    "z": 45,
+    "note": "Ø7.0",
+    "diameter": 7
+  },
+  {
+    "face": "FRONT",
+    "x": 1188.6,
+    "y": -92,
+    "z": 45,
+    "note": "Ø7.0",
+    "diameter": 7
+  },
+  {
+    "face": "FRONT",
+    "x": 1188.6,
+    "y": -26.5,
+    "z": 45,
+    "note": "Ø7.0",
+    "diameter": 7
+  },
+  {
+    "face": "FRONT",
+    "x": 1121.4,
+    "y": -26.5,
+    "z": 45,
+    "note": "Ø7.0",
+    "diameter": 7
+  },
+  {
+    "face": "FRONT",
+    "x": 3547.9,
+    "y": -26.5,
+    "z": 45,
+    "note": "Ø7.0",
+    "diameter": 7
+  },
+  {
+    "face": "FRONT",
+    "x": 3496.4,
+    "y": -26.5,
+    "z": 45,
+    "note": "Ø7.0",
+    "diameter": 7
+  },
+  {
+    "face": "FRONT",
+    "x": 3496.4,
+    "y": -92,
+    "z": 45,
+    "note": "Ø7.0",
+    "diameter": 7
+  },
+  {
+    "face": "FRONT",
+    "x": 113,
+    "y": -42.5,
+    "z": 45,
+    "note": "Ø13.0",
+    "diameter": 13
+  },
+  {
+    "face": "FRONT",
+    "x": 203,
+    "y": -42.5,
+    "z": 45,
+    "note": "Ø13.0",
+    "diameter": 13
+  },
+  {
+    "face": "BACK",
+    "x": 1121.4,
+    "y": -121.5,
+    "z": 45,
+    "note": "Ø22.0",
+    "diameter": 22
+  },
+  {
+    "face": "BACK",
+    "x": 1188.6,
+    "y": -121.5,
+    "z": 45,
+    "note": "Ø22.0",
+    "diameter": 22
+  },
+  {
+    "face": "BACK",
+    "x": 3496.4,
+    "y": -121.5,
+    "z": 45,
+    "note": "Ø22.0",
+    "diameter": 22
+  },
+  {
+    "face": "BACK",
+    "x": 3547.9,
+    "y": -121.5,
+    "z": 45,
+    "note": "Ø22.0",
+    "diameter": 22
+  },
+  {
+    "face": "BACK",
+    "x": 113,
+    "y": -107.5,
+    "z": 45,
+    "note": "Ø30.0",
+    "diameter": 30
+  },
+  {
+    "face": "BACK",
+    "x": 203,
+    "y": -107.5,
+    "z": 45,
+    "note": "Ø30.0",
+    "diameter": 30
+  },
+  {
+    "face": "BOTTOM",
+    "x": 65,
+    "y": -24,
+    "z": 112,
+    "note": "Ø4.3",
+    "diameter": 4.3
+  },
+  {
+    "face": "BOTTOM",
+    "x": 150,
+    "y": -24,
+    "z": 112,
+    "note": "Ø4.3",
+    "diameter": 4.3
+  },
+  {
+    "face": "BOTTOM",
+    "x": 450,
+    "y": -24,
+    "z": 112,
+    "note": "Ø4.3",
+    "diameter": 4.3
+  },
+  {
+    "face": "BOTTOM",
+    "x": 750,
+    "y": -24,
+    "z": 112,
+    "note": "Ø4.3",
+    "diameter": 4.3
+  },
+  {
+    "face": "BOTTOM",
+    "x": 1050,
+    "y": -24,
+    "z": 112,
+    "note": "Ø4.3",
+    "diameter": 4.3
+  },
+  {
+    "face": "BOTTOM",
+    "x": 1207.5,
+    "y": -24,
+    "z": 112,
+    "note": "Ø4.3",
+    "diameter": 4.3
+  },
+  {
+    "face": "BOTTOM",
+    "x": 1352,
+    "y": -24,
+    "z": 112,
+    "note": "Ø4.3",
+    "diameter": 4.3
+  },
+  {
+    "face": "BOTTOM",
+    "x": 1652,
+    "y": -24,
+    "z": 112,
+    "note": "Ø4.3",
+    "diameter": 4.3
+  },
+  {
+    "face": "BOTTOM",
+    "x": 1952,
+    "y": -24,
+    "z": 112,
+    "note": "Ø4.3",
+    "diameter": 4.3
+  },
+  {
+    "face": "BOTTOM",
+    "x": 2252,
+    "y": -24,
+    "z": 112,
+    "note": "Ø4.3",
+    "diameter": 4.3
+  },
+  {
+    "face": "BOTTOM",
+    "x": 2552,
+    "y": -24,
+    "z": 112,
+    "note": "Ø4.3",
+    "diameter": 4.3
+  },
+  {
+    "face": "BOTTOM",
+    "x": 2852,
+    "y": -24,
+    "z": 112,
+    "note": "Ø4.3",
+    "diameter": 4.3
+  },
+  {
+    "face": "BOTTOM",
+    "x": 3152,
+    "y": -24,
+    "z": 112,
+    "note": "Ø4.3",
+    "diameter": 4.3
+  },
+  {
+    "face": "BOTTOM",
+    "x": 3452,
+    "y": -24,
+    "z": 112,
+    "note": "Ø4.3",
+    "diameter": 4.3
+  }
+]
