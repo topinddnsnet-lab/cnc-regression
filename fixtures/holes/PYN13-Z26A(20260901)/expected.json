@@ -1,19 +1,155 @@
 [
-  {"id":"","face":"BACK","diameter":4.3,"x":70.0,"y":-17.2,"z":67.5,"note":"SECTION VIEW CONVERSION"},
-  {"id":"","face":"BACK","diameter":4.3,"x":370.0,"y":-17.2,"z":67.5,"note":"SECTION VIEW CONVERSION"},
-  {"id":"","face":"BACK","diameter":4.3,"x":670.0,"y":-17.2,"z":67.5,"note":"SECTION VIEW CONVERSION"},
-  {"id":"","face":"BACK","diameter":4.3,"x":820.0,"y":-106.0,"z":115.0,"note":"SECTION VIEW CONVERSION"},
-  {"id":"","face":"BACK","diameter":4.3,"x":834.8,"y":-91.2,"z":115.0,"note":"SECTION VIEW CONVERSION"},
-  {"id":"","face":"BOTTOM","diameter":4.3,"x":105.0,"y":-76.5,"z":112.0,"note":"FRONT VIEW MARKER + SECTION TEMPLATE MIRROR（BOTTOM）"},
-  {"id":"","face":"BOTTOM","diameter":4.3,"x":155.0,"y":-76.5,"z":112.0,"note":"FRONT VIEW MARKER + SECTION TEMPLATE MIRROR（BOTTOM）"},
-  {"id":"","face":"BOTTOM","diameter":4.3,"x":781.1,"y":-76.5,"z":112.0,"note":"FRONT VIEW MARKER + SECTION TEMPLATE MIRROR（BOTTOM）"},
-  {"id":"","face":"BOTTOM","diameter":4.3,"x":831.1,"y":-76.5,"z":112.0,"note":"FRONT VIEW MARKER + SECTION TEMPLATE MIRROR（BOTTOM）"},
-  {"id":"","face":"FRONT","diameter":4.3,"x":820.0,"y":-36.2,"z":64.0,"note":"SECTION VIEW CONVERSION（無對應CIRCLE，沿用同孔徑X）"},
-  {"id":"","face":"FRONT","diameter":4.3,"x":834.8,"y":-51.0,"z":64.0,"note":"SECTION VIEW CONVERSION（無對應CIRCLE，沿用同孔徑X）"},
-  {"id":"","face":"TOP","diameter":4.3,"x":70.0,"y":-123.0,"z":81.2,"note":"GEOMETRIC SECTION TEMPLATE"},
-  {"id":"","face":"TOP","diameter":4.3,"x":70.0,"y":-7.0,"z":81.2,"note":"GEOMETRIC SECTION TEMPLATE"},
-  {"id":"","face":"TOP","diameter":4.3,"x":370.0,"y":-7.0,"z":81.2,"note":"GEOMETRIC SECTION TEMPLATE"},
-  {"id":"","face":"TOP","diameter":4.3,"x":370.0,"y":-123.0,"z":81.2,"note":"GEOMETRIC SECTION TEMPLATE"},
-  {"id":"","face":"TOP","diameter":4.3,"x":670.0,"y":-123.0,"z":81.2,"note":"GEOMETRIC SECTION TEMPLATE"},
-  {"id":"","face":"TOP","diameter":4.3,"x":670.0,"y":-7.0,"z":81.2,"note":"GEOMETRIC SECTION TEMPLATE"}
+  {
+    "id": "",
+    "face": "BACK",
+    "diameter": 4.3,
+    "x": 70.0,
+    "y": -17.2,
+    "z": 67.5,
+    "note": "SECTION VIEW CONVERSION"
+  },
+  {
+    "id": "",
+    "face": "BACK",
+    "diameter": 4.3,
+    "x": 370.0,
+    "y": -17.2,
+    "z": 67.5,
+    "note": "SECTION VIEW CONVERSION"
+  },
+  {
+    "id": "",
+    "face": "BACK",
+    "diameter": 4.3,
+    "x": 670.0,
+    "y": -17.2,
+    "z": 67.5,
+    "note": "SECTION VIEW CONVERSION"
+  },
+  {
+    "id": "",
+    "face": "BACK",
+    "diameter": 4.3,
+    "x": 820.0,
+    "y": -106.0,
+    "z": 115.0,
+    "note": "SECTION VIEW CONVERSION"
+  },
+  {
+    "id": "",
+    "face": "BACK",
+    "diameter": 4.3,
+    "x": 834.8,
+    "y": -91.2,
+    "z": 115.0,
+    "note": "SECTION VIEW CONVERSION"
+  },
+  {
+    "id": "",
+    "face": "BOTTOM",
+    "diameter": 4.3,
+    "x": 105.0,
+    "y": -91.5,
+    "z": 112.0,
+    "note": "FRONT VIEW MARKER + SECTION TEMPLATE MIRROR（BOTTOM）；2026-11-05 人工確認以外框為基準，原答案 −76.5 有誤"
+  },
+  {
+    "id": "",
+    "face": "BOTTOM",
+    "diameter": 4.3,
+    "x": 155.0,
+    "y": -91.5,
+    "z": 112.0,
+    "note": "FRONT VIEW MARKER + SECTION TEMPLATE MIRROR（BOTTOM）；2026-11-05 人工確認以外框為基準，原答案 −76.5 有誤"
+  },
+  {
+    "id": "",
+    "face": "BOTTOM",
+    "diameter": 4.3,
+    "x": 781.1,
+    "y": -91.5,
+    "z": 112.0,
+    "note": "FRONT VIEW MARKER + SECTION TEMPLATE MIRROR（BOTTOM）；2026-11-05 人工確認以外框為基準，原答案 −76.5 有誤"
+  },
+  {
+    "id": "",
+    "face": "BOTTOM",
+    "diameter": 4.3,
+    "x": 831.1,
+    "y": -91.5,
+    "z": 112.0,
+    "note": "FRONT VIEW MARKER + SECTION TEMPLATE MIRROR（BOTTOM）；2026-11-05 人工確認以外框為基準，原答案 −76.5 有誤"
+  },
+  {
+    "id": "",
+    "face": "FRONT",
+    "diameter": 4.3,
+    "x": 820.0,
+    "y": -36.2,
+    "z": 64.0,
+    "note": "SECTION VIEW CONVERSION（無對應CIRCLE，沿用同孔徑X）"
+  },
+  {
+    "id": "",
+    "face": "FRONT",
+    "diameter": 4.3,
+    "x": 834.8,
+    "y": -51.0,
+    "z": 64.0,
+    "note": "SECTION VIEW CONVERSION（無對應CIRCLE，沿用同孔徑X）"
+  },
+  {
+    "id": "",
+    "face": "TOP",
+    "diameter": 4.3,
+    "x": 70.0,
+    "y": -123.0,
+    "z": 81.2,
+    "note": "GEOMETRIC SECTION TEMPLATE"
+  },
+  {
+    "id": "",
+    "face": "TOP",
+    "diameter": 4.3,
+    "x": 70.0,
+    "y": -7.0,
+    "z": 81.2,
+    "note": "GEOMETRIC SECTION TEMPLATE"
+  },
+  {
+    "id": "",
+    "face": "TOP",
+    "diameter": 4.3,
+    "x": 370.0,
+    "y": -7.0,
+    "z": 81.2,
+    "note": "GEOMETRIC SECTION TEMPLATE"
+  },
+  {
+    "id": "",
+    "face": "TOP",
+    "diameter": 4.3,
+    "x": 370.0,
+    "y": -123.0,
+    "z": 81.2,
+    "note": "GEOMETRIC SECTION TEMPLATE"
+  },
+  {
+    "id": "",
+    "face": "TOP",
+    "diameter": 4.3,
+    "x": 670.0,
+    "y": -123.0,
+    "z": 81.2,
+    "note": "GEOMETRIC SECTION TEMPLATE"
+  },
+  {
+    "id": "",
+    "face": "TOP",
+    "diameter": 4.3,
+    "x": 670.0,
+    "y": -7.0,
+    "z": 81.2,
+    "note": "GEOMETRIC SECTION TEMPLATE"
+  }
 ]
